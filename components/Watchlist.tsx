@@ -1,4 +1,15 @@
+import Link from "next/link";
 import { WatchlistEntry } from "@/types/bottleneck";
+import { getAllCompanySlugs } from "@/lib/data";
+
+function slugify(name: string) {
+  return name
+    .replace(/\(.*?\)/g, "")
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
 
 function exposureStyle(e: WatchlistEntry["exposure"]): React.CSSProperties {
   if (e === "Direct")
@@ -16,6 +27,8 @@ interface WatchlistProps {
 }
 
 export default function Watchlist({ entries }: WatchlistProps) {
+  const profileSlugs = new Set(getAllCompanySlugs());
+
   return (
     <div style={{ width: "100%" }}>
       {/* Column headers */}
@@ -59,16 +72,31 @@ export default function Watchlist({ entries }: WatchlistProps) {
         >
           {/* Company */}
           <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
-            <span
-              style={{
-                fontFamily: "var(--font-sans)",
-                fontSize: 15,
-                fontWeight: 500,
-                color: "var(--text)",
-              }}
-            >
-              {entry.name}
-            </span>
+            {profileSlugs.has(slugify(entry.name)) ? (
+              <Link
+                href={`/company/${slugify(entry.name)}`}
+                style={{
+                  fontFamily: "var(--font-sans)",
+                  fontSize: 15,
+                  fontWeight: 500,
+                  color: "var(--accent)",
+                  textDecoration: "none",
+                }}
+              >
+                {entry.name}
+              </Link>
+            ) : (
+              <span
+                style={{
+                  fontFamily: "var(--font-sans)",
+                  fontSize: 15,
+                  fontWeight: 500,
+                  color: "var(--text)",
+                }}
+              >
+                {entry.name}
+              </span>
+            )}
             {entry.ticker && (
               <span
                 style={{
