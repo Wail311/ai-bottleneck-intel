@@ -5,6 +5,7 @@ import Link from "next/link";
 import SiteNav from "@/components/SiteNav";
 import SiteFooter from "@/components/SiteFooter";
 import NewsletterCTA from "@/components/NewsletterCTA";
+import CompanyStock from "@/components/CompanyStock";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -101,6 +102,11 @@ export default async function CompanyPage({ params }: Props) {
         </div>
 
         <div className="hairline" style={{ marginBottom: "2rem" }} />
+
+        {/* ── Stock chart ── */}
+        <div style={{ marginBottom: "2.5rem" }}>
+          <CompanyStock slug={c.slug} />
+        </div>
 
         {/* ── Profile body ── */}
         <article>
