@@ -88,7 +88,12 @@ def extract_json(text):
         text = re.sub(r"^```(json)?", "", text).strip()
         text = re.sub(r"```$", "", text).strip()
     start, end = text.find("{"), text.rfind("}")
-    return json.loads(text[start:end+1])
+    snippet = text[start:end+1]
+    try:
+        return json.loads(snippet)
+    except json.JSONDecodeError:
+        # second pass: escape raw newlines inside the snippet and retry
+        return json.loads(snippet.replace("\n", "\\n"))
 
 def gen_one(client, c):
     prompt = build_prompt(c)
@@ -96,6 +101,7 @@ def gen_one(client, c):
         try:
             resp = client.messages.create(
                 model=MODEL, max_tokens=2000,
+                system="You output only a single valid JSON object. Escape all double quotes and newlines inside string values. No text before or after the JSON.",
                 tools=[{"type": WEB_TOOL, "name": "web_search", "max_uses": MAX_SEARCHES}],
                 messages=[{"role": "user", "content": prompt}],
             )
