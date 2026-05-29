@@ -62,6 +62,15 @@ TOPICS = [
     ("AI data center buildout capex constraint", "general"),
 ]
 
+# ----------------------------- clustering -------------------------
+def cluster_key(d):
+    # crude same-story key: bottleneck + sorted significant words from the headline
+    import re as _re
+    words = _re.findall(r"[a-z0-9]{4,}", (d.get("headline","")).lower())
+    stop = {"amid","data","center","chip","chips","with","from","that","this","says","into"}
+    sig = sorted(w for w in words if w not in stop)[:5]
+    return f'{d.get("bottleneck","")}|{"-".join(sig)}'
+
 # ----------------------------- helpers ----------------------------
 def load_seen():
     try:
@@ -198,7 +207,8 @@ def main():
         candidates = candidates[:args.limit]
     print(f"{len(candidates)} new candidates.\n")
 
-    queued = skipped = failed = 0
+    skipped = failed = 0
+    drafted = []
     for i, (art, tag) in enumerate(candidates, 1):
         title = (art.get("title") or "")[:70]
         print(f"[{i}/{len(candidates)}] {title} ...")
@@ -213,6 +223,22 @@ def main():
             print(f"   skip (relevance {rel})"); skipped += 1
             continue
 
+        print(f"   [{rel}] {d.get('bottleneck')}: {d.get('headline','')[:60]}")
+        drafted.append((art, d))
+        time.sleep(SLEEP)
+
+    # deduplicate: keep only the highest-relevance draft per story cluster
+    best = {}
+    for art, d in drafted:
+        k = cluster_key(d)
+        if k not in best or d.get("relevance", 0) > best[k][1].get("relevance", 0):
+            best[k] = (art, d)
+    final = list(best.values())
+    print(f"\n{len(drafted)} cleared bar → {len(final)} after clustering.\n")
+
+    queued = 0
+    for art, d in final:
+        rel = d.get("relevance", 0)
         if args.dry_run:
             print(f"   [{rel}] {d.get('bottleneck')}: {d.get('draft')}")
             if d.get("figures_to_verify", "none") != "none":
@@ -225,7 +251,6 @@ def main():
                 queued += 1
             except Exception as e:
                 print(f"   notion error: {e}"); failed += 1
-        time.sleep(SLEEP)
 
     save_seen(seen)
     print(f"\nDone. {queued} queued, {skipped} below bar, {failed} failed.")
