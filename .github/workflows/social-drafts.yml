@@ -1,0 +1,22 @@
+name: Social draft generator
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours, UTC
+  workflow_dispatch:         # lets you run it manually from the Actions tab
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install anthropic requests
+      - name: Generate drafts
+        env:
+          EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: python generate_social_drafts.py --days 1
