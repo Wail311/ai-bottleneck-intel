@@ -1,0 +1,64 @@
+{
+  "slug": "broadcom",
+  "name": "Broadcom",
+  "ticker": "AVGO",
+  "type": "public",
+  "exposure_summary": "Broadcom is the dominant co-designer of custom AI accelerators (XPUs) for hyperscalers and a leading developer of co-packaged optics, making it a direct chokepoint in both the custom-silicon and optical-transceiver layers of the AI supply chain.",
+  "profile": "Broadcom sits at the center of two of the most consequential chokepoints in the AI buildout: custom silicon and optical interconnects. The Palo Alto-based semiconductor and infrastructure software company designs, develops, and supplies the application-specific integrated circuits that the world's largest hyperscalers deploy as alternatives to merchant GPUs.\n\nOn the custom-silicon side, Broadcom's AI accelerator franchise, which it calls XPUs, is the company's fastest-growing segment. Customers include Google, whose Tensor Processing Units Broadcom has co-designed for multiple generations, and Meta, which relies on Broadcom for its MTIA inference chip. CEO Hock Tan has confirmed that three existing hyperscaler clients are each racing toward clusters of one million XPUs by 2027, a target Broadcom estimates represents a $60-90 billion serviceable market for XPUs and networking by that year. The company is also developing custom AI accelerators for four additional hyperscalers. Counterpoint Research projects Broadcom will capture approximately 60% of the custom AI ASIC market by 2027. A deal to design custom silicon for OpenAI, code-named Titan, added a seventh major customer to the roster.\n\nThe financial trajectory reflects this positioning. In fiscal year 2025 (ended November 2025), consolidated revenue grew 24% year-over-year to a record $64 billion. AI semiconductor revenue compounded sharply across the year: $4.1 billion in Q1 FY2025, rising to $6.2 billion in Q4, representing 74% year-over-year growth. For Q1 FY2026, Broadcom guided AI semiconductor revenue to $8.2 billion, roughly double the year-prior level. The company's AI-related backlog exceeded $73 billion at the end of FY2025.\n\nOn the optical-transceiver chokepoint, Broadcom is an active developer of co-packaged optics (CPO), which integrates optical components directly onto switch ASICs to reduce power consumption and signal loss in large AI clusters. In May 2025, Broadcom previewed its third-generation 200G-per-lane CPO technology. Its Tomahawk 6 Davisson switch, developed with TSMC, HPE, and Micas Networks, supports 102.4 terabits per second of optically enabled switching capacity and was shipping to early-access customers and partners as of late 2025. Meta's trials of a prior CPO generation logged one million cumulative hours without a single data drop, providing an early reliability benchmark for the technology as the industry prepares for broader CPO deployment in 2026.",
+  "sources": [
+    {
+      "label": "Broadcom Q1 FY2025 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001730168/000173016825000009/avgo-02022025x8kxex99.htm",
+      "as_of": "2025-03"
+    },
+    {
+      "label": "Broadcom Q2 FY2025 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001730168/000173016825000061/avgo-05042025x8kxex99.htm",
+      "as_of": "2025-06"
+    },
+    {
+      "label": "Broadcom Q3 FY2025 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001730168/000173016825000094/avgo-08032025x8kxex99.htm",
+      "as_of": "2025-09"
+    },
+    {
+      "label": "Broadcom Q4 FY2025 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001730168/000173016825000116/avgo-11022025x8kxex99.htm",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Futurum: Broadcom Q1 FY2025 Earnings",
+      "url": "https://futurumgroup.com/insights/broadcom-q1-fy-2025-ai-and-software-power-25-revenue-growth/",
+      "as_of": "2025-03"
+    },
+    {
+      "label": "io-fund: Broadcom AI Monetization Analysis",
+      "url": "https://io-fund.com/ai-stocks/broadcom-stock-silent-winner-ai-monetization",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "tech-insider.org: Broadcom AI Revenue Custom Chips 2026",
+      "url": "https://tech-insider.org/broadcom-ai-revenue-custom-chips-2026/",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "EDN: Where CPO Technology Stands in 2026",
+      "url": "https://www.edn.com/where-co-packaged-optics-cpo-technology-stands-in-2026/",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Network World: What is Co-Packaged Optics",
+      "url": "https://www.networkworld.com/article/4098942/what-is-co-packaged-optics-a-solution-for-surging-capacity-in-ai-data-center-networks.html",
+      "as_of": "2026-01"
+    },
+    {
+      "label": "SDxCentral: Broadcom Bets Big on AI with New CPO",
+      "url": "https://www.sdxcentral.com/news/broadcom-bets-big-on-ai-with-new-cpo/",
+      "as_of": "2025-10"
+    }
+  ],
+  "bottlenecks": [
+    "custom-silicon",
+    "optical-transceivers"
+  ]
+}

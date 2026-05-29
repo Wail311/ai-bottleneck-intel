@@ -1,0 +1,60 @@
+{
+  "slug": "sk-hynix",
+  "name": "SK Hynix",
+  "ticker": "KRX 000660",
+  "type": "public",
+  "exposure_summary": "SK Hynix is the dominant supplier of High Bandwidth Memory to Nvidia and other AI accelerator makers, holding roughly 62% of HBM shipments and an estimated 70% of Nvidia's next-generation HBM4 allocation for the Rubin platform, making it the single most consequential choke point in AI memory supply.",
+  "profile": "No component is more tightly coupled to the AI buildout than High Bandwidth Memory, and no company controls more of it than SK Hynix. The South Korean chipmaker designs and manufactures DRAM and NAND flash, but its strategic weight in the AI supply chain rests almost entirely on HBM — the stacked, high-bandwidth memory architecture that sits directly alongside every high-end AI accelerator.\n\nAccording to Counterpoint Research, SK Hynix held a 62% share of global HBM shipments as of Q2 2025, with revenue share at 57% in Q3 2025, placing it far ahead of Micron (roughly 21%) and Samsung (roughly 17%). That dominance helped propel SK Hynix past Samsung in overall DRAM market share for the first time in its history, reaching 36% in Q1 2025, driven by a product mix heavily weighted toward premium AI memory. HBM capacity has been sold out since 2023, and by Q3 2025, management confirmed that 2026 supply had been fully committed to key customers, with tightness expected to persist into 2027.\n\nFinancial results reflect that structural position. Full-year 2025 revenue reached a record 97.15 trillion won (approximately $68 billion), up nearly 47% year-over-year. HBM revenue more than doubled year-on-year. Q4 2025 operating margin touched 58%, the company's highest quarterly level ever.\n\nThe forward trajectory is anchored in HBM4, the sixth-generation standard that will power Nvidia's Vera Rubin GPU platform, scheduled for the second half of 2026. SK Hynix established a mass-production system for HBM4 in September 2025. According to both UBS and Yonhap News sourcing, Nvidia is expected to allocate roughly 70% of its Rubin HBM4 requirements to SK Hynix — well above earlier market estimates of around 50%.\n\nOn the manufacturing side, the company is accelerating its sixth-generation 1c-nanometer DRAM process, which requires EUV lithography tools at scale. Capital expenditure for 2026 is guided to increase significantly from 2025, with a meaningful portion directed at EUV tool procurement alongside the buildout of the Yongin Semiconductor Cluster and the M15X fab in Cheongju. Advanced packaging capacity is also expanding, with facilities under construction in both Cheongju and Indiana.",
+  "sources": [
+    {
+      "label": "SK Hynix FY2025 Earnings Release",
+      "url": "https://news.skhynix.com/sk-hynix-announces-fy25-financial-results/",
+      "as_of": "2026-01"
+    },
+    {
+      "label": "SK Hynix Q3 2025 Earnings Release",
+      "url": "https://news.skhynix.com/sk-hynix-announces-3q25-financial-results/",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "SK Hynix 2026 Market Outlook (HBM Supercycle)",
+      "url": "https://news.skhynix.com/2026-market-outlook-focus-on-the-hbm-led-memory-supercycle/",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "TrendForce — SK Hynix ~70% of Nvidia HBM4 Allocation",
+      "url": "https://www.trendforce.com/news/2026/01/28/news-sk-hynix-reportedly-to-supply-about-two-thirds-of-nvidia-hbm4-samsung-targets-early-delivery/",
+      "as_of": "2026-01"
+    },
+    {
+      "label": "Semiecosystem — SK Hynix Surpasses Samsung in DRAM Share",
+      "url": "https://marklapedus.substack.com/p/sk-hynix-surpasses-samsung-in-dram",
+      "as_of": "2025-04"
+    },
+    {
+      "label": "Semiecosystem — SK Hynix Lead Shrinks in DRAM/HBM (Q3 2025)",
+      "url": "https://marklapedus.substack.com/p/sk-hynix-lead-shrinks-in-dram-hbm",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "CNBC — SK Hynix Doubles Profit in 2025",
+      "url": "https://www.cnbc.com/2026/01/28/sk-hynix-smashes-earnings-estimates-as-ai-memory-demand-drives-record-profit.html",
+      "as_of": "2026-01"
+    },
+    {
+      "label": "AlphaSense — SK Hynix Q1 2026 Earnings Highlights (EUV CapEx)",
+      "url": "https://www.alpha-sense.com/earnings/000660.kr",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "Data Center Dynamics — SK Hynix HBM4 Supply Ready",
+      "url": "https://www.datacenterdynamics.com/en/news/sk-hynix-ready-to-supply-hbm4-memory-chips/",
+      "as_of": "2026-05"
+    }
+  ],
+  "bottlenecks": [
+    "dram-supply",
+    "euv-lithography",
+    "hbm-memory"
+  ]
+}

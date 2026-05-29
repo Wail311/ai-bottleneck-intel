@@ -1,0 +1,55 @@
+{
+  "slug": "lam-research",
+  "name": "Lam Research",
+  "ticker": "LRCX",
+  "type": "public",
+  "exposure_summary": "Lam Research is the global leader in plasma etch and a top-tier deposition equipment supplier, making it a direct chokepoint across wafer-fab equipment broadly, HBM memory manufacturing, and the leading-edge foundry transition to gate-all-around transistors that underpin AI chips and accelerators.",
+  "profile": "No company sits deeper inside the AI chip supply chain without being a chipmaker itself. Every advanced GPU, every HBM memory stack, and every gate-all-around (GAA) logic transistor running AI workloads requires etch and deposition steps that Lam Research's tools perform. That process centrality is the foundation of the company's strategic importance.\n\nFounded in 1980 and headquartered in Fremont, California, Lam Research designs, manufactures, and services wafer fabrication equipment centered on plasma etch, thin-film deposition, and surface preparation. Its tools are present in the production lines of virtually every major chipmaker, from TSMC and Samsung to SK Hynix and Micron.\n\nOn the wafer-fab-equipment chokepoint, Lam holds an estimated 45% share of the global plasma etch market, and management has described etch and deposition intensity as rising with 3D scaling, expanding its served available market toward the mid-30% range of total WFE spending in 2025, with expectations of reaching the high-30% range by 2026. For every technology step into a more vertical device architecture, whether NAND layers, DRAM stacks, or GAA gate structures, Lam's tools log more time on wafer.\n\nOn the HBM chokepoint, through-silicon via (TSV) etch and copper electroplating are the physical backbone of HBM stacking. Lam's Syndion platform holds a leadership position in TSV etch, and the company has described its advanced packaging revenue as more than doubling in one recent year, with management guiding for further growth of more than 40% in fiscal 2026.\n\nOn the leading-edge foundry chokepoint, the GAA transition from FinFET adds roughly 40 to 60 percent more etch steps per wafer. Lam launched its Akara conductor etch platform in early 2025 specifically to address GAA geometries at 2nm and below. Combined shipments for GAA nodes and advanced packaging exceeded $1 billion in calendar 2024 and were expected to exceed $3 billion in calendar 2025.\n\nFinancially, full-year fiscal 2025 revenue reached $18.44 billion, up roughly 24% from $14.91 billion in fiscal 2024. In the December 2025 quarter, revenue was $5.3 billion, up 22% year over year, with non-GAAP gross margin at 49.7% and operating margin at 34.3%. The primary near-term friction is China exposure: the country represented 43% of revenue as recently as mid-2025, and U.S. export controls are expected to reduce that share materially through 2026, creating a quantified revenue headwind management has guided it expects non-China demand to offset.",
+  "sources": [
+    {
+      "label": "Lam Research Q2 FY2026 Earnings (Futurum)",
+      "url": "https://futurumgroup.com/insights/lam-research-q2-fy-2026-highlights-ai-driven-demand-and-packaging-gains/",
+      "as_of": "2026-01"
+    },
+    {
+      "label": "Lam Research Q4 FY2025 SEC Filing (8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000707549/000070754925000068/lrcx_exhibitx991xq4x2025.htm",
+      "as_of": "2025-07"
+    },
+    {
+      "label": "Lam Research Q1 FY2026 Press Release (Newsroom)",
+      "url": "https://newsroom.lamresearch.com/2025-10-22-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-September-28,-2025",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "Lam Research FY2025 Revenue & Financials (Monexa)",
+      "url": "https://www.monexa.ai/blog/lam-research-corporation-ai-chip-manufacturing-lea-LRCX-2025-08-01",
+      "as_of": "2025-08"
+    },
+    {
+      "label": "Lam Research Advanced Packaging (Lam Newsroom)",
+      "url": "https://newsroom.lamresearch.com/inside-the-chip-advanced-packaging",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Lam Research SWOT 2026 (Deep Research Global)",
+      "url": "https://www.deepresearchglobal.com/p/lam-research-swot-analysis-report",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Lam Research GAA & SAM Analysis (Data Insights Market)",
+      "url": "https://www.datainsightsmarket.com/companies/LRCX",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "WFE Market Monitor Q2 2025 (Yole Group)",
+      "url": "https://www.yolegroup.com/product/quarterly-monitor/wafer-fab-equipment-market-monitor/",
+      "as_of": "2025-09"
+    }
+  ],
+  "bottlenecks": [
+    "hbm-memory",
+    "leading-edge-foundry",
+    "wafer-fab-equipment"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "bloom-energy",
+  "name": "Bloom Energy",
+  "ticker": "BE",
+  "type": "public",
+  "exposure_summary": "Bloom Energy's solid oxide fuel cells allow AI data centers to generate power on-site and bypass strained utility grids, making it a direct alternative to both traditional gas turbines and grid-dependent power delivery at a moment when interconnection queues and transformer shortages are slowing buildout.",
+  "profile": "Bloom Energy matters to the AI buildout because it offers a practical workaround to two of the most acute supply-chain constraints in the sector: the scarcity of grid capacity and the long lead times associated with large gas turbines. Its Energy Server platform sits behind the meter, delivering power at the campus level rather than waiting on utility interconnection.\n\nThe San Jose-based company manufactures proprietary solid oxide fuel cell (SOFC) systems. Unlike combustion turbines, Bloom's cells use an electrochemical process to convert natural gas, biogas, or hydrogen directly into electricity with no combustion and no moving parts. The ceramic electrolyte stack operates at roughly 750 to 1,000 degrees Celsius and achieves net electrical efficiency of approximately 54 percent at the module level, compared to 35 to 40 percent for open-cycle gas turbines at comparable scale. The modular Energy Server can scale from hundreds of kilowatts to tens of megawatts and can be deployed in a footprint roughly equivalent to half a standard shipping container.\n\nOn the chokepoints Copper Road tracks, Bloom's exposure is moderate on both axes. As a fuel-cell alternative to gas turbines, it competes for the same behind-the-meter power budget but avoids turbine procurement timelines. On grid power, its on-site generation model allows customers to reduce or eliminate utility grid dependence, which is increasingly attractive as interconnection queues stretch. Bloom's own 2026 Data Center Power Report found that data center leaders are actively reducing reliance on utility grids, and that roughly one-third of data center sites are expected to operate fully off-grid by 2030.\n\nRecent figures reflect the pivot clearly. Full-year 2025 revenue reached $2.02 billion, up 37 percent year over year, with Q4 2025 revenue of $777.68 million. Total backlog stands at approximately $20 billion, with product backlog of roughly $6 billion, up approximately 2.5 times year over year. Key 2025 deals include a $2.7 billion agreement with American Electric Power to supply 100 MW of fuel cells and a $5 billion partnership with Brookfield Asset Management to deploy SOFC technology at AI data centers globally. In August 2025, Bloom committed approximately $100 million to double manufacturing capacity from 1 GW to 2 GW annually by end of 2026. The company also secured a purchase order from Quanta Computer subsidiary QMN for approximately $502 million in fuel cell microgrid systems. Revenue is split across four streams: product sales accounted for $1.53 billion, or 76 percent of FY2025 revenue, with installation, service, and electricity making up the remainder.",
+  "sources": [
+    {
+      "label": "Sheephill Group – Bloom Energy Initiating Coverage",
+      "url": "https://sheephillgroup.com/research-bloom-energy",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "24/7 Wall St. – Bloom Energy Q4 2025 Results",
+      "url": "https://247wallst.com/investing/2026/04/14/bloom-energy-rockets-23-as-fuel-cell-tech-becomes-the-ai-data-center-power-play-of-2026/",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "LinkedIn / Beth Kindig – Bloom Energy 2026 Stock Pick",
+      "url": "https://www.linkedin.com/pulse/my-top-2026-stock-pick-ai-boom-beth-kindig-5cskc",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "EnkiAI – Bloom Energy 2025 AI Power Surge",
+      "url": "https://enkiai.com/fuel-cells/bloom-energys-2025-ai-power-surge-how-they-won/",
+      "as_of": "2026-01"
+    },
+    {
+      "label": "Bloom Energy – 2026 Data Center Power Report",
+      "url": "https://investor.bloomenergy.com/press-releases/press-release-details/2026/Data-Centers-Plan-to-Reduce-Reliance-on-Grid-Finds-Bloom-Energys-2026-Power-Report/default.aspx",
+      "as_of": "2026-01"
+    },
+    {
+      "label": "Bloom Energy – Technology Page",
+      "url": "https://www.bloomenergy.com/technology/",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Fortune – Bloom Energy Fuel Cells and AI Data Centers",
+      "url": "https://fortune.com/2025/10/16/bloom-energy-stock-fuel-cells-ai-data-center-power/",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "SEC – Bloom Energy PRE 14A FY2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026021732/be-20260327.htm",
+      "as_of": "2026-03"
+    }
+  ],
+  "bottlenecks": [
+    "gas-turbines",
+    "grid-power"
+  ]
+}

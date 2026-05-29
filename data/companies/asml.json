@@ -1,0 +1,45 @@
+{
+  "slug": "asml",
+  "name": "ASML",
+  "ticker": "ASML",
+  "type": "public",
+  "exposure_summary": "ASML is the sole manufacturer of extreme ultraviolet (EUV) lithography scanners, which are the only tools capable of producing the sub-7nm chips that power AI accelerators, making every leading-edge foundry and wafer fab equipment supply chain dependent on a single Dutch company.",
+  "profile": "Every advanced AI chip — from GPU training clusters to high-bandwidth memory — starts with a lithography step that only one company on earth can perform. ASML, headquartered in Veldhoven, Netherlands, designs and manufactures the photolithography scanners that chipmakers use to etch circuit patterns onto silicon wafers. Its EUV (extreme ultraviolet) product line is the critical chokepoint: no other supplier, Nikon or Canon included, produces a production-ready EUV tool, giving ASML an effective 100% share of the technology required for sub-7nm chip fabrication.\n\nThe exposure across Copper Road's tracked chokepoints is direct and layered. In EUV lithography, ASML is the sole source. In leading-edge foundry, every advanced node at TSMC, Samsung, and Intel runs through ASML scanners. In wafer fab equipment broadly, ASML's lithography monopoly anchors the entire patterning step, which is the most repeated and revenue-intensive stage of chip production.\n\nFinancial results confirm the depth of that dependency. ASML reported full-year 2025 net sales of €32.7 billion, up 15.6% over 2024, with a gross margin of 52.8% and net income of €9.6 billion. EUV system sales alone rose 39% year-over-year to €11.6 billion, with revenue recognized on 48 EUV systems. The order backlog at year-end 2025 stood at €38.8 billion, with Q4 2025 net bookings hitting a record €13.2 billion, of which €7.4 billion was EUV. For full-year 2026, ASML guided net sales of €34 billion to €39 billion.\n\nOn the technology frontier, ASML shipped the first EXE:5200B High-NA EUV system in Q2 2025, with Intel confirmed as the first customer for use on its 14A node. The EXE:5200B is designed to deliver a 60% productivity gain over its predecessor and signals that High-NA EUV is transitioning from R&D to volume manufacturing. Delivery lead times of 12 to 18 months mean customers are committing now to secure future capacity. ASML invested €4.7 billion in R&D in 2025 and has guided 2030 annual revenue of €44 billion to €60 billion, underscoring the multi-year lock-in effect its technology roadmap creates across the AI supply chain.",
+  "sources": [
+    {
+      "label": "ASML FY2025 Press Release (SEC 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026003701/pressreleasefinancialresul.htm",
+      "as_of": "2026-01"
+    },
+    {
+      "label": "ASML FY2025 Annual Report (SEC 20-F)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026011378/asml-20251231.htm",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "ASML Q2 2025 Investor Presentation (SEC 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000937966/000162828025034992/presentationinvestorrela.htm",
+      "as_of": "2025-07"
+    },
+    {
+      "label": "TrendForce: ASML EXE:5200 First Shipment Confirmed",
+      "url": "https://www.trendforce.com/news/2025/07/17/news-asml-confirms-first-high-na-euv-exe5200-shipment-reportedly-prepping-for-intels-14a-in-2027/",
+      "as_of": "2025-07"
+    },
+    {
+      "label": "247 Wall St: ASML EUV Monopoly & AI Demand",
+      "url": "https://247wallst.com/investing/2026/04/06/asml-revenue-is-about-to-explode-higher-again/",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "Counterpoint Research: ASML 2025 Revenue Analysis",
+      "url": "https://counterpointresearch.com/en/insights/asml-2025-revenue-up-16-yoy-as-strong-euv-shipments-boost-systems-and-service-performance",
+      "as_of": "2026-02"
+    }
+  ],
+  "bottlenecks": [
+    "euv-lithography",
+    "leading-edge-foundry",
+    "wafer-fab-equipment"
+  ]
+}
