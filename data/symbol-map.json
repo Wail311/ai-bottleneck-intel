@@ -1,0 +1,443 @@
+{
+  "samsung-electronics": {
+    "name": "Samsung Electronics",
+    "isPublic": true,
+    "exchange": "KRX",
+    "currency": "KRW",
+    "tvSymbol": "KRX:005930",
+    "eodhdSymbol": "005930.KO",
+    "note": ""
+  },
+  "tsmc": {
+    "name": "TSMC",
+    "isPublic": true,
+    "exchange": "NYSE",
+    "currency": "USD",
+    "tvSymbol": "NYSE:TSM",
+    "eodhdSymbol": "TSM.US",
+    "note": "US ADR; primary listing TWSE:2330"
+  },
+  "asml": {
+    "name": "ASML",
+    "isPublic": true,
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "tvSymbol": "NASDAQ:ASML",
+    "eodhdSymbol": "ASML.US",
+    "note": "US ADR; primary listing AMS:ASML"
+  },
+  "ge-vernova": {
+    "name": "GE Vernova",
+    "isPublic": true,
+    "exchange": "NYSE",
+    "currency": "USD",
+    "tvSymbol": "NYSE:GEV",
+    "eodhdSymbol": "GEV.US",
+    "note": ""
+  },
+  "lam-research": {
+    "name": "Lam Research",
+    "isPublic": true,
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "tvSymbol": "NASDAQ:LRCX",
+    "eodhdSymbol": "LRCX.US",
+    "note": ""
+  },
+  "sk-hynix": {
+    "name": "SK Hynix",
+    "isPublic": true,
+    "exchange": "KRX",
+    "currency": "KRW",
+    "tvSymbol": "KRX:000660",
+    "eodhdSymbol": "000660.KO",
+    "note": ""
+  },
+  "applied-materials": {
+    "name": "Applied Materials",
+    "isPublic": true,
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "tvSymbol": "NASDAQ:AMAT",
+    "eodhdSymbol": "AMAT.US",
+    "note": ""
+  },
+  "bloom-energy": {
+    "name": "Bloom Energy",
+    "isPublic": true,
+    "exchange": "NYSE",
+    "currency": "USD",
+    "tvSymbol": "NYSE:BE",
+    "eodhdSymbol": "BE.US",
+    "note": ""
+  },
+  "broadcom": {
+    "name": "Broadcom",
+    "isPublic": true,
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "tvSymbol": "NASDAQ:AVGO",
+    "eodhdSymbol": "AVGO.US",
+    "note": ""
+  },
+  "eaton": {
+    "name": "Eaton",
+    "isPublic": true,
+    "exchange": "NYSE",
+    "currency": "USD",
+    "tvSymbol": "NYSE:ETN",
+    "eodhdSymbol": "ETN.US",
+    "note": ""
+  },
+  "micron-technology": {
+    "name": "Micron Technology",
+    "isPublic": true,
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "tvSymbol": "NASDAQ:MU",
+    "eodhdSymbol": "MU.US",
+    "note": ""
+  },
+  "quanta-services": {
+    "name": "Quanta Services",
+    "isPublic": true,
+    "exchange": "NYSE",
+    "currency": "USD",
+    "tvSymbol": "NYSE:PWR",
+    "eodhdSymbol": "PWR.US",
+    "note": ""
+  },
+  "siemens-energy": {
+    "name": "Siemens Energy",
+    "isPublic": true,
+    "exchange": "XETR",
+    "currency": "EUR",
+    "tvSymbol": "XETR:ENR",
+    "eodhdSymbol": "ENR.XETRA",
+    "note": ""
+  },
+  "vertiv": {
+    "name": "Vertiv",
+    "isPublic": true,
+    "exchange": "NYSE",
+    "currency": "USD",
+    "tvSymbol": "NYSE:VRT",
+    "eodhdSymbol": "VRT.US",
+    "note": ""
+  },
+  "absolics": {
+    "name": "Absolics (SKC)",
+    "isPublic": false,
+    "exchange": null,
+    "currency": null,
+    "tvSymbol": null,
+    "eodhdSymbol": null,
+    "note": "Subsidiary of SKC Inc (Korea, 011790.KO); not separately listed"
+  },
+  "alchip": {
+    "name": "Alchip",
+    "isPublic": true,
+    "exchange": "TWSE",
+    "currency": "TWD",
+    "tvSymbol": "TWSE:3661",
+    "eodhdSymbol": "3661.TW",
+    "note": ""
+  },
+  "applied-optoelectronics": {
+    "name": "Applied Optoelectronics",
+    "isPublic": true,
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "tvSymbol": "NASDAQ:AAOI",
+    "eodhdSymbol": "AAOI.US",
+    "note": ""
+  },
+  "asm-international": {
+    "name": "ASM International",
+    "isPublic": true,
+    "exchange": "EURONEXT",
+    "currency": "EUR",
+    "tvSymbol": "EURONEXT:ASM",
+    "eodhdSymbol": "ASM.AS",
+    "note": ""
+  },
+  "at-s": {
+    "name": "AT&S",
+    "isPublic": true,
+    "exchange": "VIE",
+    "currency": "EUR",
+    "tvSymbol": "VIE:ATS",
+    "eodhdSymbol": "ATS.VI",
+    "note": ""
+  },
+  "boyd": {
+    "name": "Boyd",
+    "isPublic": false,
+    "exchange": null,
+    "currency": null,
+    "tvSymbol": null,
+    "eodhdSymbol": null,
+    "note": "Private company"
+  },
+  "carl-zeiss-smt": {
+    "name": "Carl Zeiss SMT",
+    "isPublic": false,
+    "exchange": null,
+    "currency": null,
+    "tvSymbol": null,
+    "eodhdSymbol": null,
+    "note": "Part of privately held ZEISS Group"
+  },
+  "caterpillar": {
+    "name": "Caterpillar",
+    "isPublic": true,
+    "exchange": "NYSE",
+    "currency": "USD",
+    "tvSymbol": "NYSE:CAT",
+    "eodhdSymbol": "CAT.US",
+    "note": ""
+  },
+  "coherent": {
+    "name": "Coherent",
+    "isPublic": true,
+    "exchange": "NYSE",
+    "currency": "USD",
+    "tvSymbol": "NYSE:COHR",
+    "eodhdSymbol": "COHR.US",
+    "note": ""
+  },
+  "constellation-energy": {
+    "name": "Constellation Energy",
+    "isPublic": true,
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "tvSymbol": "NASDAQ:CEG",
+    "eodhdSymbol": "CEG.US",
+    "note": ""
+  },
+  "coolit-systems": {
+    "name": "CoolIT Systems",
+    "isPublic": false,
+    "exchange": null,
+    "currency": null,
+    "tvSymbol": null,
+    "eodhdSymbol": null,
+    "note": "Private company"
+  },
+  "corning": {
+    "name": "Corning",
+    "isPublic": true,
+    "exchange": "NYSE",
+    "currency": "USD",
+    "tvSymbol": "NYSE:GLW",
+    "eodhdSymbol": "GLW.US",
+    "note": ""
+  },
+  "eoptolink": {
+    "name": "Eoptolink",
+    "isPublic": true,
+    "exchange": "SZSE",
+    "currency": "CNY",
+    "tvSymbol": "SZSE:300502",
+    "eodhdSymbol": "300502.SHE",
+    "note": "Shenzhen ChiNext; verify .SHE + foreign data access"
+  },
+  "globalwafers": {
+    "name": "GlobalWafers",
+    "isPublic": true,
+    "exchange": "TPEX",
+    "currency": "TWD",
+    "tvSymbol": "TPEX:6488",
+    "eodhdSymbol": "6488.TWO",
+    "note": "Taipei Exchange (TPEx/OTC); verify .TWO suffix"
+  },
+  "hitachi-energy": {
+    "name": "Hitachi Energy",
+    "isPublic": true,
+    "exchange": "TSE",
+    "currency": "JPY",
+    "tvSymbol": "TSE:6501",
+    "eodhdSymbol": "6501.TSE",
+    "note": "Subsidiary of Hitachi Ltd (6501); no separate listing — chart shows parent"
+  },
+  "ibiden": {
+    "name": "Ibiden",
+    "isPublic": true,
+    "exchange": "TSE",
+    "currency": "JPY",
+    "tvSymbol": "TSE:4062",
+    "eodhdSymbol": "4062.TSE",
+    "note": ""
+  },
+  "innolight": {
+    "name": "InnoLight",
+    "isPublic": true,
+    "exchange": "SZSE",
+    "currency": "CNY",
+    "tvSymbol": "SZSE:300308",
+    "eodhdSymbol": "300308.SHE",
+    "note": "Shenzhen ChiNext; verify .SHE + foreign data access"
+  },
+  "intel-foundry": {
+    "name": "Intel Foundry",
+    "isPublic": true,
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "tvSymbol": "NASDAQ:INTC",
+    "eodhdSymbol": "INTC.US",
+    "note": "Part of Intel Corp (INTC); no separate listing"
+  },
+  "kla": {
+    "name": "KLA",
+    "isPublic": true,
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "tvSymbol": "NASDAQ:KLAC",
+    "eodhdSymbol": "KLAC.US",
+    "note": ""
+  },
+  "liquidstack": {
+    "name": "LiquidStack",
+    "isPublic": false,
+    "exchange": null,
+    "currency": null,
+    "tvSymbol": null,
+    "eodhdSymbol": null,
+    "note": "Private company"
+  },
+  "lumentum": {
+    "name": "Lumentum",
+    "isPublic": true,
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "tvSymbol": "NASDAQ:LITE",
+    "eodhdSymbol": "LITE.US",
+    "note": ""
+  },
+  "marvell": {
+    "name": "Marvell",
+    "isPublic": true,
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "tvSymbol": "NASDAQ:MRVL",
+    "eodhdSymbol": "MRVL.US",
+    "note": ""
+  },
+  "mediatek": {
+    "name": "MediaTek",
+    "isPublic": true,
+    "exchange": "TWSE",
+    "currency": "TWD",
+    "tvSymbol": "TWSE:2454",
+    "eodhdSymbol": "2454.TW",
+    "note": ""
+  },
+  "mitsubishi-heavy": {
+    "name": "Mitsubishi Heavy",
+    "isPublic": true,
+    "exchange": "TSE",
+    "currency": "JPY",
+    "tvSymbol": "TSE:7011",
+    "eodhdSymbol": "7011.TSE",
+    "note": ""
+  },
+  "nan-ya-pcb": {
+    "name": "Nan Ya PCB",
+    "isPublic": true,
+    "exchange": "TWSE",
+    "currency": "TWD",
+    "tvSymbol": "TWSE:8046",
+    "eodhdSymbol": "8046.TW",
+    "note": ""
+  },
+  "nvidia": {
+    "name": "Nvidia",
+    "isPublic": true,
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "tvSymbol": "NASDAQ:NVDA",
+    "eodhdSymbol": "NVDA.US",
+    "note": ""
+  },
+  "schneider-electric": {
+    "name": "Schneider Electric",
+    "isPublic": true,
+    "exchange": "EURONEXT",
+    "currency": "EUR",
+    "tvSymbol": "EURONEXT:SU",
+    "eodhdSymbol": "SU.PA",
+    "note": ""
+  },
+  "shin-etsu-chemical": {
+    "name": "Shin-Etsu Chemical",
+    "isPublic": true,
+    "exchange": "TSE",
+    "currency": "JPY",
+    "tvSymbol": "TSE:4063",
+    "eodhdSymbol": "4063.TSE",
+    "note": ""
+  },
+  "shinko-electric": {
+    "name": "Shinko Electric",
+    "isPublic": true,
+    "exchange": "TSE",
+    "currency": "JPY",
+    "tvSymbol": "TSE:6967",
+    "eodhdSymbol": "6967.TSE",
+    "note": "Subject to take-private (JIC consortium); listing may end — verify"
+  },
+  "siltronic": {
+    "name": "Siltronic",
+    "isPublic": true,
+    "exchange": "XETR",
+    "currency": "EUR",
+    "tvSymbol": "XETR:WAF",
+    "eodhdSymbol": "WAF.XETRA",
+    "note": ""
+  },
+  "sk-siltron": {
+    "name": "SK Siltron",
+    "isPublic": false,
+    "exchange": null,
+    "currency": null,
+    "tvSymbol": null,
+    "eodhdSymbol": null,
+    "note": "Subsidiary of SK Inc; not separately listed"
+  },
+  "sumco": {
+    "name": "SUMCO",
+    "isPublic": true,
+    "exchange": "TSE",
+    "currency": "JPY",
+    "tvSymbol": "TSE:3436",
+    "eodhdSymbol": "3436.TSE",
+    "note": ""
+  },
+  "super-micro": {
+    "name": "Super Micro",
+    "isPublic": true,
+    "exchange": "NASDAQ",
+    "currency": "USD",
+    "tvSymbol": "NASDAQ:SMCI",
+    "eodhdSymbol": "SMCI.US",
+    "note": ""
+  },
+  "tokyo-electron": {
+    "name": "Tokyo Electron",
+    "isPublic": true,
+    "exchange": "TSE",
+    "currency": "JPY",
+    "tvSymbol": "TSE:8035",
+    "eodhdSymbol": "8035.TSE",
+    "note": ""
+  },
+  "unimicron": {
+    "name": "Unimicron",
+    "isPublic": true,
+    "exchange": "TWSE",
+    "currency": "TWD",
+    "tvSymbol": "TWSE:3037",
+    "eodhdSymbol": "3037.TW",
+    "note": ""
+  }
+}
