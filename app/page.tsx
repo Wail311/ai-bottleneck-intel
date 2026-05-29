@@ -2,63 +2,86 @@ import Link from "next/link";
 import { getAllBottlenecks } from "@/lib/data";
 import { bandLabel } from "@/lib/gauge";
 import { bandVars, subBand } from "@/lib/bandTokens";
+import SiteNav from "@/components/SiteNav";
+import SiteFooter from "@/components/SiteFooter";
 
 export default function HomePage() {
   const bottlenecks = getAllBottlenecks();
 
   return (
-    <div style={{ background: "var(--bg)", minHeight: "100vh" }}>
+    <div style={{ background: "var(--bg)", minHeight: "100vh", display: "flex", flexDirection: "column" }}>
+      <SiteNav />
 
       {/* ── Masthead ────────────────────────────────────────────────────── */}
       <header
         style={{
           borderBottom: "0.5px solid var(--border)",
           background: "var(--surface)",
-          padding: "20px 32px",
+          padding: "40px 24px 44px",
         }}
       >
         <div style={{ maxWidth: 740, margin: "0 auto" }}>
-          <p
-            style={{
-              fontFamily: "var(--font-sans)",
-              fontSize: 12,
-              fontWeight: 500,
-              color: "var(--text-tertiary)",
-              letterSpacing: "0.04em",
-              marginBottom: 4,
-            }}
-          >
-            AI Infrastructure Intelligence
-          </p>
           <h1
             style={{
               fontFamily: "var(--font-sans)",
-              fontSize: 22,
+              fontSize: 28,
               fontWeight: 500,
               color: "var(--text)",
-              margin: "0 0 10px",
+              margin: "0 0 20px",
+              lineHeight: 1.25,
             }}
           >
-            Supply-chain bottleneck tracker
+            Copper Road maps the supply-chain chokepoints behind the AI buildout.
           </h1>
-          <p
-            style={{
-              fontFamily: "var(--font-serif)",
-              fontSize: 16,
-              fontStyle: "italic",
-              color: "var(--text-secondary)",
-              lineHeight: 1.65,
-              margin: 0,
-            }}
-          >
-            The AI buildout has discrete physical chokepoints. Each entry tracks
-            tightness, who&apos;s exposed, and what would change the thesis.
-          </p>
+          <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+            <p
+              style={{
+                fontFamily: "var(--font-serif)",
+                fontSize: 17,
+                fontStyle: "italic",
+                color: "var(--text-secondary)",
+                lineHeight: 1.7,
+                margin: 0,
+              }}
+            >
+              Most coverage stops at the chips. We go one layer down, to the things
+              the chips cannot ship without: advanced packaging, high-bandwidth
+              memory, grid power, transformers, cooling, and the raw materials
+              underneath all of it. These are the constraints that set the real pace
+              of the buildout.
+            </p>
+            <p
+              style={{
+                fontFamily: "var(--font-sans)",
+                fontSize: 15,
+                color: "var(--text-secondary)",
+                lineHeight: 1.7,
+                margin: 0,
+              }}
+            >
+              Every chokepoint carries a Tightness Gauge, scored entirely from
+              public data and dated to its source. As conditions shift, the gauge
+              moves, so you can see where the next squeeze is forming before it
+              reaches the headlines.
+            </p>
+            <p
+              style={{
+                fontFamily: "var(--font-sans)",
+                fontSize: 13,
+                fontWeight: 500,
+                color: "var(--text-tertiary)",
+                margin: 0,
+                letterSpacing: "0.01em",
+              }}
+            >
+              The buildout moves at the speed of its tightest link.
+            </p>
+          </div>
         </div>
       </header>
 
       {/* ── Index ───────────────────────────────────────────────────────── */}
-      <main style={{ maxWidth: 740, margin: "0 auto", padding: "32px 24px 80px" }}>
+      <main style={{ maxWidth: 740, margin: "0 auto", padding: "32px 24px 64px", flex: 1, width: "100%" }}>
 
         <div style={{ marginBottom: 8 }}>
           <span
@@ -99,7 +122,6 @@ export default function HomePage() {
                   alignItems: "start",
                 }}
               >
-                {/* Left: meta + name + thesis + mini bars */}
                 <div>
                   <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 8 }}>
                     <span
@@ -115,13 +137,7 @@ export default function HomePage() {
                     >
                       {b.layer}
                     </span>
-                    <span
-                      style={{
-                        fontFamily: "var(--font-mono)",
-                        fontSize: 12,
-                        color: "var(--text-tertiary)",
-                      }}
-                    >
+                    <span style={{ fontFamily: "var(--font-mono)", fontSize: 12, color: "var(--text-tertiary)" }}>
                       {updatedDate}
                     </span>
                   </div>
@@ -152,8 +168,7 @@ export default function HomePage() {
                     {b.thesis}
                   </p>
 
-                  {/* Mini sub-score bars */}
-                  <div style={{ display: "flex", gap: 16, alignItems: "center" }}>
+                  <div style={{ display: "flex", gap: 16 }}>
                     {(
                       [
                         ["Coverage", b.gauge.inputs.coverage],
@@ -169,31 +184,10 @@ export default function HomePage() {
                                             "var(--arc-eased)";
                       return (
                         <div key={k} style={{ display: "flex", flexDirection: "column", gap: 3 }}>
-                          <div
-                            style={{
-                              height: 3,
-                              background: "var(--arc-track)",
-                              borderRadius: 2,
-                              overflow: "hidden",
-                              width: 48,
-                            }}
-                          >
-                            <div
-                              style={{
-                                height: "100%",
-                                width: `${v}%`,
-                                background: arcColor,
-                                borderRadius: 2,
-                              }}
-                            />
+                          <div style={{ height: 3, background: "var(--arc-track)", borderRadius: 2, overflow: "hidden", width: 48 }}>
+                            <div style={{ height: "100%", width: `${v}%`, background: arcColor, borderRadius: 2 }} />
                           </div>
-                          <span
-                            style={{
-                              fontFamily: "var(--font-mono)",
-                              fontSize: 10,
-                              color: "var(--text-tertiary)",
-                            }}
-                          >
+                          <span style={{ fontFamily: "var(--font-mono)", fontSize: 10, color: "var(--text-tertiary)" }}>
                             {k}
                           </span>
                         </div>
@@ -202,16 +196,7 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                {/* Right: score + band */}
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "flex-end",
-                    gap: 8,
-                    paddingTop: 4,
-                  }}
-                >
+                <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-end", gap: 8, paddingTop: 4 }}>
                   <span
                     style={{
                       fontFamily: "var(--font-mono)",
@@ -238,13 +223,7 @@ export default function HomePage() {
                     {label}
                   </span>
                   {b.gauge.delta_90d !== undefined && (
-                    <span
-                      style={{
-                        fontFamily: "var(--font-mono)",
-                        fontSize: 12,
-                        color: "var(--text-tertiary)",
-                      }}
-                    >
+                    <span style={{ fontFamily: "var(--font-mono)", fontSize: 12, color: "var(--text-tertiary)" }}>
                       {b.gauge.delta_90d > 0 ? "+" : ""}{b.gauge.delta_90d} 90d
                     </span>
                   )}
@@ -253,21 +232,9 @@ export default function HomePage() {
             </Link>
           );
         })}
-
-        <p
-          style={{
-            fontFamily: "var(--font-sans)",
-            fontSize: 13,
-            color: "var(--text-tertiary)",
-            textAlign: "center",
-            marginTop: 48,
-            lineHeight: 1.6,
-          }}
-        >
-          All data manually curated. Every metric shows its as-of date and source.
-          Not investment advice.
-        </p>
       </main>
+
+      <SiteFooter />
     </div>
   );
 }

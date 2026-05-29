@@ -8,7 +8,8 @@ import CatalystTimeline from "./CatalystTimeline";
 import DevelopmentsFeed from "./DevelopmentsFeed";
 import LinkedBottlenecks from "./LinkedBottlenecks";
 import SectionHeader from "./SectionHeader";
-import Link from "next/link";
+import SiteNav from "./SiteNav";
+import SiteFooter from "./SiteFooter";
 
 interface BottleneckPageProps {
   bottleneck: Bottleneck;
@@ -35,42 +36,9 @@ export default function BottleneckPage({ bottleneck: b }: BottleneckPageProps) {
   });
 
   return (
-    <div style={{ background: "var(--bg)", minHeight: "100vh", color: "var(--text)" }}>
+    <div style={{ background: "var(--bg)", minHeight: "100vh", color: "var(--text)", display: "flex", flexDirection: "column" }}>
 
-      {/* ── Nav ─────────────────────────────────────────────────────────── */}
-      <nav
-        style={{
-          borderBottom: "0.5px solid var(--border)",
-          padding: "12px 24px",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-between",
-          background: "var(--surface)",
-        }}
-      >
-        <Link
-          href="/"
-          className="nav-back"
-          style={{
-            fontFamily: "var(--font-sans)",
-            fontSize: 13,
-            color: "var(--text-secondary)",
-            textDecoration: "none",
-          }}
-        >
-          ← All bottlenecks
-        </Link>
-        <span
-          style={{
-            fontFamily: "var(--font-sans)",
-            fontSize: 13,
-            fontWeight: 500,
-            color: "var(--text-tertiary)",
-          }}
-        >
-          AI Infrastructure Intelligence
-        </span>
-      </nav>
+      <SiteNav back={{ href: "/", label: "All bottlenecks" }} />
 
       {/* ── Reading column ───────────────────────────────────────────────── */}
       <div style={{ maxWidth: 740, margin: "0 auto", padding: "48px 24px 80px" }}>
@@ -217,6 +185,7 @@ export default function BottleneckPage({ bottleneck: b }: BottleneckPageProps) {
           </section>
         )}
       </div>
+      <SiteFooter />
     </div>
   );
 }
