@@ -1,0 +1,48 @@
+{
+  "slug": "nvidia",
+  "name": "Nvidia",
+  "ticker": "NVDA",
+  "type": "public",
+  "exposure_summary": "As the dominant supplier of AI accelerators and the single largest consumer of silicon interposers, Nvidia sits at the center of the most constrained chokepoint in the AI hardware supply chain, where packaging capacity directly limits how fast the global AI buildout can proceed.",
+  "profile": "Nvidia designs graphics processing units, networking silicon, and full-stack software platforms that have become the primary compute substrate for training and running large AI models. The company operates across data center, gaming, automotive, and professional visualization markets, but data center revenue now defines its trajectory. Fiscal year 2025 revenue reached $130.5 billion, up 114% from the prior year, with data center alone contributing $115.2 billion, up 142%. In the third quarter of fiscal 2026, quarterly data center revenue hit $51.2 billion, up 66% year over year. Cloud service providers consistently account for roughly half of that data center figure, underscoring how tightly Nvidia's output is tied to hyperscaler capital spending.\n\nOn silicon interposers, Nvidia's position is without peer. Its Blackwell GPU family relies on TSMC's CoWoS-L advanced packaging, which places multiple logic dies and HBM stacks on a silicon interposer before bonding to a package substrate. Nvidia secured over 70% of TSMC's CoWoS-L advanced packaging capacity for 2025, a concentration that has made advanced packaging the critical constraint in AI accelerator supply. The forthcoming Rubin architecture deepens that dependency: Rubin uses a 4x reticle design, meaning each chip occupies significantly more physical space, requiring further CoWoS capacity expansion just to maintain unit volumes.\n\nThe SiC interposer question is where Nvidia's forward exposure becomes material. Industry analyses indicate that Nvidia is evaluating a silicon carbide interposer for later Rubin generations, driven by SiC's thermal conductivity advantage over silicon. However, first-generation Rubin GPUs released in 2025 and 2026 are expected to retain conventional silicon interposers while TSMC collaborates with substrate suppliers to mature SiC cutting and manufacturing technology. Key tooling barriers remain: SiC's diamond-like hardness demands precision laser cutting systems that are still under development at suppliers such as Japan's DISCO.\n\nIf SiC interposers reach production readiness for Rubin Ultra or subsequent platforms, Nvidia would become the anchor demand signal for an entirely new substrate supply chain, one that today lacks the scale, yield history, and 12-inch wafer infrastructure of conventional silicon. That transition, however it unfolds, will be set in motion by Nvidia's packaging choices.",
+  "sources": [
+    {
+      "label": "Nvidia FY2025 Q4 Earnings (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581025000021/q4fy25cfocommentary.htm",
+      "as_of": "2025-02"
+    },
+    {
+      "label": "Nvidia FY2026 Q3 Earnings (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581025000228/q3fy26cfocommentary.htm",
+      "as_of": "2025-11"
+    },
+    {
+      "label": "Introl Blog: CoWoS and Advanced Packaging 2025",
+      "url": "https://introl.com/blog/cowos-advanced-packaging-chip-architecture-data-center-2025",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "TrendForce: AI Boom Drives Demand for Ultra-Large Packaging",
+      "url": "https://www.trendforce.com/presscenter/news/20251125-12796.html",
+      "as_of": "2025-11"
+    },
+    {
+      "label": "TrendForce: SiC Raw Materials Price Increase and Nvidia Rubin Platform",
+      "url": "https://www.trendforce.com/news/2025/11/26/news-sic-raw-materials-see-a-price-increase-while-6-inch-substrate-kicks-off-a-price-war/",
+      "as_of": "2025-11"
+    },
+    {
+      "label": "SemiconSam: Is Glass Substrate Finished? What is a SiC Interposer?",
+      "url": "https://www.semiconsam.com/p/is-glass-substrate-finished-what",
+      "as_of": "2025-09"
+    },
+    {
+      "label": "TokenRing/FinancialContent: TSMC Boosts CoWoS Capacity as Nvidia Dominates Orders",
+      "url": "https://www.financialcontent.com/article/tokenring-2025-12-26-tsmc-boosts-cowos-capacity-as-nvidia-dominates-advanced-packaging-orders-through-2027",
+      "as_of": "2025-12"
+    }
+  ],
+  "bottlenecks": [
+    "silicon-interposers"
+  ]
+}

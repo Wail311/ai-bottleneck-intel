@@ -1,0 +1,58 @@
+{
+  "slug": "mediatek",
+  "name": "MediaTek",
+  "ticker": "TPE 2454",
+  "type": "public",
+  "exposure_summary": "MediaTek is transitioning from smartphone SoC leader to a custom AI ASIC provider for hyperscalers, with roughly $2 billion in AI ASIC revenue expected in Q4 2026 alone and a growing role inside Google's TPU roadmap that makes it a direct participant in the AI infrastructure buildout.",
+  "profile": "MediaTek (TWSE: 2454) is a Taiwan-based fabless semiconductor company historically dominant in mobile application processors. Its Dimensity line holds the top position in global smartphone SoC market share, and the company closed 2025 with record full-year revenue of NT$595.9 billion. That mobile foundation is now being redirected: MediaTek is executing a deliberate pivot into custom AI silicon for hyperscale data centers, and the speed of that pivot makes it a company the AI supply chain can no longer treat as a mobile-only story.\n\nThe entry point into hyperscaler silicon came through Google. MediaTek designed the I/O modules for Google's TPU v7 Ironwood accelerator, managing data transfer between the processor and peripheral components — a role that broke Google's prior practice of co-developing each TPU almost exclusively with Broadcom. Ironwood entered general availability in April 2026. Looking further ahead, Google's eighth-generation TPU split assigns MediaTek the inference chip, codenamed Zebrafish or TPU 8i: a single-die design targeting a 20 to 30 percent lower unit cost than the Broadcom-designed training variant, with both chips on TSMC's 2nm process and slated for late 2027.\n\nOn the financial side, the ramp is accelerating faster than initially projected. At its April 30, 2026 earnings call, CEO Rick Tsai reported that AI ASIC revenue now looks set to reach approximately $2 billion in Q4 2026 alone, double the prior guidance of $1 billion for full-year 2026. Tsai also confirmed a second AI accelerator program is in active development, targeting mass production by end-2027. MediaTek is targeting a 10 to 15 percent share of the AI ASIC market over the coming years, in a total addressable market the company now estimates at $70 to $80 billion by 2027.\n\nThe chokepoint exposure is real. MediaTek's ability to hit Q4 2026 targets depends on securing adequate CoWoS advanced packaging and N3/N2 wafer allocation from TSMC — the same constrained resources contested by Broadcom, Nvidia, and Apple. The company has acknowledged that tight supply conditions across the value chain remain a challenge. Meanwhile, its mobile segment posted a 17 percent sequential revenue decline in Q1 2026, a reminder that internal resource reallocation from handsets to data center carries its own execution risk.",
+  "sources": [
+    {
+      "label": "TrendForce: MediaTek ASIC forecast Feb 2026",
+      "url": "https://www.trendforce.com/news/2026/02/05/news-mediatek-forecasts-1b-in-asic-sales-for-2026-custom-ai-chips-set-for-20-revenue-share-in-2027/",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "TrendForce: MediaTek doubles ASIC target to $2B",
+      "url": "https://www.trendforce.com/news/2026/04/30/news-mediatek-reportedly-doubles-2026-ai-asic-revenue-target-to-2b-aims-10-15-market-share/",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "TechTimes: Custom AI chips outpace Nvidia GPU growth",
+      "url": "https://www.techtimes.com/articles/317225/20260526/custom-ai-chips-outpace-nvidia-gpu-growth-2026-asic-shipments-set-triple-gpu-rate.htm",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "TechSpot: MediaTek shifts toward AI ASICs",
+      "url": "https://www.techspot.com/news/110798-mediatek-targets-billion-dollar-ai-asic-business-smartphone.html",
+      "as_of": "2026-01"
+    },
+    {
+      "label": "The Next Web: Google Ironwood GA and TPU 8 split",
+      "url": "https://thenextweb.com/news/google-ironwood-tpu-inference-cloud-next",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "Doolpa: Google Cloud Next 2026 TPU v7 GA and TPU 8 preview",
+      "url": "https://doolpa.com/news/google-ironwood-tpu-general-availability-tpu-8-split-cloud-next-april-2026",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "Jon Peddie Research: Ironwood partners breakdown",
+      "url": "https://www.jonpeddie.com/news/ironwood-chetyorka-google-broadcom-mediatek-and-tsmc/",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Futurum: MediaTek Analyst Day 2026",
+      "url": "https://futurumgroup.com/insights/mediatek-analyst-day-2026-is-the-new-mediatek-ready-to-move-upmarket-to-ai-pcs-and-data-center/",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "MediaTek: NVLink Fusion partnership announcement",
+      "url": "https://www.mediatek.com/tek-talk-blogs/mediateks-nvlink-fusion-partnership-pioneering-ai-innovation-with-custom-asic",
+      "as_of": "2025-05"
+    }
+  ],
+  "bottlenecks": [
+    "custom-silicon"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "nan-ya-pcb",
+  "name": "Nan Ya PCB",
+  "ticker": "TPE 8046",
+  "type": "public",
+  "exposure_summary": "Nan Ya PCB is one of Taiwan's leading ABF substrate manufacturers, making it a direct bottleneck in the packaging supply chain that connects TSMC's advanced nodes to finished AI chips for GPUs, ASICs, and high-speed networking silicon.",
+  "profile": "Nan Ya PCB (TPE: 8046) sits at a critical chokepoint in the AI hardware stack: the IC substrate layer that electrically connects a processor die to its circuit board. Without sufficient ABF substrate capacity, even abundant chip wafer output cannot be converted into deployable AI accelerators.\n\nThe company manufactures both conventional printed circuit boards and advanced IC carrier boards. Its substrate portfolio covers flip chip packages for GPUs and high-end ASICs, wire bond substrates for networking and memory applications, and ball grid arrays for chipsets used in cloud servers. <br>Its IC carrier boards serve cloud server chips, AI chips, and 5G wireless communication modules, placing it squarely in the path of every major AI infrastructure build.\n\nNan Ya PCB is a subsidiary of Nan Ya Plastics, which provides upstream support through Phase II ABF substrate expansion at the Shulin Plant in New Taipei City, the same facility where Nan Ya PCB anchors its high-end substrate output. This vertical relationship gives the company tighter control over materials than pure-play substrate peers.\n\nFinancially, the AI upcycle has begun to register clearly in results. Full-year 2025 revenue reached NT$40.2 billion, up 24% from NT$32.3 billion in 2024, with net profit margin expanding to 4.8% from just 0.6% the year before. Momentum accelerated into 2026: first-quarter 2026 revenue of NT$11.2 billion was up 32% year-on-year, with profit margin widening further to 12%. The company reported Q1 2026 EPS of NT$2.03, compared with NT$0.32 in the same quarter of 2025.\n\nBy April 2026, industry reporting indicated that ABF substrate allocations at Nan Ya PCB, Unimicron, and Kinsus had sold out, reflecting a demand environment that has outpaced the post-pandemic capacity restraint the sector maintained through 2024. Looking ahead, Nan Ya PCB has signaled that capital spending is expected to rebound sharply in 2026, potentially reaching a record high, driven by accelerating orders from advanced chip packaging customers.\n\nParent-group investments in upstream ABF materials and the Shulin facility expansion are expected to provide the production infrastructure underpinning that capex commitment. As AI chip complexity grows and substrate content per package rises, Nan Ya PCB's Taiwan-based capacity becomes a progressively harder-to-replicate asset in the global AI supply chain.",
+  "sources": [
+    {
+      "label": "Simply Wall St - Nan Ya PCB Financials",
+      "url": "https://simplywall.st/stocks/tw/tech/twse-8046/nan-ya-printed-circuit-board-shares",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Digitimes - Nan Ya PCB 2026 capex record",
+      "url": "https://www.digitimes.com/news/a20260515PD221/nan-ya-pcb-demand-capacity-chips.html",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Digitimes - ABF substrate sells out Unimicron Kinsus Nan Ya PCB",
+      "url": "https://www.digitimes.com/news/a20260420PD216/revenue-pcb-abf-substrate-unimicron-ai-chip.html",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "Digitimes - ABF substrate expansion advanced packaging",
+      "url": "https://www.digitimes.com/news/a20251218PD207/abf-substrate-packaging-expansion-ai-gpu-capacity.html",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Digitimes - Nan Ya PCB high-end IC substrate AI demand",
+      "url": "https://www.digitimes.com/news/a20260514PD236/pcb-nan-ya-high-end-demand-ic-substrate.html",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "MatrixBCG - Nan Ya PCB Growth Strategy",
+      "url": "https://matrixbcg.com/blogs/growth-strategy/nanyapcb",
+      "as_of": "2025-07"
+    },
+    {
+      "label": "Cloud News - AI strains Taiwanese PCB supply chain",
+      "url": "https://cloudnews.tech/ai-strains-the-taiwanese-pcb-supply-chain-and-focuses-on-ccl-and-abf/",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "Stock Analysis - Nan Ya PCB revenue",
+      "url": "https://stockanalysis.com/quote/tpe/8046/",
+      "as_of": "2026-05"
+    }
+  ],
+  "bottlenecks": [
+    "abf-substrates"
+  ]
+}

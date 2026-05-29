@@ -1,0 +1,48 @@
+{
+  "slug": "innolight",
+  "name": "InnoLight",
+  "ticker": "SHE 300308",
+  "type": "public",
+  "exposure_summary": "As the world's largest optical transceiver module maker and the supplier of more than half of NVIDIA's 800G module procurement, InnoLight sits at the single most congested bandwidth chokepoint in the AI data-center buildout.",
+  "profile": "Every GPU cluster that NVIDIA ships requires a dense web of optical transceivers to move data between accelerators, switches, and storage. InnoLight (Zhongji Innolight Co., Ltd., SHE 300308) is the dominant manufacturer of those modules, making it one of the most exposed companies in the entire AI supply chain to a hard physical constraint on how fast AI infrastructure can be built out.\n\nFounded in 2005 and headquartered in Longkou, China, InnoLight researches, designs, and manufactures high-speed optical communication transceiver modules for cloud data centers, AI compute clusters, and telecom networks. Its products are concentrated in the fastest-growing segment of the market: high-speed Ethernet transceivers at 400G, 800G, and the emerging 1.6T tier.\n\nOn the supply chain chokepoint that matters most, InnoLight's position is commanding. The company holds over 50% of NVIDIA's 800G optical module procurement by wallet share, with Coherent accounting for roughly 20% and the TFC-Fabrinet collaboration making up much of the remainder. Together with Eoptolink, InnoLight controls approximately 60% of the global 800G transceiver market. For the 1.6T generation now ramping with NVIDIA's GB300 servers, InnoLight was the first vendor to complete qualification testing with NVIDIA and began phased 1.6T shipments in mid-2025, with scaled production expected in the second half of the year.\n\nThe financial trajectory reflects that chokepoint exposure directly. Full-year 2025 revenue reached CNY 38.24 billion, up 60% year-over-year, with net income of CNY 10.8 billion, a doubling from the prior year. Growth accelerated further into 2026: Q1 2026 revenue reached CNY 19.50 billion, up 192% year-over-year, with net profit of CNY 5.73 billion, up 262%. LightCounting, the optical industry research firm, reported InnoLight sustained a 20–22% net margin through 2023–2024, consistent profitability unusual in a sector where Western peers have repeatedly reported losses.\n\nIn April 2026, InnoLight confidentially filed for a secondary listing on the Hong Kong Stock Exchange, targeting a raise of at least $3 billion. The filing reflects both the company's ambition to access international capital and the strategic significance of securing manufacturing investment as the 800G-to-1.6T transition compresses generational timelines. Key supply-chain risks include dependence on US-sourced DSP chips from Broadcom and Marvell, and ongoing efforts to shift some assembly to Thailand and Vietnam to reduce tariff exposure.",
+  "sources": [
+    {
+      "label": "Deep Fundamental – Optical Module Market Deep Dive",
+      "url": "https://deepfundamental.substack.com/p/deep-dive-optical-module-market",
+      "as_of": "2024-09"
+    },
+    {
+      "label": "Stock Analysis – Zhongji Innolight Revenue & Financials",
+      "url": "https://stockanalysis.com/quote/she/300308/",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Quartr – Zhongji Innolight Q1 2026 Earnings Summary",
+      "url": "https://quartr.com/companies/zhongji-innolight-co-ltd_15797",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "Bloomberg – China's Innolight Confidentially Files for Hong Kong Listing",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-02/china-s-innolight-is-said-to-confidentially-file-for-hong-kong-listing",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "IP-Fiber – NVIDIA Orders Surge: InnoLight and Eoptolink Dominate 800G Supply",
+      "url": "https://ip-fiber.com/blogs/news/nvidia-orders-surge-innolight-and-eoptolink-dominate-60-of-800g-sfp-optical-modules-supply",
+      "as_of": "2025-11"
+    },
+    {
+      "label": "MLQ.ai – AI Optical Networking Supply Chain Analysis",
+      "url": "https://mlq.ai/research/optical-networking/",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "LightCounting – Top 10 Transceiver Suppliers for 2024",
+      "url": "https://www.lightcounting.com/newsletter/en/may-2025-optical-vendor-landscape-333",
+      "as_of": "2025-05"
+    }
+  ],
+  "bottlenecks": [
+    "optical-transceivers"
+  ]
+}

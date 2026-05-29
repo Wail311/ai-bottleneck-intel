@@ -1,0 +1,48 @@
+{
+  "slug": "siltronic",
+  "name": "Siltronic",
+  "ticker": "ETR WAF",
+  "type": "public",
+  "exposure_summary": "As Europe's primary volume producer of 300mm silicon wafers and one of five companies controlling roughly 85% of global 300mm capacity, Siltronic sits at a structural chokepoint in the substrate supply chain that underlies every advanced AI chip.",
+  "profile": "Every AI accelerator, high-bandwidth memory die, and advanced logic chip starts life on a polished silicon wafer. Siltronic, headquartered in Munich and listed on the Frankfurt exchange, is one of the handful of companies that can supply those substrates at leading-edge quality and scale.\n\nFounded in 1953 and employing around 4,400 people worldwide, Siltronic produces polished and epitaxial silicon wafers up to 300mm in diameter at facilities in Germany, Singapore, and the United States. Its European anchor is the Freiberg, Saxony plant, one of the continent's only high-volume 300mm wafer production sites. That facility serves regional chipmakers operating under EU Chips Act local-content incentives, making Siltronic a de facto infrastructure asset for European semiconductor sovereignty.\n\nIn the global 300mm market, Siltronic sits fourth among the five incumbents, which together controlled approximately 85% of global 300mm capacity in 2025. Market share estimates place Siltronic at roughly 12% of global 300mm wafer revenue. The chokepoint exposure is moderate rather than acute: the company is large enough to matter but not large enough to dominate pricing or allocation on its own.\n\nFinancially, 2025 was a transition year under pressure. Full-year sales came in at EUR 1,346.7 million, down 4.7% from EUR 1,412.8 million in 2024, with EBITDA of EUR 316.9 million at a 23.5% margin. The company posted a net loss of EUR 77.9 million, weighed down by a stronger euro, price concessions outside long-term contracts, and elevated customer inventories in the 200mm segment. Wafer area sold nonetheless rose year-on-year, a signal that volume demand is recovering.\n\nThe most consequential recent development is the ramp of FabNext, Siltronic's new 300mm fab in Singapore, which began producing wafers in late 2023 and started triggering significant depreciation charges from August 2025 onward. That depreciation, EUR 343.3 million in 2025 versus EUR 238.5 million in 2024, is a direct consequence of the roughly EUR 2 billion capital programme. Siltronic has acknowledged that AI is visibly shifting demand toward 300mm wafers, even as broader end-market inventory overhangs delay the full revenue benefit. For 2026, the company guides for sales in the mid-single-digit percent range below 2025 levels, with capital expenditure cut sharply to EUR 180-220 million as the build-out phase concludes.",
+  "sources": [
+    {
+      "label": "Siltronic FY2025 Press Release",
+      "url": "https://www.siltronic.com/en/press/press-releases/siltronic-ag-robust-business-performance-in-2025-demonstrates-resilience-despite-challenging-conditions.html",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "Investing.com – Siltronic 2025 Results",
+      "url": "https://www.investing.com/news/earnings/siltronic-confirms-2025-results-sees-midsingle-digit-sales-drop-4556129",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "IMARC – Semiconductor Wafer Market Share 2025",
+      "url": "https://www.imarcgroup.com/silicon-wafer-market",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Mordor Intelligence – Semiconductor Silicon Wafer Market",
+      "url": "https://www.mordorintelligence.com/industry-reports/semiconductor-silicon-wafer-market",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "Mordor Intelligence – AI & HPC Silicon Wafer Market",
+      "url": "https://www.mordorintelligence.com/industry-reports/ai-and-hpc-semiconductor-silicon-wafer-market",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "Siltronic Sites – Freiberg & Singapore",
+      "url": "https://www.siltronic.com/en/our-company/sites.html",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "Siltronic FabNext Singapore First Wafers",
+      "url": "https://www.siltronic.com/en/press/press-releases/siltronic-ag-produces-first-wafers-in-its-new-singapore-fab.html",
+      "as_of": "2023-11"
+    }
+  ],
+  "bottlenecks": [
+    "silicon-wafers"
+  ]
+}

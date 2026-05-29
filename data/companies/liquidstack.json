@@ -1,0 +1,58 @@
+{
+  "slug": "liquidstack",
+  "name": "LiquidStack",
+  "ticker": "",
+  "type": "private",
+  "exposure_summary": "LiquidStack is a full-service provider of direct-to-chip and immersion cooling systems whose products sit at a hard physical constraint in the AI buildout: without adequate heat rejection, accelerator-dense racks cannot run at rated power.",
+  "profile": "LiquidStack matters to the AI buildout because no amount of GPU procurement solves the heat problem. As rack densities climb toward and past one megawatt per cabinet, the air-cooling era ends, and purpose-built liquid infrastructure becomes a prerequisite for operation.\n\nFounded in 2012, LiquidStack provides liquid cooling for information technology hardware, telecommunications, and blockchain systems. Data centers and high-performance compute organizations rely on LiquidStack for advanced, high-density liquid, direct-to-chip, and immersion cooling solutions. The product line spans three thermal modalities: a universally compatible coolant distribution unit line built for generative AI and HPC, with the CDW-1MW full-load tested and ETL, CSA, and CE certified at 1,350 kW of cooling capacity; single-phase immersion cooling optimized for heat transfer and data center retrofit; and two-phase immersion cooling offering superior thermal management with minimal energy consumption for high-density server environments.\n\nOn the product roadmap, LiquidStack's most consequential recent launch is its GigaModular CDU platform. First announced in June 2025, the GigaModular CDU completed extensive multi-module system integration and full-load testing, validating performance of deployments up to 14 MW and achieving ETL certification. The platform's modular, pay-as-you-grow architecture is designed to meet NVIDIA Vera Rubin specifications, enabling AI data center operators to deploy liquid cooling infrastructure through multi-MW building blocks that scale up to 14 MW.\n\nThe company's ownership structure changed decisively in early 2026. Trane Technologies had taken a minority stake in LiquidStack in 2023 as the nascent AI boom spurred demand for high-powered server racks. In September 2024, Tiger Global extended LiquidStack's Series B by $20 million, bringing the total Series B round to $35 million. Then, on March 3, 2026, Trane Technologies completed the acquisition of LiquidStack. The acquisition enhances Trane's data center thermal management solutions spanning chillers, heat rejection, controls, liquid distribution, and on-chip cooling, and includes LiquidStack's manufacturing, engineering, and R&D operations in Texas and Hong Kong. Financial terms were not disclosed.\n\nThe acquisition reflects broader consolidation in the liquid cooling sector. Trane's move came as consolidation heated up: Schneider Electric bought a controlling interest in direct-to-chip CDU vendor Motivair in September 2025, and Flex had earlier acquired cold plate and CDU supplier JetCool. For supply-chain watchers, LiquidStack's absorption into Trane signals that independent specialist vendors in this segment are being folded into larger HVAC and industrial platforms, shifting procurement relationships and geographic scale accordingly. Trane said the transaction would help LiquidStack scale its technology outside North America.",
+  "sources": [
+    {
+      "label": "NetworkWorld – GigaModular CDU launch",
+      "url": "https://www.networkworld.com/article/4001960/liquidstack-launches-cooling-system-for-high-density-high-powered-data-centers.html",
+      "as_of": "2025-06"
+    },
+    {
+      "label": "Engineering.com – GigaModular commercial availability",
+      "url": "https://www.engineering.com/liquidstack-launches-liquid-cooling-platform-for-14-mw-ai/",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "SiliconAngle – Series B $20M Tiger Global",
+      "url": "https://siliconangle.com/2024/09/19/liquidstack-raises-20m-expand-manufacturing-advance-liquid-cooling-technology/",
+      "as_of": "2024-09"
+    },
+    {
+      "label": "LiquidStack – Series B press release",
+      "url": "https://liquidstack.com/news/20-million-tiger-global",
+      "as_of": "2024-09"
+    },
+    {
+      "label": "Facilities Dive – Trane acquisition announcement",
+      "url": "https://www.facilitiesdive.com/news/liquidstack-buy-gives-trane-ai-data-center-cooling-exposure/812053/",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Fierce Network – Trane/LiquidStack consolidation",
+      "url": "https://www.fierce-network.com/cloud/hvac-giant-trane-buys-liquidstack-bolster-ai-data-center-cooling-portfolio",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "LiquidStack – Trane acquisition close",
+      "url": "https://liquidstack.com/news/trane-technologies-completes-acquisition-of-liquidstack",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "Trane Technologies IR – acquisition close",
+      "url": "https://investors.tranetechnologies.com/news-and-events/news-releases/news-release-details/2026/Trane-Technologies-Completes-Acquisition-of-LiquidStack/default.aspx",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "Plumbing & Mechanical – acquisition terms",
+      "url": "https://www.pmmag.com/articles/107205-trane-technologies-to-acquire-liquidstack",
+      "as_of": "2026-02"
+    }
+  ],
+  "bottlenecks": [
+    "liquid-cooling"
+  ]
+}

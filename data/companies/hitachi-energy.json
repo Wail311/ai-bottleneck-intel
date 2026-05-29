@@ -1,0 +1,48 @@
+{
+  "slug": "hitachi-energy",
+  "name": "Hitachi Energy",
+  "ticker": "Hitachi 6501",
+  "type": "public",
+  "exposure_summary": "As the world's largest transformer manufacturer and a pioneer of HVDC technology, Hitachi Energy sits at the center of the most acute hardware chokepoint blocking AI data center expansion: the global shortage of large power transformers.",
+  "profile": "Hitachi Energy, a wholly owned subsidiary of Hitachi, Ltd. (TSE: 6501), is the energy infrastructure arm of the Hitachi group. Headquartered in Zurich and operating in more than 140 countries, the company manufactures large power transformers, high-voltage switchgear, and HVDC systems, and provides grid automation and digital services. It describes itself as the world's largest transformer manufacturer, with over 60 transformer factories and 30 service centers worldwide.\n\nFor the AI buildout, Hitachi Energy occupies a position that few peers can match. Every hyperscale data center requires large power transformers to step grid voltage down to usable levels, and current lead times for those units run from 80 to 120 weeks — a bottleneck that directly constrains how fast GPU clusters can come online. The global transformer market is projected to grow from roughly $48 billion in 2024 to $67 billion by 2030, driven substantially by data center load growth. Hitachi Energy has integrated more than 150 GW of HVDC links into power systems worldwide, giving it unrivaled installed-base depth in the technology most critical for moving bulk renewable power to urban load centers that host AI infrastructure.\n\nRecent capital commitments signal the scale of demand. In 2024 Hitachi Energy announced a $6 billion global investment program — the largest in the industry. In March 2025 it added a further $250 million specifically for transformer components, with more than 40 percent of that directed at U.S. manufacturing. In September 2025 it announced an additional $1 billion U.S. investment, including $457 million for a new large power transformer factory in South Boston, Virginia, intended to become the largest such facility in the country. A separate $270 million CAD expansion of its Varennes, Quebec plant — one of the world's largest HVDC transformer sites — is set to nearly triple that facility's annual capacity. The cumulative global program has grown to $9 billion.\n\nOn the product side, Hitachi Energy announced in October 2025 that it is developing grid-to-rack architecture supporting NVIDIA's 800-volt DC power standard for next-generation AI data centers, extending its reach from the transmission grid all the way into the server rack. In its India-listed subsidiary, the data center segment was identified as the leading contributor to the Q4 FY26 order book, with full-year revenue up 27.6 percent year-on-year and the order backlog reaching a record INR 29,555 crore as of March 2026.",
+  "sources": [
+    {
+      "label": "Hitachi Energy – $250M transformer investment (CERAWeek)",
+      "url": "https://www.hitachi.com/New/cnews/month/2025/03/250311a.html",
+      "as_of": "2025-03"
+    },
+    {
+      "label": "Hitachi Energy – $1B U.S. manufacturing investment announcement",
+      "url": "https://www.hitachi.com/New/cnews/month/2025/09/250905.html",
+      "as_of": "2025-09"
+    },
+    {
+      "label": "Hitachi Energy – Varennes, Quebec HVDC transformer plant expansion",
+      "url": "https://www.hitachi.com/New/cnews/month/2025/09/250930c.html",
+      "as_of": "2025-09"
+    },
+    {
+      "label": "Hitachi / NVIDIA – 800 VDC AI data center power architecture",
+      "url": "https://www.hitachi.com/New/cnews/month/2025/10/251015c.html",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "Hitachi Energy India – Q4 FY26 results (record backlog)",
+      "url": "https://www.hitachienergy.com/news-and-events/press-releases/2026/05/hitachi-energy-india-limited-announces-q4-fy26-results",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Data Center Dynamics – Hitachi Energy $1B U.S. grid investment",
+      "url": "https://www.datacenterdynamics.com/en/news/hitachi-energy-to-invest-1bn-into-us-grid-infrastructure-manufacturing-to-address-data-center-power-demand/",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "Hitachi Energy – Bhadla-Fatehpur 950km HVDC contract",
+      "url": "https://www.hitachienergy.com/news-and-events/press-releases/2025/04/hitachi-energy-selected-for-950-km-hvdc-transmission-system-to-deliver-6-gw-of-renewable-energy-in-india",
+      "as_of": "2025-04"
+    }
+  ],
+  "bottlenecks": [
+    "transformers"
+  ]
+}

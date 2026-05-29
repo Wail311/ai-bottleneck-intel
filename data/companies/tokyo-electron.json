@@ -1,0 +1,63 @@
+{
+  "slug": "tokyo-electron",
+  "name": "Tokyo Electron",
+  "ticker": "TYO 8035",
+  "type": "public",
+  "exposure_summary": "Tokyo Electron holds a near-monopoly in EUV coater/developer tracks and ranks among the top three global wafer-fab-equipment suppliers by revenue, making it a direct, unavoidable chokepoint for every leading-edge logic and memory chip powering the AI buildout.",
+  "profile": "Tokyo Electron (TEL) sits at three of the most concentrated chokepoints in advanced chip manufacturing: coat/develop, etch, and deposition. Together these process steps define whether a fab can produce the sub-3nm logic and high-bandwidth memory that underpin AI infrastructure.\n\nThe most acute chokepoint is coat/develop. TEL's own product pages state it holds roughly 90% of the overall coater/developer market and nearly 100% share for EUV-specific tools. Because every advanced wafer processed on an ASML EUV scanner must pass through a coat/develop track before and after exposure, that position is structural rather than merely competitive. TEL's CLEAN TRACK LITHIUS Pro series is the de facto standard paired inline with ASML scanners at leading foundries globally.\n\nOn etch, TEL holds the second-largest market share in dry etch systems by its own account, and reported a six-percentage-point gain in etch share for DRAM production in fiscal year 2025. In deposition, the company ranks first in diffusion furnaces and batch deposition, and is expanding single-wafer CVD and metal film deposition into DRAM and NAND applications. Between 2023 and 2025, TEL captured rising orders for etch and deposition tied to sub-3nm gate-all-around logic and HBM-capable DRAM structures.\n\nFinancially, the fiscal year ended March 2025 saw net sales, gross profit, operating income, and net income all hit all-time highs, with consolidated net sales of approximately 2.45 trillion yen. TEL projected full-year FY2025 net sales of 2.41 trillion yen with a gross margin of 45.3%. For FY2026, the company revised its operating profit forecast to 593 billion yen, reflecting softer near-term demand from China and a pull-forward of AI-related orders in the prior year.\n\nThe China exposure is a live risk variable: China accounted for roughly 42% of TEL revenue in fiscal 2024 and is expected to decline toward 35% in fiscal 2025 as U.S. export controls restrict certain tool shipments. To offset this, TEL's finance leadership has stated that equipment for advanced AI chips is targeted to reach nearly 40% of total sales by fiscal 2026, up from more than 30% in fiscal 2025.\n\nCEO Toshiki Kawai has projected the WFE market will grow more than 15% in calendar 2026, driven by accelerating AI server logic investment and a sharp ramp in DRAM capital spending. TEL is investing 290 billion yen in R&D in FY2026 and is building a new development hub near TSMC's Kumamoto fab focused on High-NA EUV tooling, the next generation of lithography for which TEL already commands the adjacent coat/develop market.",
+  "sources": [
+    {
+      "label": "TEL FY2025 Q4 Earnings Transcript (April 2025)",
+      "url": "https://www.tel.com/ir/library/report/l8gqgo00000000gl-att/fy25q4transcript-e.pdf",
+      "as_of": "2025-04"
+    },
+    {
+      "label": "TEL Q3 FY2026 Earnings Transcript (February 2026)",
+      "url": "https://www.tel.com/ir/library/report/qemr4i00000000dj-att/fy26q3transcript-e.pdf",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "TEL Q2 FY2026 Earnings Transcript (October 2025)",
+      "url": "https://www.tel.com/ir/library/report/n0n82r00000000hl-att/fy26q2transcript-e.pdf",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "TrendForce: TEL AI Sales Targeting 40% by FY2026",
+      "url": "https://www.trendforce.com/news/2025/12/08/news-tokyo-electron-sees-ai-driven-sales-hitting-40-by-2026-offsetting-china-slowdown/",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "TrendForce: TEL Kumamoto R&D Hub Near TSMC",
+      "url": "https://www.trendforce.com/news/2025/10/16/news-tokyo-electron-builds-major-kumamoto-rd-hub-near-tsmc-to-advance-1nm-chip-equipment/",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "TEL Products Page (official)",
+      "url": "https://www.tel.com/product/",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Nomad Semi: Tokyo Electron Deep Dive",
+      "url": "https://www.nomadsemi.com/p/tokyo-electron-deep-dive-part-1",
+      "as_of": "2025-03"
+    },
+    {
+      "label": "DataInsightsMarket: TEL FY2025 Performance Summary",
+      "url": "https://www.datainsightsmarket.com/companies/8035.T",
+      "as_of": "2025-04"
+    },
+    {
+      "label": "Investing.com: TEL Q3 FY2026 Results",
+      "url": "https://www.investing.com/news/company-news/tokyo-electron-q3-fy2026-slides-revenue-declines-amid-optimistic-aidriven-outlook-93CH-4494693",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "BigGo Finance: TEL R&D and Coater/Developer Market Share",
+      "url": "https://finance.biggo.com/news/Gtcsa50BZk7xib5fhKoU",
+      "as_of": "2026-04"
+    }
+  ],
+  "bottlenecks": [
+    "wafer-fab-equipment"
+  ]
+}

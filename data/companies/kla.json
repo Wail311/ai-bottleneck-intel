@@ -1,0 +1,48 @@
+{
+  "slug": "kla",
+  "name": "KLA",
+  "ticker": "KLAC",
+  "type": "public",
+  "exposure_summary": "KLA holds a commanding position in semiconductor process control and inspection, a chokepoint that becomes more critical at every advanced node required for AI chips, making its tools a mandatory step in the AI supply chain regardless of which chipmaker or chip designer wins market share.",
+  "profile": "Every advanced AI chip, whether produced by TSMC, Samsung, or Intel, must pass through KLA's inspection and metrology equipment before it leaves the fab. That structural reality makes KLA one of the least substitutable companies in the AI buildout.\n\nKLA designs, manufactures, and markets process control and yield management solutions for semiconductor fabs worldwide. Its core business spans wafer inspection, patterned and unpatterned surface review, reticle inspection, and optical and e-beam metrology. The Semiconductor Process Control segment represents roughly 89.6% of total company revenues. KLA holds approximately 58% global market share in process control as of 2025, roughly 6.5x its nearest competitor.\n\nThe structural chokepoint KLA occupies deepens with every node transition. Process control's share of overall wafer fab equipment spending has grown from 5.3% in 2019 to 7.4% in 2025, with a long-term target of 9% by 2030, and each node shrink roughly doubles inspection demand. Demand for advanced semiconductor technologies, particularly at the 2-nanometer node, is seeing higher levels of investment and process control intensity. KLA's own management has acknowledged that process control intensity's historic correlation with lithography has broken down, now driven by design proliferation, advanced packaging, and AI-related large-die adoption.\n\nA major growth area is advanced packaging, with KLA anticipating advanced packaging-related revenue to surpass $925 million in calendar year 2025, a 70% increase year-over-year. In DRAM, investments in AI and high-bandwidth memory, which require high performance and complex logic, are driving demand and positioning the DRAM market for growth with increasing wafer fab equipment investment in 2025.\n\nFinancially, the momentum is clear. For the fiscal year ended June 30, 2025, KLA reported GAAP net income of $4.06 billion and GAAP diluted EPS of $30.37 on total revenues of $12.16 billion. That revenue figure represents an increase of 23.89% compared to the prior year's $9.81 billion. Gross margin remained robust at 63.2% in the fourth quarter, while operating margin reached 44.2%. Into the next fiscal year, KLA beat Wall Street's revenue expectations in Q4 calendar 2025, with sales of $3.30 billion, and guidance for the following quarter was set at $3.35 billion at the midpoint, above analyst estimates.\n\nCEO Rick Wallace described the results as reflecting \"the unique and compelling opportunity within semiconductor capital equipment for KLA's continued role in enabling and supporting the AI infrastructure buildout.\" With no credible substitute at scale and process control intensity rising structurally, KLA sits at a chokepoint that is widening, not narrowing.",
+  "sources": [
+    {
+      "label": "KLA FY2025 Full-Year Earnings Release (SEC 8-K)",
+      "url": "https://ir.kla.com/news-events/press-releases/detail/500/kla-corporation-reports-fiscal-2025-fourth-quarter-and-full",
+      "as_of": "2025-07"
+    },
+    {
+      "label": "KLA Q4 CY2025 Earnings – StockStory",
+      "url": "https://stockstory.org/us/stocks/nasdaq/klac",
+      "as_of": "2026-01"
+    },
+    {
+      "label": "KLA 10-Q (December 2025 quarter)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000319201/000031920126000008/klac-20251231.htm",
+      "as_of": "2026-01"
+    },
+    {
+      "label": "Sectally KLAC Research Report",
+      "url": "https://sectally.com/reports/klac/",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "KLA Q4 2025 Earnings Call Transcript – Motley Fool",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/04/14/kla-klac-q4-2025-earnings-call-transcript/",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "Nasdaq – KLA Semiconductor Process Control Analysis",
+      "url": "https://www.nasdaq.com/articles/can-kla-corps-growing-semiconductor-process-control-drive-stock",
+      "as_of": "2025-02"
+    },
+    {
+      "label": "KLA Advanced Packaging & Process Control Intensity – BeyondSPX",
+      "url": "https://www.beyondspx.com/quote/KLAC/analysis/kla-corporation-process-control-dominance-in-the-ai-chip-era-meets-premium-valuation-reality-nasdaq-klac",
+      "as_of": "2025-11"
+    }
+  ],
+  "bottlenecks": [
+    "wafer-fab-equipment"
+  ]
+}

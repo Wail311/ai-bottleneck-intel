@@ -1,0 +1,43 @@
+{
+  "slug": "shin-etsu-chemical",
+  "name": "Shin-Etsu Chemical",
+  "ticker": "TYO 4063",
+  "type": "public",
+  "exposure_summary": "Shin-Etsu Chemical is the world's largest producer of semiconductor-grade silicon wafers, the foundational substrate on which every AI chip is fabricated, giving it direct and irreplaceable exposure to the AI semiconductor buildout.",
+  "profile": "Every AI accelerator begins as a silicon wafer, and no company controls more of that starting point than Shin-Etsu Chemical. The Tokyo-headquartered conglomerate, founded in 1926 and listed on the Tokyo Stock Exchange (4063), operates across four business segments: Infrastructure Materials, Electronics Materials, Functional Materials, and Processing and Specialized Services. Its Electronics Materials arm manufactures semiconductor silicon, photoresists, photomask blanks, and synthetic quartz products — a suite of chokepoint materials that runs through the entire chip-making process.\n\nIn silicon wafers specifically, Shin-Etsu's position is structural. Its subsidiary Shin-Etsu Handotai (SEH) operates the world's largest production capacity for 300mm wafers, the standard diameter for all advanced logic and memory fabrication. The five largest wafer producers — Shin-Etsu, SUMCO, GlobalWafers, Siltronic, and SK Siltron — controlled roughly 85% of global 300mm capacity in 2025, and Shin-Etsu and SUMCO together accounted for more than half of worldwide volume. That oligopoly reflects the multibillion-dollar capital barriers and decades of proprietary crystal-pulling expertise required to compete. Shin-Etsu was also the first company to mass-produce 300mm wafers commercially, beginning in 2001.\n\nThe company's financial results for fiscal year ending March 2025 showed net sales of approximately ¥2,561 billion, up 6% year-over-year, with operating income rising 6% to ¥742 billion and net income reaching ¥534 billion, driven in part by strong Electronics Materials demand. Into fiscal year 2026, quarterly revenues continued to grow on a year-over-year basis, though margin pressure and global headwinds weighed on profits.\n\nOn the capacity front, Shin-Etsu committed JPY 150 billion (roughly USD 1 billion) in November 2025 to add 200,000 units per month of 300mm wafer capacity at its Shirakawa and Takefu facilities, explicitly targeting the ultra-flat specifications required by 2nm and 3nm node fabs — the nodes underpinning the next generation of AI processors. Chinese manufacturers are expanding in mature-grade wafers, but the precision tolerances demanded by leading-edge AI chips continue to favor incumbents with Shin-Etsu's process depth.",
+  "sources": [
+    {
+      "label": "Mordor Intelligence — Semiconductor Silicon Wafer Market",
+      "url": "https://www.mordorintelligence.com/industry-reports/semiconductor-silicon-wafer-market",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "Quartr — Shin-Etsu Chemical Q4 FY2025 Earnings Summary",
+      "url": "https://quartr.com/events/shin-etsu-chemical-co-ltd-4063-q4-2025_ojdPsa7Y",
+      "as_of": "2025-06"
+    },
+    {
+      "label": "Quartr — Shin-Etsu Chemical Q1 FY2026 Earnings Summary",
+      "url": "https://quartr.com/events/shin-etsu-chemical-co-ltd-4063-q1-2025_ojdPs5kU",
+      "as_of": "2025-07"
+    },
+    {
+      "label": "Semiconductor Insight — Silicon Wafer Market Share 2023",
+      "url": "https://semiconductorinsight.com/report/silicon-wafer-market/",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Klover.ai — Shin-Etsu AI Strategy Analysis",
+      "url": "https://www.klover.ai/shin-etsu-ai-strategy-analysis-of-dominance-in-chemicals-ai/",
+      "as_of": "2025-08"
+    },
+    {
+      "label": "Shin-Etsu Chemical — Official Annual Report 2025 Financial Section",
+      "url": "https://www.shinetsu.co.jp/wp-content/uploads/2025/07/Financial-Section.pdf",
+      "as_of": "2025-07"
+    }
+  ],
+  "bottlenecks": [
+    "silicon-wafers"
+  ]
+}

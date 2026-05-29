@@ -1,0 +1,63 @@
+{
+  "slug": "shinko-electric",
+  "name": "Shinko Electric Industries",
+  "ticker": "TYO 6967",
+  "type": "public",
+  "exposure_summary": "Shinko Electric is one of a small handful of Japanese manufacturers that produce the advanced ABF substrates on which high-performance AI and HPC processors depend, making it a direct chokepoint in the AI chip packaging supply chain.",
+  "profile": "Shinko Electric Industries matters to the AI buildout because the processors powering modern AI infrastructure cannot exist without the package substrates Shinko makes. Those substrates form the critical electrical bridge between a chip die and the circuit board, and in the high-end ABF segment, the supplier list is very short.\n\nFounded in 1946 and headquartered in Nagano, Japan, Shinko is principally engaged in the development, manufacture, and sale of semiconductor packages. Its core products span IC substrates, leadframes, and related packaging components that serve applications from personal computers and mobile phones to automotive electronics and HPC processors.\n\nIn the ABF substrate market, Shinko sits inside the dominant oligopoly. The top manufacturers, including Unimicron, Ibiden, AT&S, Nan Ya PCB, and Shinko Electric Industries, collectively command roughly 74% of global ABF substrate market share. Supply share data from 2021 placed Shinko at approximately 12% of the global ABF substrate market. That market was valued at roughly $4.9 billion in 2024 and is projected to grow at a compound annual rate of around 10.6% through the early 2030s, driven primarily by demand from AI chips, servers, and data centers.\n\nThe exposure to the AI chokepoint is direct. Advanced processors require substrates with high-density interconnects, exceptional electrical properties, and superior thermal performance, all characteristics of ABF-based packages. Shinko has specifically developed high-frequency ABF substrates targeting AI applications, and in late 2024 the company, alongside peer Ibiden, flagged that AI-related substrate demand was a meaningful bright spot even as conventional PC and standard server demand softened.\n\nThe most significant development of 2025 was a change of ownership. Japan Investment Corporation, through its vehicle JIC Capital, launched a tender offer for Shinko shares in February 2025 at JPY 5,920 per share. The offer was completed on March 18, 2025, and Shinko was formally delisted from the Tokyo Stock Exchange Prime Market on June 6, 2025, becoming a private company under JIC control. Partners in the consortium include Mitsui Chemicals and Dai Nippon Printing, signaling an intent to deepen collaboration across backend process materials.\n\nFor the fiscal year ending March 31, 2025, Shinko reported annual revenue of JPY 215.02 billion, reflecting modest growth of approximately 2.4% year over year. Revenue for fiscal 2026 is forecast at approximately JPY 244.3 billion. Shinko also earned Intel's 2025 EPIC Supplier Award, underscoring its standing as a qualified vendor for leading-edge chip packaging.",
+  "sources": [
+    {
+      "label": "Intel ABF Substrate Market Outlook 2025-2032",
+      "url": "https://www.intelmarketresearch.com/abf-substrate-market-11784",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Semiconductor Insight: ABF Substrate Market",
+      "url": "https://semiconductorinsight.com/report/abf-substrate-market/",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Rocket PCB: ABF Substrate Market Share Data",
+      "url": "https://www.rocket-pcb.com/abf-substrate-the-future-of-electronics-manufacturing",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Medium: How the Chip Shortage Never Really Ended",
+      "url": "https://medium.com/@Elongated_musk/how-the-chip-shortage-never-really-ended-fbcc663aa3bd",
+      "as_of": "2025-04"
+    },
+    {
+      "label": "Shinko Electric Investor Relations (Delisting Notice)",
+      "url": "https://www.shinko.co.jp/english/ir/",
+      "as_of": "2025-06"
+    },
+    {
+      "label": "JIC Capital Tender Offer Result Press Release",
+      "url": "https://www.jiccapital.co.jp/en/news/.assets/E_20250319_JIC_JICC_PressRelease.pdf",
+      "as_of": "2025-03"
+    },
+    {
+      "label": "Digitimes: Shinko to Delist, Eye DNP and Mitsui Chemicals Partnership",
+      "url": "https://www.digitimes.com/news/a20250321PD206/shinko-electric-mitsui-chemicals-materials-partnership-fujitsu.html",
+      "as_of": "2025-03"
+    },
+    {
+      "label": "Stock Analysis: Shinko Electric Revenue",
+      "url": "https://stockanalysis.com/quote/tyo/6967/revenue/",
+      "as_of": "2025-06"
+    },
+    {
+      "label": "Simply Wall St: Shinko Electric FY2026 Revenue Forecast",
+      "url": "https://simplywall.st/stock/tse/6967",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Shinko Electric Homepage (Intel EPIC Award 2025)",
+      "url": "https://www.shinko.co.jp/english/",
+      "as_of": "2025-06"
+    }
+  ],
+  "bottlenecks": [
+    "abf-substrates"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "constellation-energy",
+  "name": "Constellation Energy",
+  "ticker": "CEG",
+  "type": "public",
+  "exposure_summary": "Constellation operates the largest nuclear fleet in the United States and is the primary utility counterparty for long-duration, carbon-free baseload PPAs that hyperscalers are relying on to power AI data centers at scale.",
+  "profile": "Constellation Energy sits at the most acute chokepoint in the AI power buildout: firm, around-the-clock, carbon-free electricity. As the owner and operator of the largest nuclear fleet in the United States, Constellation controls assets that no other private company can replicate on the same timeline. The company owns interests in 14 nuclear generating stations with approximately 22 gigawatts of nuclear capacity, and its fleet produced roughly 183 terawatt-hours of zero-emissions electricity in 2025. That output is increasingly contracted directly to the hyperscalers building AI infrastructure.\n\nThe landmark deal structuring the current moment is a 20-year power purchase agreement with Microsoft for the full output of the Crane Clean Energy Center, the restarted Three Mile Island Unit 1 in Pennsylvania. Constellation committed $1.6 billion to bring the plant back online, with power delivery targeted for 2028. In June 2025, Constellation signed a second major 20-year PPA, this time with Meta, covering 1,121 megawatts from the Clinton Clean Energy Center in Illinois, beginning June 2027. That deal also includes a 30-megawatt uprate through plant improvements expected to be complete by 2029.\n\nConstellation's exposure to the grid-power chokepoint deepened substantially in January 2026, when the company closed a $16.4 billion acquisition of Calpine Corporation. The combined platform now totals roughly 55 gigawatts of generation capacity, pairing nuclear baseload with Calpine's natural gas fleet and geothermal assets. In February 2026, Constellation also disclosed that Calpine had signed agreements to supply CyrusOne with 1,100 megawatts for data centers in Texas, including a 380-megawatt agreement for a facility adjacent to the Freestone Energy Center.\n\nOn the financial side, Constellation reported full-year 2025 revenue of $25.5 billion, up from $23.6 billion in 2024, and operating earnings of $2.9 billion for the year. The nuclear fleet maintained a capacity factor of approximately 94.7 percent for 2025. Average day-ahead power prices in the PJM West region rose 49 percent in 2025, a dynamic that reflects the structural tightness in grid power that makes Constellation's locked-in, long-duration contracts with Microsoft and Meta particularly significant in the current supply-chain environment.",
+  "sources": [
+    {
+      "label": "Constellation Q3 2025 Earnings Release",
+      "url": "https://www.constellationenergy.com/newsroom/2025/11/constellation-reports-third-quarter-2025-results.html",
+      "as_of": "2025-11"
+    },
+    {
+      "label": "Constellation Q4 & Full Year 2025 Earnings Release",
+      "url": "https://www.constellationenergy.com/news/2026/02/constellation-reports-fourth-quarter-and-full-year-2025-results.html",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Constellation 2025 Annual Report (Form ARS)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001868275/000155278126000142/e26100_ceg-ars.pdf",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Constellation 10-K FY2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001868275/000186827526000032/ceg-20251231.htm",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Constellation-Meta PPA Press Release",
+      "url": "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-meta-sign-20-year-deal-clean-reliable-nuclear",
+      "as_of": "2025-06"
+    },
+    {
+      "label": "Data Center Dynamics – Constellation AI Strategy",
+      "url": "https://www.datacenterdynamics.com/en/news/constellation-energy-doubles-down-on-ai-data-center-strategy/",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Utility Dive – Constellation Full Year 2025 Results",
+      "url": "https://www.utilitydive.com/news/constellation-energy-power-capacity-prices-earnings/813065/",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Constellation 8-K (Calpine-CyrusOne deal)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001868275/000186827526000029/ceg-20260224991.htm",
+      "as_of": "2026-02"
+    }
+  ],
+  "bottlenecks": [
+    "grid-power"
+  ]
+}

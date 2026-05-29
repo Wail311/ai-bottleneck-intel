@@ -1,0 +1,43 @@
+{
+  "slug": "sk-siltron",
+  "name": "SK Siltron",
+  "ticker": "",
+  "type": "private",
+  "exposure_summary": "As the world's fifth-largest silicon wafer maker and South Korea's sole semiconductor wafer manufacturer, SK Siltron sits inside the tightly concentrated oligopoly that supplies every AI chip fab with the substrate on which logic and memory are built.",
+  "profile": "Every AI accelerator and HBM memory chip begins its life on a silicon wafer. SK Siltron, headquartered in Gumi, South Korea, and operating under the SK Group conglomerate, is the only domestic Korean producer of semiconductor-grade silicon wafers. That singular position makes it a structural node in the AI buildout: without a qualified wafer supplier, no fab can run.\n\nThe global silicon wafer market is a textbook oligopoly. The top five producers — Shin-Etsu Chemical, SUMCO, GlobalWafers, Siltronic AG, and SK Siltron — collectively held approximately 89% of global 300mm wafer revenue in 2025, with SK Siltron accounting for roughly 9% of that segment. The 300mm format dominates the market at about 75% of value, and it is precisely what leading-edge logic and memory fabs require. SK Siltron's exposure to the AI supply chain is rated Moderate rather than Critical because Japanese rivals Shin-Etsu and SUMCO hold the largest production shares, but the company's captive relationship with Samsung Electronics and SK Hynix — which together account for an estimated more than 50% of SK Siltron's sales — ties it directly to the DRAM and HBM capacity that powers AI data centers.\n\nOn the financials, SK Siltron posted 2.08 trillion won in revenue and 407 billion won in operating profit in 2025. The company is navigating a proposed ownership change: Doosan Corp. was selected as preferred bidder in December 2024, and as of April 2026 the transaction was advancing, with SK Group moving to shed non-core assets to focus on AI and semiconductor priorities. A secondary drag is the silicon carbide wafer subsidiary SK Siltron CSS, whose EV-focused losses — recognized at 400 billion won in the 2025 annual report — complicated and delayed the sale process.\n\nOn the capacity front, the Gumi headquarters facility had been expanded with new 300mm production lines, and by late 2025 the company was nearing completion of GaN wafer production targeting power module manufacturers. In the U.S., SK Siltron CSS finalized a $544 million DOE loan in October 2024 to expand its Bay City, Michigan SiC wafer plant, with project completion targeted for 2027.\n\nThe chokepoint exposure is Moderate because SK Siltron's silicon wafer output is real but not irreplaceable at the global level — substitute supply exists among Japanese and Taiwanese peers. The greater concentration risk lies in the Korea-specific ecosystem: any disruption to SK Siltron would remove the only domestic wafer option for South Korean fabs at exactly the moment when AI chip demand is accelerating.",
+  "sources": [
+    {
+      "label": "Korea Times — SK Siltron sale to Doosan, 2025 financials",
+      "url": "https://www.koreatimes.co.kr/amp/business/companies/20260413/sk-siltron-sale-to-benefit-both-sk-doosan",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "IMARC Group — Silicon Wafer Market Share 2025",
+      "url": "https://www.imarcgroup.com/silicon-wafer-market",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Semiconductor Insight — Silicon Wafer Market Concentration 2023",
+      "url": "https://semiconductorinsight.com/report/silicon-wafer-market/",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "U.S. Department of Energy — SK Siltron $544M Loan Closing",
+      "url": "https://www.energy.gov/edf/sk-siltron",
+      "as_of": "2025-03"
+    },
+    {
+      "label": "Manufacturing Dive — SK Siltron CSS DOE Loan Details",
+      "url": "https://www.manufacturingdive.com/news/energy-department-sk-siltron-544m-loan-bay-city-michigan-sic-wafers-ev-expansion-federal-funding/708429/",
+      "as_of": "2024-02"
+    },
+    {
+      "label": "SK Group — SK Siltron CSS DOE Loan Announcement",
+      "url": "https://eng.sk.com/news/sk-siltron-css-secures-conditional-commitment-from-u-s-department-of-energy-for-a-loan-of-up-to-544-million",
+      "as_of": "2024-02"
+    }
+  ],
+  "bottlenecks": [
+    "silicon-wafers"
+  ]
+}

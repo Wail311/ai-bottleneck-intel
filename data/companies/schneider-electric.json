@@ -1,0 +1,48 @@
+{
+  "slug": "schneider-electric",
+  "name": "Schneider Electric",
+  "ticker": "SU",
+  "type": "public",
+  "exposure_summary": "Schneider Electric supplies the power distribution, UPS, and liquid-cooling infrastructure that sits between the grid and every GPU in a hyperscale AI data center, making it a foundational chokepoint vendor across both the power and cooling layers of the AI buildout.",
+  "profile": "Schneider Electric is a French industrial group headquartered in Rueil-Malmaison that designs and sells electrical distribution equipment, uninterruptible power supplies, server racks, and cooling systems. The company makes power equipment, server racks, and cooling systems that let energy-hungry data centers operate at peak performance. Its Energy Management division is the primary vehicle for data center exposure, spanning the full chain from grid connection to in-rack thermal management.\n\nSchneider maintains the number one market position across all four of its primary end-markets: Data Centers and Networks, Buildings, Industry, and Infrastructure. Data Centers and Networks, representing 30% of revenues, is expected to lead growth with a market CAGR exceeding 10% through 2030, driven by artificial intelligence infrastructure buildout and cloud computing expansion.\n\nThe company's exposure to liquid cooling is rated high and is intensifying. In October 2024, Schneider Electric signed an agreement to acquire a controlling interest in Motivair Corporation, a company specializing in liquid cooling and advanced thermal management solutions for high-performance computing systems, paying $850 million for an initial 75% stake. Motivair's product portfolio includes coolant distribution units, rear-door heat exchangers, cold plates, and heat dissipation units, alongside chillers for thermal management. Schneider also holds a reference design partnership with NVIDIA for GB200 NVL72 systems. In late 2025, Motivair launched two new CDU models, the MCDU-45 and MCDU-55, as the first purpose-built CDUs for optimized installation in utility corridors, with the MCDU-55 offering 2.7 MW of cooling capacity and production ramping in early 2026.\n\nFinancially, the AI wave is clearly visible in Schneider's results. Full-year 2025 revenues crossed €40 billion for the first time, up 9% organically, with Q4 alone rising 11% organically to a record €11 billion, led by the Data Center segment within Energy Management. The company's backlog reached €25.4 billion at year-end, up 18% year-over-year. The most significant backlog increase was in Systems in North America due to accelerated demand in the Data Center end-market, with strong growth in backlog to be executed in 2027 and beyond.\n\nMomentum carried into 2026. Schneider Electric's Q1 2026 organic revenue rose 11.2% to €9.77 billion, slightly above consensus, driven by booming AI data center demand and gains from the Motivair liquid-cooling acquisition. To support growing demand, Schneider Electric is expanding its manufacturing footprint in North America, including building a new facility in Tennessee that will produce custom power distribution equipment designed for advanced energy infrastructure projects including data centers. Dell'Oro Group notes Schneider and Vertiv are \"virtually tied for global market share\" in data center infrastructure, underscoring how central Schneider's position is to any assessment of AI supply-chain risk.",
+  "sources": [
+    {
+      "label": "Global Banking & Finance Review – Q1 2026 earnings",
+      "url": "https://www.globalbankingandfinance.com/schneider-electric-tops-revenue-forecast-rides-ai-data/",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "Facilities Dive – FY2025 results",
+      "url": "https://www.facilitiesdive.com/news/data-centers-remain-standout-industry-for-schneider-electric/813362/",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Investing.com – FY2025 slides and backlog",
+      "url": "https://www.investing.com/news/company-news/schneider-electric-fy-2025-slides-record-40bn-revenues-strong-outlook-93CH-4526856",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Motivair – Schneider acquisition announcement",
+      "url": "https://www.motivaircorp.com/news/schneider-electric-acquires-controlling-interest-i/",
+      "as_of": "2024-10"
+    },
+    {
+      "label": "Data Center Dynamics – Motivair CDU launch",
+      "url": "https://www.datacenterdynamics.com/en/news/schneiders-motivair-launches-new-cdus/",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "mlq.ai – AI Data Center Cooling research",
+      "url": "https://mlq.ai/research/data-center-cooling/",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Construction Owners – Schneider Tennessee expansion",
+      "url": "https://www.constructionowners.com/news/schneider-electric-sees-data-center-boom-driving-growth",
+      "as_of": "2026-03"
+    }
+  ],
+  "bottlenecks": [
+    "liquid-cooling"
+  ]
+}

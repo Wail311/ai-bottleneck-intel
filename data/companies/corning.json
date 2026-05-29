@@ -1,0 +1,58 @@
+{
+  "slug": "corning",
+  "name": "Corning",
+  "ticker": "GLW",
+  "type": "public",
+  "exposure_summary": "Corning supplies glass materials and Glass Core substrates that are emerging as a replacement for silicon interposers in AI accelerator packaging, positioning it as an upstream material chokepoint as the semiconductor industry shifts toward glass-based advanced packaging.",
+  "profile": "Corning matters to the AI buildout because the industry is beginning to move away from silicon interposers toward glass substrates for packaging next-generation AI accelerators, and Corning is one of a small number of companies with the glass science and manufacturing infrastructure to supply that transition.\n\nFounded in 1851 and headquartered in Corning, New York, the company operates across optical communications, display technologies, specialty materials, and life sciences. Its Optical Communications segment has become its largest revenue driver, powered directly by data center demand. Enterprise sales within that segment grew 106% year over year in Q1 2025, and 58% year over year in Q3 2025, reflecting sustained hyperscaler investment in fiber connectivity for AI infrastructure.\n\nIn advanced packaging, Corning is developing Glass Core substrates using its proprietary fusion process, which produces ultra-flat surfaces and low total thickness variation suited to Through Glass Vias formation and metallization. Glass substrates offer advantages over silicon interposers, including lower warpage, superior thermal stability, and better accommodation of fine-circuit geometries at large package sizes. These properties are increasingly relevant as AI chip packages grow larger to integrate multiple chiplets and stacks of high-bandwidth memory.\n\nCorning's supply-chain exposure here is moderate. It is one of several credible glass material suppliers, alongside AGC, SCHOTT, and Nippon Electric Glass. Mass production of glass interposers and substrates at scale remains a 2027-to-2029 horizon across the industry. In May 2026, Nvidia and Corning announced a multiyear commercial and technology partnership, a signal that Corning's glass capabilities are being pulled into the AI chip supply chain more formally.\n\nFinancially, Corning reported full-year 2025 core sales of $16.41 billion, up 13% year over year, with core EPS of $2.52, up 29%. Management has upgraded its Springboard growth plan to target $11 billion in incremental annualized sales by end of 2028, citing AI connectivity demand as a primary driver. The glass substrate opportunity is still pre-revenue at scale, but the upstream material position gives Corning early leverage in a chokepoint that could tighten as glass-based packaging moves toward commercialization.",
+  "sources": [
+    {
+      "label": "Corning 2025 Full-Year Results (Investor Relations)",
+      "url": "https://investor.corning.com/news-and-events/news/news-details/2026/Corning-Announces-Outstanding-2025-Financial-Results-1--Upgrades-Springboard-Plan-for-Faster-Sales-Growth-on-Significantly-Enhanced-Financial-Profile/default.aspx",
+      "as_of": "2026-01"
+    },
+    {
+      "label": "Corning Q1 2025 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000024741/000162828025020470/glw-20250429xex991.htm",
+      "as_of": "2025-04"
+    },
+    {
+      "label": "Corning Q2 2025 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000024741/000162828025036303/glw-20250729xex99.htm",
+      "as_of": "2025-07"
+    },
+    {
+      "label": "Corning: AI Needs Glass (Corning.com)",
+      "url": "https://www.corning.com/worldwide/en/the-progress-report/crystal-clear/ai-is-here-and-it-needs-glass",
+      "as_of": "2025-01"
+    },
+    {
+      "label": "Corning Co-Packaged Optics & Glass Core (Corning.com)",
+      "url": "https://www.corning.com/worldwide/en/the-progress-report/crystal-clear/co-packaged-optics-the-future-of-data-centers",
+      "as_of": "2025-01"
+    },
+    {
+      "label": "Glass Substrates Breaking AI Chip Packaging Bottleneck (TrendForce)",
+      "url": "https://insights.trendforce.com/p/glass-substrate-development",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Glass Substrates AI Race (The Economy)",
+      "url": "https://economy.ac/news/2026/05/202605288967",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Glass Core Substrates for Semiconductor Packaging Market (Intel Market Research)",
+      "url": "https://www.intelmarketresearch.com/glass-core-substrates-for-semiconductor-packaging-2025-2032-179-6093",
+      "as_of": "2025-01"
+    },
+    {
+      "label": "Global Market for Glass Substrates for Semiconductors 2026-2036 (Future Markets)",
+      "url": "https://www.futuremarketsinc.com/the-global-market-for-glass-substrates-for-semiconductors-2026-20/",
+      "as_of": "2026-04"
+    }
+  ],
+  "bottlenecks": [
+    "silicon-interposers"
+  ]
+}

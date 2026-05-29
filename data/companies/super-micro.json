@@ -1,0 +1,53 @@
+{
+  "slug": "super-micro",
+  "name": "Super Micro",
+  "ticker": "SMCI",
+  "type": "public",
+  "exposure_summary": "Super Micro is one of the primary rack-scale integrators for GPU-dense AI clusters, and its proprietary direct liquid cooling technology places it at the center of the thermal management chokepoint that determines how fast next-generation AI infrastructure can be deployed at scale.",
+  "profile": "Super Micro Computer (SMCI), headquartered in San Jose, California, designs and manufactures application-optimized server, storage, and rack-scale systems. The company positions itself as a full-stack data center infrastructure provider, supplying complete building blocks from motherboards and chassis to fully integrated, network-ready racks.\n\nIn the AI supply chain, Super Micro occupies the system integration layer between GPU suppliers such as NVIDIA and AMD and the hyperscale or enterprise data centers that ultimately run AI workloads. That position gives it outsized relevance to the liquid-cooling chokepoint. As AI accelerators grow denser and more power-hungry, air cooling is increasingly insufficient for top-tier clusters. Super Micro's direct liquid cooling (DLC) technology is its primary differentiator in this race. The company's CEO noted that over 30 percent of new data centers are expected to adopt DLC within the next 12 months, and Super Micro has publicly claimed a leading position in that segment. By the third quarter of fiscal year 2025, the company had reached a production rate of 5,000 racks per month, more than 2,000 of which were DLC racks — a concrete measure of its manufacturing throughput in the cooling-intensive segment.\n\nFinancially, Super Micro reported full-year fiscal 2025 revenue of approximately $21.97 billion, a roughly 47 percent increase year-over-year. Revenue for the trailing twelve months ending March 31, 2026 reached $33.70 billion, up 56 percent year-over-year, reflecting accelerating demand. In November 2025, management cited more than $13 billion in Blackwell Ultra orders and guided for at least $36 billion in fiscal year 2026 revenue.\n\nThe company's recent history carries a significant governance asterisk. In October 2024, auditor Ernst and Young resigned, citing concerns about governance and internal controls. An independent special committee found no evidence of management misconduct and no restatement was required. Super Micro subsequently replaced EY with BDO USA. The company's own fiscal year 2025 SEC filing disclosed that internal controls over financial reporting were assessed as not effective, a material weakness that remains a point of operational risk even as the core business scales rapidly.\n\nFor supply-chain observers, Super Micro's DLC rack throughput and its deep integration with NVIDIA's Blackwell platform make it a reliable proxy for the pace at which liquid-cooled AI capacity is actually coming online.",
+  "sources": [
+    {
+      "label": "Supermicro Q3 FY2025 Earnings Release (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001375365/000137536525000013/exhibit991_20250506.htm",
+      "as_of": "2025-05"
+    },
+    {
+      "label": "Supermicro Q4 & Full FY2025 Earnings Release (IR)",
+      "url": "https://ir.supermicro.com/news/news-details/2025/Supermicro-Announces-Fourth-Quarter-and-Full-Fiscal-Year-2025-Financial-Results/default.aspx",
+      "as_of": "2025-08"
+    },
+    {
+      "label": "Supermicro Q1 FY2026 Business Update (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001375365/000162828025045989/fq12026businessupdatev9ms.htm",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "Supermicro Q1 FY2026 Earnings Release (IR)",
+      "url": "https://ir.supermicro.com/news/news-details/2025/Supermicro-Announces-First-Quarter-Fiscal-Year-2026-Financial-Results/default.aspx",
+      "as_of": "2025-11"
+    },
+    {
+      "label": "Supermicro Special Committee Review Completion (IR)",
+      "url": "https://ir.supermicro.com/news/news-details/2024/Supermicro-Announces-Completion-of-Review-by-Independent-Special-Committee/default.aspx",
+      "as_of": "2024-12"
+    },
+    {
+      "label": "Stock Analysis — SMCI Revenue 2005-2026",
+      "url": "https://stockanalysis.com/stocks/smci/revenue/",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Barchart — SMCI AI and Liquid Cooling Analysis",
+      "url": "https://www.barchart.com/story/news/32761560/will-smci-s-ai-and-liquid-cooling-push-drive-long-term-growth",
+      "as_of": "2025-06"
+    },
+    {
+      "label": "Supermicro Q2 FY2025 CEO Quote on DLC (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001375365/000137536525000001/q225pressrelease.htm",
+      "as_of": "2025-02"
+    }
+  ],
+  "bottlenecks": [
+    "liquid-cooling"
+  ]
+}

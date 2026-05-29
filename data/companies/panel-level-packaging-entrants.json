@@ -1,0 +1,63 @@
+{
+  "slug": "panel-level-packaging-entrants",
+  "name": "Panel-level packaging entrants",
+  "ticker": "",
+  "type": "private",
+  "exposure_summary": "A growing field of companies deploying glass substrates and large-format panel processes are positioning themselves as structural alternatives to TSMC's silicon-interposer-based CoWoS, directly targeting one of the hardest capacity chokepoints in the AI accelerator supply chain.",
+  "profile": "Panel-level packaging entrants matter to the AI buildout because the dominant advanced-packaging format, TSMC's CoWoS, anchors AI accelerators to a round silicon interposer that is both expensive and constrained in area. A cohort of companies is now racing to replace that interposer with glass panels, potentially breaking the bottleneck that, as of late 2025, was dictating lead times for chips like Nvidia's Blackwell and Rubin series more than raw silicon supply.\n\nThe core technology shift is from circular wafer-level processing to large rectangular panels carrying a glass core. Glass offers lower coefficient of thermal expansion, better dimensional stability, and compatibility with co-packaged optics, properties that organic substrates cannot match at the package sizes AI accelerators now require. Through-glass vias enable dense vertical interconnects, and the flat panel geometry allows more dies and HBM stacks per substrate than a silicon interposer permits.\n\nThe leading entrant is Absolics, an SKC affiliate backed by Applied Materials, which built a facility in Covington, Georgia, with an annual stated capacity of 12,000 square meters of glass panels, enough to supply substrates for an estimated two to three million chip packages the size of Nvidia's H100. In May 2025, Absolics received a $40 million initial installment under the U.S. CHIPS Act, and by mid-2025 it was in pre-qualification discussions with AMD and Amazon Web Services. Mass production was targeted for late 2025 to 2026.\n\nPowertech Technology, the world's leading memory packaging and testing provider, entered as a direct CoWoS alternative with its PiFO (Pillar Integration FO) platform, a square panel-level format using a glass substrate. Industry sources cited its production cost as roughly 30 percent lower than CoWoS-L, and by late 2025 most of Powertech's advanced packaging capacity for 2026 had already been committed. The company announced a record capital expenditure target of NT$40 billion for 2026, double its prior-year level.\n\nSamsung Electro-Mechanics launched a pilot line at its Sejong facility in 2025 and in November of that year established a joint venture with Sumitomo Chemical to secure upstream glass core materials, targeting glass substrate products for high-end SiP applications in 2026. Separately, JNTC established a South Korean facility capable of producing 10,000 semi-finished glass panels per month in 2025. TSMC itself unveiled its CoPoS (Chip-on-Panel-on-Substrate) roadmap using glass as an interposer, with a pilot line at VisEra planned for 2026 and mass production targeted between 2028 and 2029.\n\nThe chokepoint risk is a yield race. Pilot lines are operational, but scaling glass panel processes to volume production involves warpage management, fragility during fabrication, and entirely new supply chains for high-purity glass, challenges analogous to the industry's earlier 200mm-to-300mm wafer transition. For now, panel-level packaging entrants hold a Watch designation: the strategic direction is clear, but commercial volumes remain limited and qualification cycles with hyperscaler customers are still in early stages.",
+  "sources": [
+    {
+      "label": "MIT Technology Review – Future AI chips could be built on glass",
+      "url": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "TrendForce – TSMC CoWoS Capacity Crunch Pushes AI Chipmakers to Powertech",
+      "url": "https://www.trendforce.com/news/2025/11/10/news-tsmc-cowos-capacity-crunch-reportedly-pushes-u-s-ai-chipmakers-to-powertech-through-2027/",
+      "as_of": "2025-11"
+    },
+    {
+      "label": "TrendForce – Absolics Ramps Up Glass Substrate Output",
+      "url": "https://www.trendforce.com/news/2025/07/07/news-absolics-reportedly-ramps-up-glass-substrate-production-mass-production-expected-by-year-end/",
+      "as_of": "2025-07"
+    },
+    {
+      "label": "TrendForce – FOPLP Heats Up: ASE, Powertech Expand; TSMC Preps 2026 CoPoS Pilot Line",
+      "url": "https://www.trendforce.com/news/2025/06/18/news-foplp-heats-up-ase-powertech-expand-tsmc-reportedly-preps-2026-copos-pilot-line/",
+      "as_of": "2025-06"
+    },
+    {
+      "label": "TrendForce Insights – Glass Substrates Breaking Through AI Chip Packaging Bottleneck",
+      "url": "https://insights.trendforce.com/p/glass-substrate-development",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "TechPowerUp – TSMC Prepares CoWoS to CoPoS Shift",
+      "url": "https://www.techpowerup.com/339963/tsmc-prepares-cowos-to-copos-shift-with-750-x-620-mm-panels/",
+      "as_of": "2025-08"
+    },
+    {
+      "label": "Yole Group – Glass Core Substrates and Glass Interposers: New Growth Engines",
+      "url": "https://www.yolegroup.com/press-release/glass-core-substrates-and-glass-interposers-new-growth-engines-for-glass-in-advanced-packaging-for-ai-and-hpc/",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "36Kr – Glass Substrates: The Dark Horse in 2026",
+      "url": "https://eu.36kr.com/de/p/3636277088814085",
+      "as_of": "2026-01"
+    },
+    {
+      "label": "IEEE SCV – AI Accelerating Shift to Advanced Packaging with PLP and Glass Cores",
+      "url": "https://r6.ieee.org/scv-eps/?p=3540",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "IDTechEx – Glass Interposers and Substrates in Advanced Packaging",
+      "url": "https://www.idtechex.com/en/research-article/glass-interposers-and-substrates-in-advanced-packaging/33856",
+      "as_of": "2025-10"
+    }
+  ],
+  "bottlenecks": [
+    "cowos-packaging"
+  ]
+}

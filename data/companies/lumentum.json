@@ -1,0 +1,53 @@
+{
+  "slug": "lumentum",
+  "name": "Lumentum",
+  "ticker": "LITE",
+  "type": "public",
+  "exposure_summary": "Lumentum is the only supplier shipping 200G-per-lane EML laser chips at volume, making it the gating component for every 1.6T optical transceiver deployed in AI data centers today.",
+  "profile": "Lumentum (NASDAQ: LITE) is a San Jose-based photonics company that designs and manufactures laser chips, optical transceivers, optical circuit switches, and related components for cloud data centers, telecommunications networks, and industrial applications. Its products sit at the physical layer of the AI buildout, providing the optical connectivity that links GPU clusters inside hyperscale facilities.\n\nThe company's most consequential position in the AI supply chain is its dominance in 200G-per-lane electro-absorption modulated lasers, or EMLs. Lumentum remains the only supplier shipping 200G EMLs at volume, the critical component for next-generation 1.6T transceivers. The 1.6T transceiver ramp requires 200G EML chips for every unit, and Lumentum holds an estimated 50 to 60 percent global market share in that segment. Industry projections indicate that global demand for 800G-and-above optical transceiver modules will reach 24 million units in 2025 and surge to nearly 63 million units by 2026, translating to approximately 200 to 500 million EML chips annually. That demand-supply gap is acute: demand continues to exceed supply by an estimated 25 to 30 percent, enabling price increases, particularly on higher-ASP 200G devices.\n\nFinancial momentum has been sharp. Full fiscal year 2025 revenue reached $1.65 billion. In the fiscal third quarter of 2026, ended March 28, 2026, revenue grew 90 percent year over year to a record $808.4 million. The company guided fiscal Q4 2026 revenue in the range of $960 million to $1.01 billion.\n\nSeveral structural moves have reinforced Lumentum's chokepoint position. In fiscal year 2025, the company expanded capacity at its indium phosphide fabs in Japan, the United States, and the United Kingdom, and scaled assembly and test operations in Thailand. CEO Michael Hurlston has noted that EML laser output has jumped eightfold since fiscal 2023, and the company is planning another 50 percent indium phosphide capacity expansion running from late 2025 through late 2026. The acquisition of Qorvo's Greensboro, North Carolina fab expands the company's indium phosphide footprint to five fabs, with production targeted for 2028.\n\nBeyond EMLs, the OCS backlog has surpassed $400 million, and the company received an incremental multi-hundred-million-dollar order for co-packaged optics deliverable in the first half of calendar 2027. In February 2025, founding CEO Alan Lowe retired and was succeeded by Michael Hurlston, a semiconductor veteran from Broadcom and Synaptics, signaling a shift toward aggressive vertical integration and system-level partnerships.",
+  "sources": [
+    {
+      "label": "Lumentum Q3 FY2026 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000162828026030530/lite_ex991xq3fy26.htm",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Lumentum Q2 FY2026 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000162828026005005/lite_ex991xq2fy26.htm",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Lumentum Q4 FY2025 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000162828025039896/lite_ex991xq4fy25.htm",
+      "as_of": "2025-08"
+    },
+    {
+      "label": "Lumentum DEF 14A (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000130817925000615/lite014752-def14a.htm",
+      "as_of": "2025-06"
+    },
+    {
+      "label": "Lumentum EML Blog Post",
+      "url": "https://www.lumentum.com/en/blog/emls-unsung-heroes-powering-ais-digital-arteries",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "MLQ.ai Lumentum Deep Dive",
+      "url": "https://mlq.ai/research/lumentum/",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "ICO Optics – Lumentum $2B Quarter Analysis",
+      "url": "https://www.ico-optics.org/lumentum-aims-2b-quarter-as-ai-optics-1-6t-transceivers-surge/",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "FinancialContent – Lumentum Deep Dive",
+      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-4-7-the-light-engine-of-ai-a-comprehensive-deep-dive-into-lumentum-holdings-lite",
+      "as_of": "2026-04"
+    }
+  ],
+  "bottlenecks": [
+    "optical-transceivers"
+  ]
+}

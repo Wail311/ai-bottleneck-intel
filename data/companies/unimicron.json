@@ -1,0 +1,63 @@
+{
+  "slug": "unimicron",
+  "name": "Unimicron",
+  "ticker": "TPE 3037",
+  "type": "public",
+  "exposure_summary": "As the world's largest ABF substrate maker with roughly 22% global market share and direct positions in CoWoS and EMIB advanced packaging supply chains, Unimicron sits at the single most concentrated chokepoint between chip design and AI accelerator production.",
+  "profile": "Every Nvidia GPU, Google TPU, and hyperscaler ASIC that powers today's AI infrastructure depends on an ABF (Ajinomoto Build-up Film) substrate to bridge the die to the circuit board. Unimicron Technology, headquartered in Taoyuan, Taiwan, is the largest producer of those substrates globally, holding approximately 22% of a market valued at roughly $4.9 billion in 2025. Together with the next four largest players, it accounts for about 74% of all global supply, making any disruption at Unimicron a system-level event for the AI buildout.\n\nThe company's exposure to the ABF chokepoint is direct and deepening. Analysts at Daiwa have estimated Unimicron holds roughly 85% of Google TPU ABF substrate supply and approximately 50% of AWS ASIC substrate supply, while also entering Nvidia's Blackwell GPU supply chain in 2025. On the advanced-packaging side, its Yangmei facility in Taoyuan has cleared process verification for Intel's EMIB technology, and the site is being partially reallocated toward CoWoS customers to fill demand from other hyperscalers. Its Guangfu plant in Hsinchu began mass production ahead of schedule, targeting high-end AI GPU applications, with monthly capacity projected to reach 4,000 units by end of 2025.\n\nFinancial momentum accelerated sharply into late 2025. Unimicron's Q4 2025 profit surpassed the combined earnings of the prior three quarters, driven by rising AI and HPC order intake and substrate price renegotiations to reflect higher raw material costs. Full-year 2025 revenue grew roughly 13.75% year-on-year, and the company stated that AI-related products accounted for more than 30% of 2025 revenue, with a target to surpass 40% in 2026. For 2026, the board approved NT$34 billion in capital expenditures, with roughly 70% directed toward ABF expansion, and the company has set a target of record revenue exceeding its 2022 peak.\n\nOne material risk has emerged in parallel with the growth story. Unimicron warned that sluggish capacity additions by Japanese fiberglass suppliers, combined with unqualified substitutes from Taiwan and China, have delayed ABF substrate deliveries for CoWoS packaging. Without new fiberglass capacity by the second half of 2026, the company expects that input shortage to become a primary bottleneck of its own. UMC, Unimicron's strategic affiliate, participated in a capital increase in December 2025 to reinforce the expansion program.",
+  "sources": [
+    {
+      "label": "Semiconductor Insight: ABF Substrate Market 2026-2033",
+      "url": "https://semiconductorinsight.com/report/abf-ajinomoto-build-up-film-substrate-market/",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Daiwa ABF Substrate Initiation (via Scribd)",
+      "url": "https://www.scribd.com/document/834501374/ABF-substrate-initiation-Daiwa-82-pages",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "Digitimes: Unimicron 4Q25 profit; 2026 capex raised to NT$34B",
+      "url": "https://www.digitimes.com/news/a20260225PD226/unimicron-demand-earnings-2026.html",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Digitimes: Unimicron shifts Yangmei to CoWoS, Guangfu ramp",
+      "url": "https://www.digitimes.com/news/a20250506PD218/unimicron-abf-substrate-cowos-pcb-supply-chain.html",
+      "as_of": "2025-05"
+    },
+    {
+      "label": "Jukan/X: CoWoS fiberglass crunch; Unimicron AI revenue share",
+      "url": "https://x.com/Jukanlosreve/status/1951116925674873290",
+      "as_of": "2025-07"
+    },
+    {
+      "label": "Jukan/X: ABF crunch reshapes market; Unimicron 2025 revenue growth",
+      "url": "https://x.com/jukan05/status/2017424430323175849",
+      "as_of": "2026-01"
+    },
+    {
+      "label": "Investing.com: Morgan Stanley upgrades Unimicron on AI ABF up-cycle",
+      "url": "https://www.investing.com/news/stock-market-news/morgan-stanley-upgrades-unimicron-nypcb-on-ailed-abf-substrate-upcycle-4519224",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Investing.com: Unimicron Q1 2026 results; 2026 capex 70% to ABF",
+      "url": "https://www.investing.com/news/earnings/umicron-reports-mixed-first-quarter-results-amid-substrate-price-hikes-93CH-4641442",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "Digitimes: Unimicron targets record 2026 revenue",
+      "url": "https://www.digitimes.com/news/a20260529PD239/unimicron-revenue-2026-demand-substrate.html",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "TVBS World: Unimicron – Critical Substrate Link in AI Chips",
+      "url": "https://t.media/3135117",
+      "as_of": "2026-02"
+    }
+  ],
+  "bottlenecks": [
+    "abf-substrates"
+  ]
+}

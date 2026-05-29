@@ -1,0 +1,63 @@
+{
+  "slug": "globalwafers",
+  "name": "GlobalWafers",
+  "ticker": "TPE 6488",
+  "type": "public",
+  "exposure_summary": "As the world's third-largest silicon wafer supplier and the only producer of advanced 300mm wafers currently expanding inside the United States, GlobalWafers controls a chokepoint that sits upstream of every leading-edge AI chip fab in the country.",
+  "profile": "Silicon wafers are the physical substrate on which every semiconductor is built, and without a reliable domestic supply of advanced 300mm wafers, the U.S. AI chip buildout depends entirely on imports. GlobalWafers is the Taiwanese company working hardest to close that gap.\n\nHeadquartered in Hsinchu, Taiwan, GlobalWafers is the world's third-largest supplier of semiconductor wafers, operating 18 manufacturing and operational sites across nine countries. The silicon wafer industry is a tight oligopoly: the top five producers, led by Japan's Shin-Etsu Chemical and SUMCO, collectively hold roughly 89 percent of global 300mm wafer revenue, with GlobalWafers holding approximately 17 percent of that market.\n\nThe company's strategic significance to the AI buildout centers on its Sherman, Texas facility, GlobalWafers America (GWA). Described by the company as the industry's most advanced fully integrated 300mm wafer fab, GWA is the first facility of its kind built in the United States in more than two decades and, as of its opening, the only advanced wafer manufacturing site in the country. GlobalWafers broke ground in Sherman in December 2022, spent $3.5 billion on the initial build, and officially opened the plant on May 15, 2025. At the grand opening, Chairperson Doris Hsu announced an additional $4 billion expansion, bringing total committed U.S. investment to $7.5 billion. The U.S. Department of Commerce has committed $406 million in direct CHIPS Act funding to support the Texas and a companion Missouri facility. In January 2026, Phase 2 of the Sherman expansion was initiated.\n\nThe fab reached its first customer shipment in April 2025. More advanced wafers requiring six to nine months of qualification were slated for shipment in the third quarter of 2025. In August 2025, GlobalWafers and Apple announced a supply chain partnership under which GWA's 300mm wafers will feed into TSMC's Arizona fabs and Texas Instruments' Sherman facility to produce chips for iPhones and iPads. GlobalWafers is also described as a TSMC supplier directly.\n\nThe company is the only manufacturer of advanced 300mm wafers participating in the U.S. government's CHIPS for America program, and its 142-acre Sherman campus is designed to accommodate up to six expansion phases, providing a long runway for capacity growth tied to AI semiconductor demand.",
+  "sources": [
+    {
+      "label": "Evertiq – GlobalWafers Texas opening and $4B expansion",
+      "url": "https://evertiq.com/design/2025-05-21-globalwafers-opens-texas-wafer-plant-announces-major-expansionr",
+      "as_of": "2025-05"
+    },
+    {
+      "label": "Power Semiconductors Weekly – GWA Sherman grand opening",
+      "url": "https://www.powersemiconductorsweekly.com/2025/05/27/globalwafers-opens-3-5b-300mm-wafer-fab-in-texas-announces-4b-expansion-to-strengthen-u-s-semiconductor-supply-chain/",
+      "as_of": "2025-05"
+    },
+    {
+      "label": "Reuters / Yahoo Finance – GlobalWafers US factory opening",
+      "url": "https://finance.yahoo.com/news/globalwafers-opens-us-factory-plans-031532082.html",
+      "as_of": "2025-05"
+    },
+    {
+      "label": "GlobalWafers Official – GWA grand opening press release",
+      "url": "https://www.sas-globalwafers.com/en/gwc_news_en_20250516/",
+      "as_of": "2025-05"
+    },
+    {
+      "label": "Taipei Times – GlobalWafers Apple partnership",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2025/08/08/2003841654",
+      "as_of": "2025-08"
+    },
+    {
+      "label": "GlobalWafers Official – Apple partnership announcement",
+      "url": "https://www.sas-globalwafers.com/en/gwc_news_en_20250807/",
+      "as_of": "2025-08"
+    },
+    {
+      "label": "Digitimes – CHIPS Act grant and shipment ramp",
+      "url": "https://www.digitimes.com/news/a20250811VL204/globalwafers-texas-silicon-wafer-fab-chips-act.html",
+      "as_of": "2025-08"
+    },
+    {
+      "label": "Future Market Insights – Phase 2 Sherman expansion, Jan 2026",
+      "url": "https://www.futuremarketinsights.com/reports/semiconductor-wafers-market",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "IMARC Group – 300mm wafer market share by supplier, 2025",
+      "url": "https://www.imarcgroup.com/silicon-wafer-market",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Data Center Dynamics – Texas fab opening and Missouri facility",
+      "url": "https://www.datacenterdynamics.com/en/news/globalwafers-opens-texas-wafer-fab-in-sherman-plans-4bn-additional-us-investment/",
+      "as_of": "2025-05"
+    }
+  ],
+  "bottlenecks": [
+    "silicon-wafers"
+  ]
+}

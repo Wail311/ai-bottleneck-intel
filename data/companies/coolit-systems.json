@@ -1,0 +1,48 @@
+{
+  "slug": "coolit-systems",
+  "name": "CoolIT Systems",
+  "ticker": "",
+  "type": "private",
+  "exposure_summary": "CoolIT Systems is one of the world's leading pure-play manufacturers of direct-to-chip cold plates and coolant distribution units, placing it at the center of the liquid-cooling chokepoint that is gating the deployment of every high-density AI GPU cluster.",
+  "profile": "CoolIT Systems matters to the AI buildout because there is no shortcut around thermal management: as rack power densities push past 100 kW and individual GPUs approach 4 kW of heat output, air cooling cannot keep pace, and CoolIT is among the handful of companies with the manufacturing scale and engineering depth to fill the gap.\n\nFounded in Calgary and backed by KKR and Mubadala, CoolIT is a pure-play data-center liquid-cooling company with end-to-end capabilities. Its product line centers on direct-to-chip cold plates and coolant distribution units (CDUs), sold into the world's largest hyperscale and colocation operators. The company has deployed its technology across more than 300 data centers worldwide and counts Supermicro, GIGABYTE, and major cloud-service providers among its customers.\n\nOn the supply-chain chokepoint axis, CoolIT's exposure is high and direct. Its OMNI cold plate was optimized for the NVIDIA GB200 GPU, and the company recently launched a CDU that supports 12 NVIDIA GB300 NVL72 racks, tying its order book tightly to frontier AI infrastructure. In late 2024, CoolIT introduced the CHx1000 liquid-to-liquid CDU, a platform designed for AI and HPC racks targeting power densities above 100 kW. The company has also demonstrated a single-phase Split-Flow direct-to-chip cold plate capable of handling up to 4,000 W of heat flux.\n\nTo meet surging demand, CoolIT scaled North American production roughly 25 times over the 18 months leading into 2025, opening the 112,000-square-foot Starfield manufacturing facility in Calgary. Combined with its Asia sites, the company now claims multi-gigawatt production capability. Its LiquidLab innovation centers in Calgary and Taipei include a 1 MW data-center simulator and 18 thermal chambers.\n\nThe clearest signal of CoolIT's strategic value came in March 2026, when Ecolab announced a definitive agreement to acquire the company from KKR for approximately $4.75 billion in cash. At the time of announcement, CoolIT was projected to generate approximately $550 million in sales over the next 12 months. The deal valued CoolIT at roughly 29 times estimated next-twelve-month adjusted EBITDA, a premium that reflects both the scarcity of credible at-scale liquid-cooling suppliers and the urgency of the AI infrastructure buildout.",
+  "sources": [
+    {
+      "label": "Ecolab Press Release – CoolIT Acquisition",
+      "url": "https://investor.ecolab.com/news/news-details/2026/Ecolab-to-Acquire-CoolIT-Systems-a-Global-Leader-in-Advanced-Liquid-Cooling-for-Next-Gen-AI-Data-Centers/default.aspx",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "BusinessWire – Ecolab/CoolIT Acquisition Details",
+      "url": "https://www.businesswire.com/news/home/20260319353197/en/Ecolab-to-Acquire-CoolIT-Systems-a-Global-Leader-in-Advanced-Liquid-Cooling-for-Next-Gen-AI-Data-Centers",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "Futurum – Ecolab CoolIT Analysis",
+      "url": "https://futurumgroup.com/insights/will-ecolabs-4-75b-coolit-systems-bet-define-the-future-of-gpu-liquid-cooling/",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "CoolIT Systems – Starfield Manufacturing Scale-Up",
+      "url": "https://www.coolitsystems.com/resources/news/coolit-systems-scales-north-american-manufacturing-to-cool-ais-next-wave/",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "Tom's Hardware – Data Center Cooling State of Play 2025",
+      "url": "https://www.tomshardware.com/pc-components/cooling/the-data-center-cooling-state-of-play-2025-liquid-cooling-is-on-the-rise-thermal-density-demands-skyrocket-in-ai-data-centers-and-tsmc-leads-with-direct-to-silicon-solutions",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "GM Insights – Data Center Liquid Cooling Market",
+      "url": "https://www.gminsights.com/industry-analysis/data-center-liquid-cooling-market",
+      "as_of": "2026-01"
+    },
+    {
+      "label": "CoolIT Systems – Liquid Cooling AI Infrastructure",
+      "url": "https://www.coolitsystems.com/resources/news/liquid-cooling-ai-infrastructure/",
+      "as_of": "2026-03"
+    }
+  ],
+  "bottlenecks": [
+    "liquid-cooling"
+  ]
+}

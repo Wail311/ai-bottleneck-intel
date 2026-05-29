@@ -1,0 +1,53 @@
+{
+  "slug": "eoptolink",
+  "name": "Eoptolink",
+  "ticker": "SZ 300502",
+  "type": "public",
+  "exposure_summary": "Eoptolink is one of the highest-volume suppliers of 800G optical transceivers globally, making it a direct and high-exposure chokepoint in the physical layer that connects every GPU cluster, AI training pod, and hyperscale data center.",
+  "profile": "Eoptolink (SZSE: 300502) sits at a critical junction in the AI infrastructure stack. Without the optical transceivers it manufactures, the fiber connections that link GPU servers inside hyperscale data centers cannot function at the speeds AI workloads demand. That dependency gives the Chengdu-headquartered company outsized relevance to anyone tracking physical chokepoints in the AI buildout.\n\nFounded and listed on the Shenzhen ChiNext board in 2016, Eoptolink researches, manufactures, and sells optical transceiver modules across data-rate tiers from 10G through 800G, with 1.6T products now entering volume ramp. Its customer base spans cloud hyperscalers and AI platform builders, and the company has confirmed supply relationships with Meta, NVIDIA, and Google. In the first half of 2025 it supplied 1.6T module samples to NVIDIA. Overseas sales now account for 96.16% of total revenue, with a Thailand manufacturing facility providing geographic diversification from its mainland China base.\n\nThe financial trajectory over 2024-2025 reflects the intensity of AI data-center spending. Full-year 2024 revenue reached CNY 8.65 billion, a 179% year-over-year increase. In 2025 the company posted record revenue of CNY 24.84 billion, up 187.29% year-over-year, with net profit of CNY 9.53 billion rising 235.89% and gross margin expanding to 47.81%. Q1 2026 continued the pattern, with both revenue and profit surging over 100% year-over-year.\n\nOn the product side, Eoptolink holds a global market share exceeding 40% in 800G modules according to Light Counting, making it one of the dominant volume suppliers at that node. At OFC 2025 it unveiled the industry's first 800G transceiver supporting multicore fiber, and at OFC 2026 in Los Angeles it demonstrated a next-generation 400G-per-lambda 1.6T DR4 OSFP transceiver, tracking the industry roadmap toward 3.2T.\n\nR&D investment in the first three quarters of 2025 reached CNY 501 million, a 149.57% year-over-year increase, reflecting a deliberate push into silicon photonics and thin-film lithium niobate platforms. The company's exposure to the optical-transceiver chokepoint is rated high: its revenue is tightly coupled to hyperscaler capital-expenditure cycles, and any slowdown in AI infrastructure spending would register quickly in its order book.",
+  "sources": [
+    {
+      "label": "Quartr – Eoptolink 2025 Annual Results",
+      "url": "https://quartr.com/companies/eoptolink-technology-inc-ltd_19322",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "Eoptolink – OFC 2026 Press Release (PR Newswire)",
+      "url": "https://www.prnewswire.com/news-releases/eoptolink-demos-imdd-400g-per-lambda-based-1-6t-dr4-optical-transceiver-solution-at-ofc-2026--302712390.html",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "Eoptolink – OFC 2025 MCF Announcement",
+      "url": "https://www.eoptolink.com/news/358-eoptolink-unveils-industry-first-800g-optical-transceiver-for-multicore-fiber-at-ofc-2026",
+      "as_of": "2025-03"
+    },
+    {
+      "label": "MLQ.ai – Optical Networking Supply Chain Research",
+      "url": "https://mlq.ai/research/optical-networking/",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "BigGo Finance – Eoptolink Market Cap and 2024 Results",
+      "url": "https://finance.biggo.com/news/0943MZsBX9ndGNwVEAYe",
+      "as_of": "2026-01"
+    },
+    {
+      "label": "ainvest – Eoptolink H1 2025 Growth Analysis",
+      "url": "https://www.ainvest.com/news/eoptolink-technology-pioneering-800g-optical-transceiver-revolution-delivering-explosive-growth-h1-2025-2508/",
+      "as_of": "2025-08"
+    },
+    {
+      "label": "Futunn – Eoptolink Q3 2025 Earnings Review",
+      "url": "https://news.futunn.com/en/post/64225452/eoptolink-300502-2025-q3-earnings-report-commentary-revenue-under-temporary",
+      "as_of": "2025-11"
+    },
+    {
+      "label": "Light Counting 800G market share via X/Jukan",
+      "url": "https://x.com/Jukanlosreve/status/1946381197858537975",
+      "as_of": "2025-07"
+    }
+  ],
+  "bottlenecks": [
+    "optical-transceivers"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "mitsubishi-heavy",
+  "name": "Mitsubishi Heavy Industries",
+  "ticker": "TYO 7011",
+  "type": "public",
+  "exposure_summary": "As one of only three manufacturers worldwide capable of producing large-scale gas turbines, Mitsubishi Heavy sits at the center of the power-generation bottleneck throttling AI data center construction, with its order book sold out into 2028 and a capacity-doubling program underway.",
+  "profile": "Mitsubishi Heavy Industries (MHI, TYO: 7011) is a Tokyo-headquartered industrial conglomerate with operations spanning energy systems, defense, aerospace, and industrial machinery. Within the AI buildout, the company's most consequential asset is Mitsubishi Power, its gas turbine brand, which produces some of the world's most powerful combined-cycle gas turbines (GTCC). Along with GE Vernova and Siemens Energy, MHI is one of only three manufacturers capable of producing large-scale heavy-duty gas turbines — the machines that utilities and hyperscalers are racing to procure as data center power demand surges.\n\nThe chokepoint MHI occupies is acute. Delivery wait times for large gas turbines have stretched from roughly two-and-a-half to three years to as long as seven years, and Mitsubishi Power is already sold out into 2028. In September 2025, CEO Eisaku Ito announced plans to double gas turbine manufacturing capacity within two years, citing AI and data center demand as a primary driver. An earlier target of 30 percent higher output was deemed insufficient. The push is centered on the Takasago Machinery Works in western Japan, where an \"Innovative Total Optimization\" program has reviewed more than 1,000 processes across procurement, assembly, testing, and design, with separated assembly lines for different turbine models projected to support roughly 30 percent higher production levels with limited additional capital outlay. MHI has committed approximately 50 billion yen (around $320 million) toward turbine capacity investment.\n\nThe financial results reflect the demand surge. In first-half FY2025, MHI booked 23 large-frame gas turbine units, up 14 units year-on-year, with the majority from North America and Asia. Orders for the energy unit climbed approximately 40 percent over the prior year to 3.6 trillion yen. For full-year FY2025 (ended March 31, 2026), the company reported record results across all major metrics: revenue rose 14.1 percent year-on-year to 4,974.1 billion yen, business profit climbed 21.8 percent to 432.2 billion yen, and the total order backlog reached 13,237.6 billion yen. In the first three quarters of FY2025, GTCC drove strong order intake, booking 31 large-frame gas turbine units primarily in North America and Asia.\n\nIn May 2026, Ito told analysts that global gas turbine demand for 2026 would be 70 to 100 gigawatts, and that demand is expected to hold around 70 gigawatts annually through 2030 — a floor underwritten almost entirely by the AI data center buildout. Even with the capacity expansion, analysts note that combined output growth across all three major manufacturers may only rise 20 to 25 percent industry-wide, far short of projected demand — leaving MHI's turbine slots among the most constrained resources in the AI infrastructure stack.",
+  "sources": [
+    {
+      "label": "MHI FY2025 Full-Year Financial Results (BigGo Finance)",
+      "url": "https://finance.biggo.com/news/jpx_tdnet_140120260511523058",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "MHI 1H FY2025 Earnings Release (mhi.com)",
+      "url": "https://www.mhi.com/news/25110701.html",
+      "as_of": "2025-11"
+    },
+    {
+      "label": "MHI Q3 FY2025 Earnings Release (mhi.com)",
+      "url": "https://www.mhi.com/news/26020401.html",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Bloomberg: Mitsubishi Heavy Sees Gas Turbine Demand Staying Strong",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-12/mitsubishi-heavy-sees-global-gas-turbine-demand-staying-strong",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Data Center Dynamics: MHI Revamps Gas Turbine Production",
+      "url": "https://www.datacenterdynamics.com/en/news/mitsubishi-heavy-industries-to-revamp-gas-turbine-production-process-to-meet-growing-demand-from-ai-data-center-sector/",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Utility Dive: Gas Turbine Manufacturers Expand Capacity",
+      "url": "https://www.utilitydive.com/news/mitsubishi-gas-turbine-manufacturing-capacity-expansion-supply-demand/759371/",
+      "as_of": "2025-09"
+    },
+    {
+      "label": "Power Magazine: Mitsubishi Will Double Gas Turbine Production",
+      "url": "https://www.powermag.com/mitsubishi-will-double-gas-turbine-production-as-demand-grows/",
+      "as_of": "2025-09"
+    },
+    {
+      "label": "Primary VC: The Gas Turbine Bottleneck Reshaping Energy Infrastructure",
+      "url": "https://www.primary.vc/articles/the-gas-turbine-bottleneck-reshaping-energy-infrastructure-ex8qe",
+      "as_of": "2026-04"
+    }
+  ],
+  "bottlenecks": [
+    "gas-turbines"
+  ]
+}

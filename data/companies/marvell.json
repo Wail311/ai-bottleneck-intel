@@ -1,0 +1,58 @@
+{
+  "slug": "marvell",
+  "name": "Marvell",
+  "ticker": "MRVL",
+  "type": "public",
+  "exposure_summary": "Marvell is one of the two dominant chip-shepherding partners for hyperscale custom AI silicon, with confirmed programs for Amazon Trainium, Microsoft Maia, Meta, and Google, making it a direct chokepoint in the custom-ASIC layer of the AI buildout.",
+  "profile": "Marvell Technology (NASDAQ: MRVL) is a Santa Clara-based semiconductor company specializing in data infrastructure chips spanning custom compute, high-speed interconnects, electro-optics, and data-center switching. Its central role in the AI buildout is as a chip-shepherding partner: hyperscalers that want proprietary AI accelerators but lack in-house semiconductor process expertise rely on Marvell to take designs from conception to volume production.\n\nMarvell's data-center business utterly dominates its financials, driven largely by chip-shepherding deals with Amazon Web Services for Trainium and Trainium 2 AI processors and Microsoft Maia AI processors. The company runs a custom silicon business with a $1.5 billion annual run rate across 18 cloud-provider design wins, building chips for Amazon, Microsoft, and Meta, in addition to its existing work with Google on the Axion ARM CPU. Google is also in discussions with Marvell to develop two additional AI chips for inference, which would add a third design partner to its TPU supply chain.\n\nMarvell has set a public goal to double its share of the data-center total addressable market from 10% in CY23 to 20% in CY28. Revenue momentum reflects that trajectory: Q1 fiscal 2026 net revenue reached a then-record $1.895 billion, up 63% year-on-year, followed by Q2 fiscal 2026 revenue of $2.006 billion, up 58% year-on-year, and then Q1 fiscal 2027 revenue of $2.418 billion, up 28% year-on-year. By the fiscal fourth quarter of FY2025, data-center revenue accounted for 75% of total business, with AI-related revenue comprising approximately 50% of total data-center revenue, up from less than 10% in fiscal 2023.\n\nAs of late 2025, Marvell's custom AI design activity was at an all-time high, with the team engaged in over 50 new opportunities across more than 10 customers. In December 2025, Marvell acquired Celestial AI for up to $5.5 billion, gaining photonic interconnect technology. Then in March 2026, NVIDIA and Marvell announced a strategic partnership through NVLink Fusion, with NVIDIA investing $2 billion in Marvell, positioning Marvell at the intersection of both the GPU and ASIC ecosystems.\n\nManagement has cited exceptional AI-related bookings as the basis for significantly raising revenue outlooks for both fiscal 2027 and fiscal 2028. The breadth of its customer base, its co-packaging and advanced-process capabilities, and its newly deepened optics portfolio make Marvell one of the most exposed public companies to the custom-silicon chokepoint in AI infrastructure.",
+  "sources": [
+    {
+      "label": "Marvell Q1 FY2027 Earnings (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000183563226000014/q127_8kx522026ex-991.htm",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Marvell Q4 FY2026 Earnings (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000183563226000006/q426_8kx1312026ex-991.htm",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "Marvell Q2 FY2026 Earnings (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000183563225000187/q226_8kx822025ex-991.htm",
+      "as_of": "2025-08"
+    },
+    {
+      "label": "Marvell Q1 FY2026 Earnings (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000183563225000115/q126_8kx532025ex-991.htm",
+      "as_of": "2025-05"
+    },
+    {
+      "label": "Marvell Q4 FY2025 Earnings (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000183563225000051/q425_8kx212025ex-991.htm",
+      "as_of": "2025-03"
+    },
+    {
+      "label": "Marvell DEF 14A Proxy Statement FY2025 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001835632/000110465925043088/tm252448-4_def14a.htm",
+      "as_of": "2025-04"
+    },
+    {
+      "label": "NVIDIA-Marvell NVLink Fusion Partnership (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526134462/d113606dex991.htm",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "The Next Web: Google-Marvell AI chip talks",
+      "url": "https://thenextweb.com/news/google-marvell-ai-chips-inference-tpu-broadcom",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Next Platform: Marvell and the AI Boom",
+      "url": "https://www.nextplatform.com/2025/06/02/marvell-is-saved-by-the-ai-boom-but-every-deal-is-tough/",
+      "as_of": "2025-06"
+    }
+  ],
+  "bottlenecks": [
+    "custom-silicon"
+  ]
+}

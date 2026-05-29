@@ -1,0 +1,63 @@
+{
+  "slug": "intel-foundry",
+  "name": "Intel Foundry",
+  "ticker": "INTC",
+  "type": "public",
+  "exposure_summary": "Intel Foundry is the only U.S.-based operator attempting to reach leading-edge logic production at scale, making its 18A node a critical variable in whether Western AI chip builders can source advanced wafers from a domestic, non-TSMC supplier.",
+  "profile": "Intel Foundry matters to the AI buildout for a single structural reason: it is the only entity attempting to establish a domestic U.S. leading-edge logic foundry at a moment when demand for advanced AI silicon is outstripping supply from established sources. If it succeeds, hyperscalers and the U.S. defense base gain a viable alternative to TSMC. If it does not, that chokepoint tightens further.\n\nIntel Foundry operates as a reported business segment within Intel Corporation, providing wafer manufacturing and packaging services both to Intel's own product groups and to external customers. Its flagship process node is 18A, an approximately 1.8-nanometer-class technology that is the first to combine RibbonFET gate-all-around transistors with PowerVia backside power delivery simultaneously in high-volume manufacturing. Intel has described 18A as the most advanced semiconductor process developed and manufactured on American soil.\n\nThe node entered production in the second half of 2025. Fab 52, Intel's fifth high-volume fab at its Ocotillo campus in Chandler, Arizona, became fully operational and is dedicated to 18A wafer output. Panther Lake, Intel's Core Ultra Series 3 client processor, is the lead product on the node, with broad market availability targeted for January 2026. Clearwater Forest, the Xeon 6+ server processor built on 18A and aimed at hyperscale and cloud data centers, was slated for launch in the first half of 2026.\n\nFor external foundry customers, the picture remains at a Watch-level exposure. When CEO Lip-Bu Tan joined in early 2025, functional and parametric yields were low and unpredictable. Progress has since been cited by management, and Intel's CFO confirmed inbound interest in 18A-P, a broader-market variant of the node targeted at 2026. However, Nvidia's engagement is limited to exploratory packaging discussions, with 18A testing reported as paused, and no hyperscaler has publicly committed production volume to the node. Intel is being evaluated primarily as a geopolitical hedge and potential second source, not yet as a primary alternative to TSMC for leading-edge volume.\n\nFinancially, Intel Foundry generated $4.2 billion in revenue in Q3 2025, down modestly year-over-year, while its operating loss narrowed to $2.3 billion as the segment absorbed startup costs for the 18A ramp. The U.S. government agreed to provide $8.9 billion in CHIPS Act funding to support Intel's domestic manufacturing expansion, with $5.7 billion received during Q3 2025. The 14A node, targeting roughly 2027, is already in customer engagement and will be Intel Foundry's next test of whether it can move from challenger to credible alternative at volume.",
+  "sources": [
+    {
+      "label": "Intel Q3 2025 Earnings Release (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086325000169/q325earningsrelease.htm",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "Intel Foundry Achieves Major Milestones — Intel Newsroom",
+      "url": "https://newsroom.intel.com/intel-foundry/intel-foundry-achieves-major-milestones",
+      "as_of": "2025-04"
+    },
+    {
+      "label": "Intel Unveils Panther Lake Architecture — Intel Newsroom",
+      "url": "https://newsroom.intel.com/client-computing/intel-unveils-panther-lake-architecture-first-ai-pc-platform-built-on-18a",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "Intel Foundry Direct 2025 Roadmap Update — Tom's Hardware",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-foundry-roadmap-update-new-18a-pt-variant-that-enables-3d-die-stacking-14a-process-node-enablement",
+      "as_of": "2025-04"
+    },
+    {
+      "label": "Intel CEO Embraces 18A for External Customers — Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-ceo-recognizes-its-18a-node-for-external-customers-as-18a-p-gets-inbound-interest-company-cites-increasing-yields",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "What To Expect From Intel In 2026: Foundry Business — Trefis",
+      "url": "https://www.trefis.com/stock/intc/articles/586422/what-to-expect-from-intel-in-2026-foundry-business/2026-01-08",
+      "as_of": "2026-01"
+    },
+    {
+      "label": "Intel Foundry: The Last Chance — Electronics Weekly",
+      "url": "https://www.electronicsweekly.com/foundry/intel-foundry-the-last-chance-2026-05/",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Intel Q3 2025 Results — Tom's Hardware",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-posts-surprise-return-to-growth-and-profitability-in-q3-2025-but-significant-challenges-remain-posts-usd13-7-billion-revenue-with-operating-profit",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "Intel Q2 FY2025 Results — Futurum Group",
+      "url": "https://futurumgroup.com/insights/intel-q2-fy-2025-results-beat-on-revenue-margin-hit-by-one-time-charges/",
+      "as_of": "2025-08"
+    },
+    {
+      "label": "Intel 18A Processors at Fab 52 — EE Times",
+      "url": "https://www.eetimes.com/intels-confidence-shows-as-it-readies-new-processors-on-18a/",
+      "as_of": "2025-10"
+    }
+  ],
+  "bottlenecks": [
+    "leading-edge-foundry"
+  ]
+}

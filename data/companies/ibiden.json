@@ -1,0 +1,53 @@
+{
+  "slug": "ibiden",
+  "name": "Ibiden",
+  "ticker": "TYO 4062",
+  "type": "public",
+  "exposure_summary": "Ibiden is the dominant producer of high-density ABF package substrates used in AI and HPC processors, making it one of the most direct chokepoints in the physical AI supply chain.",
+  "profile": "No component sits closer to the AI compute buildout than the IC package substrate, and no company sits more squarely at the center of that component than Ibiden. The Gifu, Japan-based manufacturer produces the ABF (Ajinomoto Build-up Film) package substrates that physically connect processor dies to circuit boards in virtually every high-performance GPU and CPU powering AI data centers. Without these substrates, chips from Nvidia, AMD, and Intel cannot be packaged and shipped.\n\nIbiden's position in the high-end AI substrate segment is commanding. In the AI server substrate market specifically, Ibiden held roughly 85% share as recently as 2023, with analysts projecting that share to moderate toward 55% by 2026 as competitors scale up. Across the broader ABF substrate market, the top five players — including Ibiden — collectively hold approximately 74% of global supply. Ibiden specializes specifically in high-density interconnect solutions for AI and machine learning applications, a segment that carries far greater complexity and margin than standard PC substrates: a high-performance computing substrate requires more than ten times the ABF film of a typical PC substrate.\n\nFor fiscal year ending March 2026, Ibiden reported net sales of 416.2 billion yen, with the upward revision driven by generative AI orders that exceeded the company's own forecasts. Q4 FY2025 earnings beat expectations, with operating profit reaching 62.0 billion yen. The company conducted a 2-for-1 stock split effective January 2026.\n\nOn capacity, Ibiden is constructing a new substrate factory in Gifu Prefecture, which began operations at 25% capacity in late 2025 and was targeting 50% by March 2026. In February 2026, the company announced plans to invest JPY 500 billion (approximately USD 3.3 billion) over three years starting in fiscal 2026 to expand IC package substrate production. Customers have already reserved all available supply, and CEO Koji Kawashima has said clients are actively pressing for commitments on subsequent expansions.\n\nThe customer base has shifted materially. Intel once contributed 70% to 80% of Ibiden's IC substrate revenue, but that figure fell to roughly 30% by fiscal 2023 as Nvidia and other AI chipmakers grew in importance. The company's relationship with Nvidia is now central to its AI-era trajectory.",
+  "sources": [
+    {
+      "label": "BigGo Finance – Ibiden FY2026 Full-Year Results Notice",
+      "url": "https://finance.biggo.com/news/jpx_tdnet_140120260505517293",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Digitimes – Ibiden JPY 500B Expansion Plan",
+      "url": "https://www.digitimes.com/news/a20260204PD227/ibiden-expansion-capacity-production-plant.html",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Digitimes – Ibiden Raises FY2025 Forecast on GenAI Orders",
+      "url": "https://www.digitimes.com/news/a20251103PD239/ibiden-genai-ic-substrate-forecast-2025.html",
+      "as_of": "2025-11"
+    },
+    {
+      "label": "Express Tribune – Ibiden Gifu Factory & CEO Commentary",
+      "url": "https://tribune.com.pk/story/2519040/nvidia-supplier-ibiden-considers-faster-expansion-to-meet-ai-demand",
+      "as_of": "2024-12"
+    },
+    {
+      "label": "TSPA Semiconductor Substack – AI Server Substrate Market Share",
+      "url": "https://tspasemiconductor.substack.com/p/ai-server-build-up-substrate-industry",
+      "as_of": "2024-09"
+    },
+    {
+      "label": "Intel Market Research – ABF Substrate Market Outlook 2026-2032",
+      "url": "https://www.intelmarketresearch.com/abf-substrate-market-21855",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Nikhs Substack – Ibiden: The Hidden Bottleneck Beneath AI",
+      "url": "https://nikhs.substack.com/p/ibiden-the-hidden-bottleneck-beneath",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "Stock Analysis – Ibiden (TYO:4062) Overview & Statistics",
+      "url": "https://stockanalysis.com/quote/tyo/4062/statistics/",
+      "as_of": "2026-05"
+    }
+  ],
+  "bottlenecks": [
+    "abf-substrates"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "sumco",
+  "name": "SUMCO",
+  "ticker": "TYO 3436",
+  "type": "public",
+  "exposure_summary": "As the world's second-largest silicon wafer supplier, SUMCO is actively exiting 200mm production to concentrate capacity on the AI-grade 300mm wafers that every advanced logic and high-bandwidth memory chip requires.",
+  "profile": "No AI chip reaches a fab floor without a silicon wafer, and SUMCO controls a decisive share of that bottleneck. The Tokyo-listed company manufactures monocrystalline silicon wafers through a value chain that runs from crystal growth and ingot slicing through precision polishing, inspection, and delivery to semiconductor fabs worldwide. Its customers include integrated device manufacturers, leading foundries such as TSMC, and memory makers including SK Hynix.\n\nIn the global silicon wafer market, the top five suppliers collectively hold roughly 82% of revenue, and SUMCO sits firmly in second place behind Shin-Etsu Chemical. Together, the two Japanese producers account for more than 50% of global 300mm silicon wafer capacity. That duopoly position is structurally protected: qualifying a wafer supplier at a leading-edge fab requires multi-quarter certification cycles, and the capital intensity of crystal-growth and ultra-flat polishing lines deters new entrants.\n\nThe company's direct exposure to the AI buildout runs through 300mm wafers, where demand for advanced logic and high-bandwidth memory for AI and data centers has remained strong even as the broader wafer market has been uneven. Leading-edge wafers now account for roughly 20% of SUMCO's 300mm revenue, and the company has explicitly flagged that AI-driven demand is the segment's primary growth anchor.\n\nThe most consequential recent move is SUMCO's February 2025 announcement that it will end 200mm wafer production at its Miyazaki plant by late 2026, converting the site to monocrystalline ingot production and redeploying affected staff into 300mm operations. Management cited intense price competition from Chinese suppliers in 200mm and a structural, permanent shift of applications toward 300mm as the rationale.\n\nFinancially, SUMCO is navigating a heavy depreciation cycle from prior capacity expansions, with depreciation expected to peak in 2026. In Q1 FY2026 (reported May 2026), net sales came in at 101.4 billion yen, weighed down by customer inventory adjustments in non-advanced logic products. For Q2 FY2026, the company guided net sales of 112.0 billion yen and an operating profit of 2.5 billion yen, supported by AI-driven demand for advanced logic and DRAM. Long-term contract prices on 300mm wafers have been maintained through the inventory correction, preserving pricing discipline in the segment that matters most to the AI buildout.",
+  "sources": [
+    {
+      "label": "SUMCO Q1 FY2026 Financial Results (TSE filing)",
+      "url": "https://finance.biggo.com/news/jpx_tdnet_140120260511523138",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "SUMCO Q1 FY2026 Earnings Presentation",
+      "url": "https://finance.biggo.com/news/jpx_tdnet_140120260511523161",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Digitimes: SUMCO to end 200mm production at Miyazaki plant",
+      "url": "https://www.digitimes.com/news/a20250210PD236/sumco-silicon-wafer-production-plant-demand.html",
+      "as_of": "2025-02"
+    },
+    {
+      "label": "Alpha Spread: SUMCO Q3-2025 Earnings Call Summary",
+      "url": "https://www.alphaspread.com/security/tse/3436/investor-relations/earnings-call/q3-2025",
+      "as_of": "2025-11"
+    },
+    {
+      "label": "Future Market Insights: Semiconductor Wafer Market",
+      "url": "https://www.futuremarketinsights.com/reports/semiconductor-wafers-market",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Mordor Intelligence: Semiconductor Silicon Wafer Market",
+      "url": "https://www.mordorintelligence.com/industry-reports/semiconductor-silicon-wafer-market",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "Semiconductor Insight: Silicon Wafer Market Share & Trends",
+      "url": "https://semiconductorinsight.com/report/silicon-wafer-market/",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "CFOTech: AI lifts silicon wafer shipments (SUMCO SEMI SMG commentary)",
+      "url": "https://cfotech.news/story/ai-lifts-silicon-wafer-shipments-as-revenue-softens",
+      "as_of": "2026-02"
+    }
+  ],
+  "bottlenecks": [
+    "silicon-wafers"
+  ]
+}
