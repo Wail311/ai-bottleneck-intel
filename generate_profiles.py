@@ -22,12 +22,14 @@ Notes
 """
 
 import os, re, json, glob, time, argparse, sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import anthropic
 
 # ----------------------------- config -----------------------------
 MODEL          = "claude-sonnet-4-6"      # good cost/quality. "claude-haiku-4-5" = cheaper, "claude-opus-4-7" = strongest.
 WEB_TOOL       = "web_search_20250305"    # basic web search; works with the models above.
 MAX_SEARCHES   = 4                         # per company
+MAX_WORKERS    = 5
 WORD_TARGET    = 300
 SEEDS_DIR      = "data/bottlenecks"
 OUT_DIR        = "data/companies"
@@ -135,23 +137,41 @@ def main():
     if args.limit: companies = companies[:args.limit]
     print(f"{len(companies)} companies to process. Model={MODEL}\n")
 
-    ok = skip = fail = 0
-    for i, c in enumerate(companies, 1):
+    # figure out which companies still need profiles
+    todo = []
+    for c in companies:
         out_path = os.path.join(OUT_DIR, slugify(c["name"]) + ".json")
         if os.path.exists(out_path) and not args.force:
-            print(f"[{i}/{len(companies)}] skip (exists): {c['name']}"); skip += 1; continue
-        print(f"[{i}/{len(companies)}] {c['name']} ...")
+            print(f"skip (exists): {c['name']}")
+        else:
+            todo.append(c)
+
+    print(f"\n{len(todo)} to generate, {MAX_WORKERS} at a time.\n")
+    ok = fail = 0
+
+    def worker(c):
         data = gen_one(client, c)
         if not data:
-            print(f"   FAILED: {c['name']}"); fail += 1; continue
-        data["bottlenecks"] = [r["bottleneck"] for r in c["roles"]]   # attach linkage
+            return c["name"], False
+        data["bottlenecks"] = [r["bottleneck"] for r in c["roles"]]
+        out_path = os.path.join(OUT_DIR, slugify(c["name"]) + ".json")
         json.dump(data, open(out_path, "w"), indent=2, ensure_ascii=False)
-        wc = len(data.get("profile","").split())
-        print(f"   wrote {out_path} ({wc} words, {len(data.get('sources',[]))} sources)")
-        ok += 1
-        time.sleep(SLEEP_SECONDS)
+        wc = len(data.get("profile", "").split())
+        return c["name"], (wc, len(data.get("sources", [])))
 
-    print(f"\nDone. {ok} written, {skip} skipped, {fail} failed.")
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+        futures = {pool.submit(worker, c): c for c in todo}
+        for fut in as_completed(futures):
+            name, result = fut.result()
+            if result:
+                wc, ns = result
+                print(f"  done: {name} ({wc} words, {ns} sources)")
+                ok += 1
+            else:
+                print(f"  FAILED: {name}")
+                fail += 1
+
+    print(f"\nDone. {ok} written, {fail} failed.")
 
 if __name__ == "__main__":
     main()
