@@ -78,6 +78,18 @@ export default function SiteNav({ back }: SiteNavProps) {
           Essays
         </Link>
         <Link
+          href="/companies"
+          className="nav-back"
+          style={{
+            fontFamily: "var(--font-sans)",
+            fontSize: 13,
+            color: "var(--text-secondary)",
+            textDecoration: "none",
+          }}
+        >
+          Companies
+        </Link>
+        <Link
           href="/methodology"
           className="nav-back"
           style={{

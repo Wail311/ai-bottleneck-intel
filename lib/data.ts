@@ -33,6 +33,10 @@ function loadAllCompanies(): CompanyProfile[] {
     .map((f) => JSON.parse(fs.readFileSync(path.join(companyDir, f), "utf-8")) as CompanyProfile);
 }
 
+export function getAllCompanies(): CompanyProfile[] {
+  return loadAllCompanies().sort((a, b) => a.name.localeCompare(b.name));
+}
+
 export function getCompany(slug: string): CompanyProfile | undefined {
   return loadAllCompanies().find((c) => c.slug === slug);
 }
