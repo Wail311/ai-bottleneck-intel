@@ -21,16 +21,27 @@ export default function SiteNav({ back }: SiteNavProps) {
       <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
         <Link
           href="/"
-          style={{
-            fontFamily: "var(--font-sans)",
-            fontSize: 15,
-            fontWeight: 600,
-            color: "var(--text)",
-            textDecoration: "none",
-            letterSpacing: "-0.01em",
-          }}
+          style={{ textDecoration: "none", display: "flex", flexDirection: "column", gap: 4 }}
         >
-          Copper Road
+          <span
+            style={{
+              fontFamily: "var(--font-serif)",
+              fontSize: 22,
+              fontWeight: 500,
+              color: "var(--text)",
+              lineHeight: 1,
+            }}
+          >
+            Copper Road
+          </span>
+          <span
+            style={{
+              display: "block",
+              height: 2,
+              background: "#B87333",
+              borderRadius: 1,
+            }}
+          />
         </Link>
         {back && (
           <>
