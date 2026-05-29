@@ -1,0 +1,57 @@
+{
+  "slug": "samsung-electronics",
+  "name": "Samsung Electronics",
+  "ticker": "KRX 005930",
+  "type": "public",
+  "exposure_summary": "Samsung is the only company simultaneously supplying DRAM and HBM at scale, operating leading-edge EUV fabs for both logic and memory, and developing next-generation glass-interposer packaging, making it one of the widest single points of leverage across the AI hardware supply chain.",
+  "profile": "Samsung Electronics sits at the intersection of nearly every material chokepoint in the AI hardware buildout. It is the world's largest DRAM producer by revenue, a leading-edge foundry operator, and an increasingly critical supplier of the high-bandwidth memory that powers AI accelerators.\n\nOn DRAM and HBM, Samsung spent most of 2025 playing catch-up. Its DRAM market share by value fell to 32.7% in the first half of the year — the first time it had dropped below 40% since 2014 — as delays qualifying HBM3E for Nvidia cost it ground to SK Hynix. The recovery was sharp: by Q4 2025, Samsung's DRAM revenue climbed to $19.30 billion, up 43% quarter over quarter, lifting its share to 36% and returning it to the market-leading position, according to TrendForce.\n\nThe more consequential shift is in HBM4. Samsung and SK Hynix both delivered paid final HBM4 samples to Nvidia in late 2025, signaling entry into a pre-contract commercial phase. Samsung's HBM4 reportedly delivered the strongest overall results among competing suppliers in key performance metrics during Nvidia's system-in-package testing, and mass production was scheduled to begin at the Pyeongtaek campus in February 2026, targeting Nvidia's Rubin AI accelerators.\n\nOn EUV lithography, Samsung was the first company to apply conventional EUV to a 7nm foundry line in 2018 and to DRAM production in 2020. It has since committed roughly 1.1 trillion KRW to purchase two of ASML's High-NA EUV Twinscan EXE:5200B systems, intended for its 2nm foundry lines, with deliveries spanning late 2025 and early 2026.\n\nIn foundry, Samsung remains a distant second to TSMC at the leading edge, though it is manufacturing Exynos application processors and has disclosed plans to produce Tesla AI chips at its 2nm node.\n\nThe longest-dated bet is in packaging. Samsung Electronics has confirmed a roadmap to replace silicon interposers with glass interposers by 2028, using sub-100×100mm panels to accelerate prototyping. Its subsidiary Samsung Electro-Mechanics established a pilot line at its Sejong facility in 2025 and formed a joint venture with Sumitomo Chemical to secure glass core materials. The strategy aims to vertically integrate the AI packaging stack — memory, logic, and interposer — under a single supplier.",
+  "sources": [
+    {
+      "label": "TrendForce: Q4 2025 DRAM Revenue, Samsung Regains No. 1",
+      "url": "https://www.trendforce.com/presscenter/news/20260226-12937.html",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "TrendForce: Samsung DRAM Share Plunges to 33% in H1 2025",
+      "url": "https://www.trendforce.com/news/2025/08/15/news-samsungs-dram-market-share-reportedly-plunges-to-33-in-h1-bets-on-hbm-and-ddr5-recovery/",
+      "as_of": "2025-08"
+    },
+    {
+      "label": "TrendForce: SK Hynix, Samsung Deliver Paid HBM4 Samples to Nvidia",
+      "url": "https://www.trendforce.com/news/2025/12/16/news-sk-hynix-samsung-reportedly-deliver-paid-hbm4-samples-to-nvidia-ahead-of-1q26-contract-finalization/",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Korea Herald: Samsung Gains Ground in Nvidia HBM4 Tests",
+      "url": "https://www.koreaherald.com/article/10641517",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Yahoo Finance / GuruFocus: Samsung to Supply Nvidia HBM4 for Rubin",
+      "url": "https://finance.yahoo.com/news/samsung-supply-nvidia-advanced-hbm4-121700238.html",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "KED Global: Samsung Buys ASML High-NA EUV Tools to Rival TSMC",
+      "url": "https://www.kedglobal.com/korean-chipmakers/newsView/ked202510150011",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "TrendForce: Samsung Reportedly Eyes Glass Interposers by 2028",
+      "url": "https://www.trendforce.com/news/2025/05/26/news-samsung-reportedly-eyes-glass-interposers-by-2028-speeds-up-prototyping-with-smaller-panels",
+      "as_of": "2025-05"
+    },
+    {
+      "label": "TrendForce: Samsung Shifts Glass Substrate Project to Business Unit, Eyes 2027 Ramp-Up",
+      "url": "https://www.trendforce.com/news/2026/02/03/news-samsung-reportedly-shifts-glass-substrate-project-to-business-unit-eyes-2027-ramp-up/",
+      "as_of": "2026-02"
+    }
+  ],
+  "bottlenecks": [
+    "dram-supply",
+    "euv-lithography",
+    "hbm-memory",
+    "leading-edge-foundry",
+    "silicon-interposers"
+  ]
+}

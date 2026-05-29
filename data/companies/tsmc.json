@@ -1,0 +1,78 @@
+{
+  "slug": "tsmc",
+  "name": "TSMC",
+  "ticker": "TSM / TPE 2330",
+  "type": "public",
+  "exposure_summary": "TSMC is the single indispensable node in the AI hardware supply chain, controlling leading-edge logic fabrication, the dominant share of CoWoS advanced packaging, silicon interposer production, and the foundry base-die process for next-generation HBM4 memory.",
+  "profile": "No company concentrates more supply-chain risk in the AI buildout than Taiwan Semiconductor Manufacturing Company. Founded in 1987 as the world's first pure-play foundry, TSMC fabricates the chips it does not design, serving every major hyperscaler, GPU vendor, and fabless ASIC house. That model, combined with decades of process investment, has produced a position that competitors cannot replicate at volume or yield.\n\nAt the leading edge, TSMC holds market share upward of 90% at the 3nm and 2nm nodes. The company began volume production of its 2nm process in the second half of 2025, with mass production ramping into 2026. Initial 2nm customers include Apple, AMD, Nvidia, and MediaTek. Rivals Samsung and Intel have struggled with sub-50% yields and deep unprofitability at comparable nodes, respectively, leaving TSMC as the effective sole source for advanced logic at scale. TrendForce reported in late 2025 that TSMC notified customers of 5% to 10% price increases across all sub-5nm nodes starting January 2026, a move the company can sustain because customers have no comparable alternative.\n\nIn advanced packaging, TSMC owns the CoWoS franchise that binds GPU dies to high-bandwidth memory stacks. CoWoS output stood at roughly 35,000 wafers per month in late 2024 and reached approximately 70,000 to 75,000 wafers per month by end-2025. Projections for 2026 range from 115,000 to 130,000 wafers per month as facilities in Tainan and Chiayi come online. TSMC also fabricates the silicon interposer embedded within each CoWoS package, making it the sole volume interposer source for AI accelerators. TSMC CEO C.C. Wei stated that CoWoS capacity \"remains sold out through 2025 and into 2026.\"\n\nOn the memory side, SK Hynix formalized a partnership with TSMC under a \"One Team\" alliance to outsource the logic base die for HBM4 to TSMC's advanced foundry process, with HBM4 mass production targeting early 2026. This ties TSMC into the HBM supply chain beyond its packaging role.\n\nFinancially, TSMC reported Q2 2025 revenue of $30.1 billion, a 44% year-over-year increase, with gross margins of 59%. Advanced technologies at 7nm and below represented 74% of wafer revenue that quarter. Q1 2026 revenue guidance was set at $34.6 billion to $35.8 billion, with gross margin guidance of 63% to 65%. TSMC's Arizona subsidiary turned profitable in the first half of 2025.",
+  "sources": [
+    {
+      "label": "TSMC Q2 2025 Earnings (SEC 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617925000082/a2q25e_withguidancexfinal.htm",
+      "as_of": "2025-07"
+    },
+    {
+      "label": "TSMC Q4 2025 Earnings (SEC 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000008/a4q25e_withguidancexfinal.htm",
+      "as_of": "2026-01"
+    },
+    {
+      "label": "Tom's Hardware: TSMC Foundry Growth 2025",
+      "url": "https://www.tomshardware.com/tech-industry/why-tsmc-grew-four-times-faster-than-its-foundry-rivals-in-2025",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "Fusion Worldwide: AI Bottleneck CoWoS/HBM",
+      "url": "https://info.fusionww.com/blog/inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Financial Content: CoWoS Crunch Ends",
+      "url": "https://markets.financialcontent.com/wral/article/tokenring-2026-1-2-the-cowos-crunch-ends-tsmc-unleashes-massive-packaging-expansion-to-power-the-2026-ai-supercycle",
+      "as_of": "2026-01"
+    },
+    {
+      "label": "Creating Nano Tech: CoWoS Capacity 2026",
+      "url": "https://www.creating-nanotech.com/en-US/newsc286-ai-giants-vie-for-cowos-advanced-packaging-tsmc-and-taiwanese-packaging-and-testing-companies-accelerate-capacity-expansion",
+      "as_of": "2026-01"
+    },
+    {
+      "label": "SemiWiki: TSMC 2025 AI Wave Update",
+      "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/361243-tsmc-2025-update-riding-the-ai-wave-amid-global-expansion/",
+      "as_of": "2025-09"
+    },
+    {
+      "label": "Deep Research Global: TSMC SWOT 2026",
+      "url": "https://www.deepresearchglobal.com/p/tsmc-swot-analysis-report",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "SK Hynix Official: TSMC HBM Partnership",
+      "url": "https://news.skhynix.com/sk-hynix-partners-with-tsmc-to-strengthen-hbm-technological-leadership/",
+      "as_of": "2024-10"
+    },
+    {
+      "label": "KED Global: SK Hynix HBM4 on 3nm TSMC",
+      "url": "https://www.kedglobal.com/korean-chipmakers/newsView/ked202412030008",
+      "as_of": "2024-12"
+    },
+    {
+      "label": "Mordor Intelligence: EUV Lithography Market 2025",
+      "url": "https://www.mordorintelligence.com/industry-reports/extreme-ultraviolet-lithography-market",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "TrendForce: ASML High-NA EUV 2027-28",
+      "url": "https://www.trendforce.com/news/2026/02/16/news-asmls-high-na-euv-for-2027-28-which-giants-are-betting-big-intel-samsung-sk-hynix-or-tsmc/",
+      "as_of": "2026-02"
+    }
+  ],
+  "bottlenecks": [
+    "cowos-packaging",
+    "custom-silicon",
+    "euv-lithography",
+    "hbm-memory",
+    "leading-edge-foundry",
+    "silicon-interposers"
+  ]
+}

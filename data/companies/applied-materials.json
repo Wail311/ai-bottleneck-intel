@@ -1,0 +1,50 @@
+{
+  "slug": "applied-materials",
+  "name": "Applied Materials",
+  "ticker": "AMAT",
+  "type": "public",
+  "exposure_summary": "Applied Materials sits at the broadest cross-section of AI hardware supply constraints, supplying deposition, etch, and materials engineering tools that are indispensable across wafer fab equipment, leading-edge foundry logic, and CoWoS advanced packaging.",
+  "profile": "Applied Materials is the world's largest supplier of materials engineering equipment for semiconductor manufacturing, providing the deposition, etch, process control, and advanced packaging tools that underpin nearly every step between raw silicon and a finished AI chip. That breadth is precisely what makes it a structural chokepoint across multiple links in the AI buildout simultaneously.\n\nIn wafer fab equipment — where its exposure is most direct — Applied competes as one of the \"Big Five\" alongside ASML, Lam Research, Tokyo Electron, and KLA, a group that collectively held almost 70% of the WFE market in 2024, according to Yole Group. Applied's portfolio spans chemical vapor deposition, physical vapor deposition, atomic layer deposition, and etch, giving it more addressable process steps than any single rival. The global WFE market stood at roughly $84 billion in 2025 and is projected to reach $92 billion in 2026, creating a large and expanding base that Applied is positioned across broadly.\n\nAt the leading-edge foundry layer, Applied supplies process equipment for gate-all-around transistor architectures, advanced interconnect, and DRAM scaling — all of which are accelerating as AI accelerator design pushes chip complexity higher each product generation.\n\nIn CoWoS advanced packaging — the capacity bottleneck that has constrained AI GPU supply — Applied provides deposition and etch tooling for the interposer and redistribution layers that bind logic dies to HBM memory stacks. In April 2025, the company formalized its packaging ambitions by acquiring a 9% stake in BE Semiconductor Industries (Besi), extending a four-year collaboration to co-develop the industry's first fully integrated equipment solution for die-based hybrid bonding.\n\nFinancially, Applied reported record annual revenue of $28.37 billion for fiscal year 2025, a 4% increase year over year, marking its sixth consecutive year of growth. Quarterly revenue in Q2 FY2025 reached $7.10 billion, up 7% year over year. Looking ahead, the company guided for approximately $6.85 billion in Q1 FY2026 revenue and noted it is preparing operations to support higher customer demand beginning in the second half of calendar 2026.",
+  "sources": [
+    {
+      "label": "Applied Materials FY2025 Annual Results (SEC 8-K)",
+      "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-fourth-quarter-and-fiscal-year-2025",
+      "as_of": "2025-11"
+    },
+    {
+      "label": "Applied Materials Q2 FY2025 Earnings Release (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000006951/000000695125000017/exhibit991q22025earningsre.htm",
+      "as_of": "2025-05"
+    },
+    {
+      "label": "Applied Materials Besi Investment Announcement (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000006951/000119312525080269/d939298dex991.htm",
+      "as_of": "2025-04"
+    },
+    {
+      "label": "Applied Materials 10-K FY2025 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000006951/000162828025056742/amat-20251026.htm",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "Yole Group: WFE Market Status 2025",
+      "url": "https://www.yolegroup.com/press-release/wafer-fab-equipment-wfe-market-to-hit-184-billion-by-2030-for-equipment-and-services-driven-by-specialized-segment-growth-and-global-manufacturing-shifts/",
+      "as_of": "2025-07"
+    },
+    {
+      "label": "GlobeNewswire: WFE Market Report 2026",
+      "url": "https://www.globenewswire.com/news-release/2026/01/29/3228825/0/en/Wafer-Fab-Equipment-Market-Report-2026-2030-2035-Featuring-Profiles-of-Key-Players-Hitachi-ASML-Holding-Canon-Applied-Materials-Komatsu-and-More-A-132-Billion-Opportunity.html",
+      "as_of": "2026-01"
+    },
+    {
+      "label": "Applied Materials Q1 FY2026 Guidance (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2025/11/13/3187810/0/en/Applied-Materials-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results.html",
+      "as_of": "2025-11"
+    }
+  ],
+  "bottlenecks": [
+    "cowos-packaging",
+    "leading-edge-foundry",
+    "wafer-fab-equipment"
+  ]
+}
