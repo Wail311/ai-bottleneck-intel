@@ -66,6 +66,18 @@ export default function SiteNav({ back }: SiteNavProps) {
           Bottlenecks
         </Link>
         <Link
+          href="/essay/the-boxes-arent-the-bottleneck"
+          className="nav-back"
+          style={{
+            fontFamily: "var(--font-sans)",
+            fontSize: 13,
+            color: "var(--text-secondary)",
+            textDecoration: "none",
+          }}
+        >
+          Essays
+        </Link>
+        <Link
           href="/methodology"
           className="nav-back"
           style={{

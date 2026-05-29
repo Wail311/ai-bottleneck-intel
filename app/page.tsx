@@ -83,6 +83,65 @@ export default function HomePage() {
       {/* ── Index ───────────────────────────────────────────────────────── */}
       <main style={{ maxWidth: 740, margin: "0 auto", padding: "32px 24px 64px", flex: 1, width: "100%" }}>
 
+        {/* Featured essay */}
+        <Link
+          href="/essay/the-boxes-arent-the-bottleneck"
+          style={{ textDecoration: "none", display: "block", marginBottom: 32 }}
+        >
+          <div
+            className="linked-pill"
+            style={{
+              background: "var(--surface)",
+              border: "0.5px solid var(--border)",
+              borderRadius: 8,
+              padding: "20px 24px",
+            }}
+          >
+            <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 10 }}>
+              <span
+                style={{
+                  fontFamily: "var(--font-sans)",
+                  fontSize: 12,
+                  fontWeight: 500,
+                  color: "var(--text-tertiary)",
+                  border: "1px solid var(--border)",
+                  borderRadius: 4,
+                  padding: "1px 8px",
+                }}
+              >
+                Essay
+              </span>
+              <span style={{ fontFamily: "var(--font-mono)", fontSize: 12, color: "var(--text-tertiary)" }}>
+                May 29, 2026
+              </span>
+            </div>
+            <h2
+              style={{
+                fontFamily: "var(--font-sans)",
+                fontSize: 17,
+                fontWeight: 500,
+                color: "var(--text)",
+                margin: "0 0 6px",
+                lineHeight: 1.3,
+              }}
+            >
+              The boxes aren't the bottleneck
+            </h2>
+            <p
+              style={{
+                fontFamily: "var(--font-serif)",
+                fontSize: 15,
+                fontStyle: "italic",
+                color: "var(--text-secondary)",
+                lineHeight: 1.6,
+                margin: 0,
+              }}
+            >
+              Every forecast for the AI buildout is written in GPUs. It's the wrong unit.
+            </p>
+          </div>
+        </Link>
+
         <div style={{ marginBottom: 8 }}>
           <span
             style={{
