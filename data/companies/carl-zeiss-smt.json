@@ -1,0 +1,53 @@
+{
+  "slug": "carl-zeiss-smt",
+  "name": "Carl Zeiss SMT",
+  "ticker": "",
+  "type": "private",
+  "exposure_summary": "Carl Zeiss SMT is the sole supplier of precision optical systems to ASML, meaning every EUV lithography machine used to produce AI-era chips depends entirely on optics made in Oberkochen, Germany.",
+  "profile": "Carl Zeiss SMT sits at the narrowest bottleneck in the AI chip supply chain. Without its mirrors, ASML builds nothing, and without ASML, no chipmaker produces leading-edge logic. The dependency is structural: as TrendForce reported in November 2025, \"the dependency between ASML and Zeiss SMT is absolute,\" and ASML itself describes the firm as its most important strategic partner.\n\nThe company is the semiconductor manufacturing technology (SMT) business group of Carl Zeiss AG, headquartered in Oberkochen, Germany. Its core product is the all-reflective optical system at the heart of every ASML EUV scanner. Because EUV light at 13.5 nm is absorbed by virtually all materials, the optics must be reflective mirrors polished to sub-nanometer tolerances. Each mirror carries more than 100 atomically precise layers, and making a single one takes months. The expertise required is, by all accounts, unreplicable at speed: Huawei reportedly approached Zeiss SMT engineers in late 2024, offering salaries up to three times higher, to try to acquire that knowledge.\n\nThe partnership with ASML spans more than 30 years. In 2016, ASML formalized the relationship by acquiring a 24.9 percent minority stake in Carl Zeiss SMT for EUR 1 billion, and committed a further roughly EUR 760 million to support the firm's R&D and capital expenditure over six years.\n\nThe current frontier is High-NA EUV lithography, built around a numerical aperture of 0.55 versus the 0.33 of conventional EUV. Zeiss SMT developed and manufactures the entirely new optical system for ASML's EXE:5000 platform. The projection optics weigh around twelve tons and contain more than 40,000 parts. Intel Foundry was the first to assemble a commercial High-NA scanner, and series production using the technology was targeted to begin in 2025, with broader High-NA volume manufacturing expected from 2026 onward.\n\nFinancially, the SMT segment of the broader Zeiss Group crossed a notable threshold in fiscal year 2024/25 (ending September 2025): it generated more than EUR 5 billion in revenue for the first time in its history, driven by what Zeiss described as ongoing AI-related demand and continued strength from China. The Zeiss Group as a whole recorded revenue of EUR 11.896 billion that year, with EBIT of EUR 1.552 billion, and the SMT segment delivered double-digit growth. In fiscal 2025, Zeiss SMT and laser partner TRUMPF also received the Reinhard von Koenig Prize for Technology and Progress for their work on High-NA EUV lithography. The firm invests approximately 15 percent of group revenue in R&D, a level Zeiss says is consistently above the sector average.",
+  "sources": [
+    {
+      "label": "TrendForce – ASML EUV Partners Nov 2025",
+      "url": "https://www.trendforce.com/news/2025/11/10/news-asmls-magic-uncovered-tech-and-partners-behind-its-euv-edge-china-cant-replicate/",
+      "as_of": "2025-11"
+    },
+    {
+      "label": "Zeiss Group Annual Report 2024/25 – Supervisory Board Report",
+      "url": "https://www.zeiss.com/annual-report/report-of-the-supervisory-board.html",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Zeiss Group FY2024/25 End-of-Year Press Release",
+      "url": "https://www.zeiss.com/corporate/en/about-zeiss/present/newsroom/press-releases/2025/end-of-year.html",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Zeiss SMT – High-NA EUV Lithography Product Page",
+      "url": "https://www.zeiss.com/semiconductor-manufacturing-technology/inspiring-technology/high-na-euv-lithography.html",
+      "as_of": "2025-01"
+    },
+    {
+      "label": "Zeiss SMT – High-NA EUV Press Release Jan 2024",
+      "url": "https://www.zeiss.com/semiconductor-manufacturing-technology/news-and-events/smt-press-releases/2024/high-na-euv-lithography.html",
+      "as_of": "2024-01"
+    },
+    {
+      "label": "ASML/Zeiss 2016 Partnership Press Release (SEC filing)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000937966/000134100416001726/ex99-1.htm",
+      "as_of": "2016-11"
+    },
+    {
+      "label": "Electronics360 – High-NA EUV Lithography Mar 2025",
+      "url": "https://electronics360.globalspec.com/article/22084/high-na-euv-lithography-the-next-leap-in-chip-manufacturing",
+      "as_of": "2025-03"
+    },
+    {
+      "label": "Zeiss Annual Report 2024/25 Home",
+      "url": "https://www.zeiss.com/annual-report/home.html",
+      "as_of": "2025-12"
+    }
+  ],
+  "bottlenecks": [
+    "euv-lithography"
+  ]
+}

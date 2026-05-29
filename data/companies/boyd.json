@@ -1,0 +1,53 @@
+{
+  "slug": "boyd",
+  "name": "Boyd",
+  "ticker": "",
+  "type": "private",
+  "exposure_summary": "Boyd (now Boyd Thermal, operating within Eaton) is one of the highest-volume producers of liquid cold plates and direct-to-chip cooling systems globally, making it a critical hardware node in the AI buildout's liquid-cooling chokepoint.",
+  "profile": "Boyd matters to the AI supply chain because liquid cooling is no longer optional at scale. As GPU clusters push rack densities toward 100 kW and beyond, direct-to-chip cold plates and coolant distribution units have become mandatory infrastructure, and Boyd is among the world's largest dedicated producers of both.\n\nFounded as a diversified engineered-materials and thermal-management company, Boyd's thermal division built its data-center presence over decades. Its product line covers the full liquid-cooling stack: liquid cold plates (LCPs) that sit directly on GPUs and CPUs, liquid cooling loops, in-rack manifolds, coolant distribution units (CDUs), and thermal control units. Cold plates are 100% leak-tested using precision CNC machining and high-quality brazing, and the company operates design and manufacturing sites across three continents to support fast customer ramps.\n\nThe volume figures underscore Boyd's position. In September 2025, the company announced it had delivered five million liquid cold plates to hyperscalers, a milestone that reflects years of high-volume production for the largest cloud operators. That same month, Boyd doubled its manufacturing campus in Bac Ninh, Vietnam, bringing it to approximately 800,000 square feet to meet accelerating demand. In February 2026, it more than doubled its Juarez, Mexico thermal campus to approximately 460,000 square feet, targeting cooling capacity up to 5 MW and beyond per rack environment.\n\nOn the product side, Boyd launched a 2 MW CDU in late 2025 aimed specifically at AI data center deployments, and co-developed a rack emulator with NVIDIA to automate thermal validation for NVIDIA GB200 NVL72 platforms, shortening the time operators need to qualify and deploy liquid-cooled infrastructure.\n\nThe defining corporate event of this cycle was Eaton's acquisition of Boyd Thermal, announced in November 2025 and completed on March 12, 2026, for $9.5 billion. Boyd Thermal now operates within Eaton's Electrical Global segment, pairing its liquid-cooling hardware with Eaton's power management portfolio to offer a grid-to-chip solution for data centers. Boyd Thermal's exposure to the liquid-cooling chokepoint is rated moderate rather than dominant because it shares the market with multiple competitors, but its production scale, hyperscaler relationships, and accelerating capacity investments make it one of the most consequential suppliers in this segment.",
+  "sources": [
+    {
+      "label": "Boyd: 5 Million Cold Plates Delivered (BusinessWire)",
+      "url": "https://www.businesswire.com/news/home/20250908360684/en/Boyd-Has-Delivered-5-Million-Liquid-Cold-Plates-to-Hyperscalers-through-Reliable-High-Volume-Global-Manufacturing-Advancing-AI-Data-Center-Liquid-Cooling-Technology",
+      "as_of": "2025-09"
+    },
+    {
+      "label": "Boyd Vietnam Facility Doubled (Boyd Corp)",
+      "url": "https://www.boydcorp.com/about-boyd/resources/news-and-events/boyd-vietnam-expansion-supports-ai-data-center-cdus-and-liquid-cooling-loops.html",
+      "as_of": "2025-09"
+    },
+    {
+      "label": "Boyd Doubles Mexico Facility (BusinessWire)",
+      "url": "https://www.businesswire.com/news/home/20260217894368/en/Boyd-More-than-Doubles-Liquid-Cooling-Manufacturing-Capacity-in-Mexico-Boosting-Production-for-AI-Infrastructure-Hyperscale-and-Colocation-Data-Centers",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Boyd 2MW CDU Launch (IDCNova)",
+      "url": "https://www.idcnova.com/html/1/59/153/4213.html",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "Boyd Rack Emulator with NVIDIA (BusinessWire)",
+      "url": "https://www.businesswire.com/news/home/20251016593787/en/Boyd-Extends-End-to-End-AI-Liquid-Cooling-Technologies-Portfolio-with-New-Rack-Emulator-Developed-in-Collaboration-with-NVIDIA",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "Eaton Acquires Boyd Thermal $9.5B (Bloomberg)",
+      "url": "https://www.bloomberg.com/news/articles/2025-11-03/eaton-to-buy-boyd-thermal-for-9-5-billion-in-data-center-play",
+      "as_of": "2025-11"
+    },
+    {
+      "label": "Eaton Completes Boyd Thermal Acquisition (Eaton Press Release)",
+      "url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-completes-acquisition-of-leading-liquid-cooling-solutions-provider-boyd-thermal.html",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "Eaton Completes Boyd Thermal Acquisition (Data Centre Review)",
+      "url": "https://datacentrereview.com/2026/03/eaton-completes-boyd-thermal-acquisition-as-it-bolsters-liquid-cooling-offering/",
+      "as_of": "2026-03"
+    }
+  ],
+  "bottlenecks": [
+    "liquid-cooling"
+  ]
+}

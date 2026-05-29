@@ -1,0 +1,49 @@
+{
+  "slug": "vertiv",
+  "name": "Vertiv",
+  "ticker": "VRT",
+  "type": "public",
+  "exposure_summary": "Vertiv sits at two of the AI buildout's most acute chokepoints simultaneously: it supplies the power management and thermal systems that keep hyperscale and AI data centers running, and it holds the leading position in the liquid-cooling market that GPU-dense racks increasingly demand.",
+  "profile": "Vertiv (NYSE: VRT) designs, manufactures, and services the critical infrastructure that keeps data centers operational: uninterruptible power supplies, power distribution equipment, precision cooling systems, and the software that ties them together. The company brings together hardware, software, analytics, and ongoing services to enable vital applications to run continuously, with a portfolio extending from the cloud to the edge of the network. It operates in more than 130 countries.\n\nFor the AI supply chain, Vertiv occupies a chokepoint role on two axes. On grid power, every AI data center requires dense power delivery and heat rejection infrastructure before a single GPU can run a workload. On liquid cooling, the shift toward GPU clusters operating at extreme rack densities has moved direct-to-chip and immersion cooling from niche to necessity. Third-party data from Dell'Oro ranks Vertiv number one in thermal management and number one in three-phase large UPS and power distribution infrastructure. In the data center liquid cooling segment specifically, Vertiv led with over 11.3% market share in 2025.\n\nThe company's partnership with NVIDIA and its reference designs for the GB200 and GB300 NVL72 platforms position Vertiv at the forefront of AI factory deployment at industrial scale.\n\nFinancially, the AI-driven demand wave has shown up clearly in reported results. Vertiv posted Q1 2025 net sales of $2,036 million, a 24% increase year over year. Q2 2025 net sales reached $2,638 million, a 35% increase from the prior year period. Q3 2025 net sales of $2,676 million rose 29% year over year, driven by 43% growth in the Americas and 20% growth in APAC. Orders accelerated sharply in Q3 2025, with organic orders up approximately 60% year over year and 20% sequentially; TTM organic orders grew 21%, and backlog reached $9.5 billion with a book-to-bill ratio of approximately 1.4x.\n\nVertiv has reinforced its liquid-cooling position through acquisitions. In December 2025 it completed the approximately $1.0 billion acquisition of PurgeRite, a provider of mechanical flushing, purging, and filtration services for data centers, which enhances its thermal management services capabilities for liquid cooling systems. In August 2025 it completed the acquisition of Great Lakes Data Racks and Cabinets for approximately $200 million, expanding its rack and cabinet integration solutions for high-density white space applications.\n\nThe company frames the complexity of hybrid air and liquid cooling created by AI workloads as a significant opportunity for expansion across the entire thermal chain, from chip to heat rejection and re-use.",
+  "sources": [
+    {
+      "label": "Vertiv Q1 2025 Earnings Release (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001674101/000162828025018915/q12025exhibit991vrt042325.htm",
+      "as_of": "2025-04"
+    },
+    {
+      "label": "Vertiv Q2 2025 Earnings Release (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001674101/000167410125000006/q22025exhibit991vrt7302025.htm",
+      "as_of": "2025-07"
+    },
+    {
+      "label": "Vertiv Q3 2025 Earnings Release (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001674101/000167410125000020/q32025exhibit991vrt10222025.htm",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "Vertiv PurgeRite Acquisition Completion (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001674101/000167410125000031/exhibit991vrt-12042025.htm",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Vertiv Great Lakes Acquisition Completion (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001674101/000162828025035130/exhibit991vrt-pressrelease.htm",
+      "as_of": "2025-08"
+    },
+    {
+      "label": "Vertiv 2025 Annual Report (SEC ARS)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001674101/000119312526174909/d27762dars.pdf",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Global Market Insights – Data Center Liquid Cooling Market",
+      "url": "https://www.gminsights.com/industry-analysis/data-center-liquid-cooling-market",
+      "as_of": "2026-01"
+    }
+  ],
+  "bottlenecks": [
+    "grid-power",
+    "liquid-cooling"
+  ]
+}

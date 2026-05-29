@@ -1,0 +1,63 @@
+{
+  "slug": "absolics",
+  "name": "Absolics (SKC)",
+  "ticker": "",
+  "type": "private",
+  "exposure_summary": "Absolics operates what is described as the world's first dedicated glass substrate manufacturing facility in the United States, positioning it as a potential sole commercial supplier of a packaging material that could replace silicon interposers in next-generation AI accelerators.",
+  "profile": "Absolics sits at one of the narrowest points in the AI hardware supply chain: the substrate layer that physically connects logic chips, memory, and interconnects inside advanced semiconductor packages. As AI accelerators grow larger and more power-hungry, the organic substrates that have dominated packaging for decades are running into hard physical limits around warpage, signal loss, and thermal mismatch with silicon. Glass substrates address those problems directly. Absolics claims its technology can deliver up to a 50% reduction in power consumption and a 30% improvement in signal performance relative to organic alternatives.\n\nThe company is an SKC subsidiary, with SKC holding a 70.1% stake and equipment giant Applied Materials holding the remainder. SKC acquired the company for $240 million in 2021 and established it formally in 2022, when construction began on a fab in Covington, Georgia. That facility, which has an annual capacity of 12,000 square meters, is described by industry analysts as the world's first mass-production-scale glass substrate plant.\n\nFederal support has been substantial. Absolics received up to $75 million in CHIPS Act production subsidies, and in late 2024 was selected as one of three recipients of $300 million in R&D grants under the National Advanced Packaging Manufacturing Program, with each recipient eligible for up to $100 million.\n\nCustomer qualification, however, has moved more slowly than the company's timeline suggested. As of early 2026, prototypes were reportedly undergoing performance testing at AMD and Amazon Web Services, with Absolics said to be in the yield-stabilization stage. AWS had delayed its quality testing indefinitely as of late 2025, while AMD qualification remained pending.\n\nOn the capital side, SKC approved a capital increase of roughly $690 million in February 2026, directing approximately $407 million of that toward Absolics to fund a mass-production push targeted for year-end 2026. The company has also launched a second product track, non-embedding glass substrates for communications semiconductors, intended to reach market faster than its flagship embedding design. Yield stability and customer lock-in remain the key variables determining whether Absolics converts its first-mover position into durable supply-chain relevance.",
+  "sources": [
+    {
+      "label": "TheElec – AMD qualification / AWS delay",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=5476",
+      "as_of": "2025-11"
+    },
+    {
+      "label": "TrendForce – Absolics ramp-up and CHIPS Act funding",
+      "url": "https://www.trendforce.com/news/2025/07/07/news-absolics-reportedly-ramps-up-glass-substrate-production-mass-production-expected-by-year-end/",
+      "as_of": "2025-07"
+    },
+    {
+      "label": "TrendForce – SKC capital increase to Absolics",
+      "url": "https://www.trendforce.com/news/2026/03/03/news-skc-reportedly-channels-over-half-of-%E2%82%A91t-capital-increase-into-absolics-to-fast-track-glass-substrates/",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "TrendForce – SKC mass production by year-end 2026, non-embedding project",
+      "url": "https://www.trendforce.com/news/2026/05/08/news-skc-said-to-speed-glass-substrate-mass-production-by-year-end-advances-new-non-embedding-tech-for-u-s-client/",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "The Economy – SKC $690M capital increase for glass substrates",
+      "url": "https://economy.ac/news/2026/02/202602288429",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "KED Global – Absolics $100M NAPMP R&D grant",
+      "url": "https://www.kedglobal.com/korean-chipmakers/newsView/ked202411220005",
+      "as_of": "2024-11"
+    },
+    {
+      "label": "NIST / US Commerce – CHIPS Act preliminary terms, Covington facility",
+      "url": "https://www.nist.gov/news-events/news/2024/05/biden-harris-administration-announces-preliminary-terms-absolics-support",
+      "as_of": "2024-05"
+    },
+    {
+      "label": "Electronics For You – Georgia fab capacity, materials procurement ramp",
+      "url": "https://www.electronicsforyou.biz/industry-buzz/skcs-absolics-scales-up-glass-substrate-production/",
+      "as_of": "2025-07"
+    },
+    {
+      "label": "SK Group – Absolics glass substrate performance claims",
+      "url": "https://eng.sk.com/perspectives/absolics-how-glass-substrates-are-powering-the-ai-revolution",
+      "as_of": "2025-04"
+    },
+    {
+      "label": "Yole Group – Absolics as leader in glass core substrates",
+      "url": "https://www.yolegroup.com/player-interviews/glass-to-enable-next-gen-ic-substrates-an-interview-with-absolics/",
+      "as_of": "2024-09"
+    }
+  ],
+  "bottlenecks": [
+    "silicon-interposers"
+  ]
+}

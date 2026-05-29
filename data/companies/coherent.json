@@ -1,0 +1,48 @@
+{
+  "slug": "coherent",
+  "name": "Coherent",
+  "ticker": "COHR",
+  "type": "public",
+  "exposure_summary": "Coherent is one of the few vertically integrated manufacturers of EML lasers and high-speed optical transceivers that are essential for moving data inside AI data centers, giving it direct exposure to the most congested link in the AI buildout supply chain.",
+  "profile": "Coherent Corp. (NYSE: COHR) sits at a critical chokepoint in the AI infrastructure buildout: the optical interconnect. Inside every high-density GPU cluster, vast quantities of data must move between chips and servers at speeds that copper wiring cannot sustain. That traffic travels over optical transceivers, and Coherent makes many of the key components inside them — including electro-absorption-modulated lasers (EMLs) — from raw compound-semiconductor materials all the way to finished modules.\n\nThe company's vertically integrated model spans indium phosphide (InP) wafer growth, laser chip fabrication, and transceiver assembly. This depth is strategically significant because EML chips are a supply-chain bottleneck: only a handful of companies can manufacture them at scale. Coherent designs and produces EMLs internally, reducing dependence on outside chip suppliers that constrain rivals.\n\nCoherent's product roadmap is running in step with the industry's bandwidth escalation. At the Optical Fiber Communication Conference in early 2025, the company demonstrated a 400G EML intended to enable 3.2T transceivers, and showcased three distinct 1.6T transceiver designs using EML, silicon photonics, and VCSEL technologies. It commenced revenue shipments of 1.6T transceiver products in Q4 fiscal 2025.\n\nFinancially, the trajectory reflects surging AI demand. For the nine months ended March 31, 2025, revenues rose 26% year-over-year to $4.28 billion, with Networking segment revenues up 53% driven by AI datacenter demand. In Q3 fiscal 2026 (ended March 31, 2026), Coherent reported quarterly revenue of $1.81 billion, up 21% year-over-year, with datacenter and communications revenue reaching $1.36 billion — up from $1.0 billion a year earlier. Q4 fiscal 2026 guidance calls for revenue of $1.91 billion to $2.05 billion.\n\nThe most consequential recent development is a $2 billion strategic investment from Nvidia, announced in early 2026, accompanied by a multi-year, multi-billion-dollar purchase commitment and capacity rights for advanced optical and laser products. Management has confirmed that demand for its AI-focused optical transceivers is booked out through 2028 — an unusually long horizon of visibility in this industry. The Nvidia relationship transforms Coherent from a key supplier into a partner with locked-in demand, deepening its exposure to the optical-transceiver chokepoint for the foreseeable future.",
+  "sources": [
+    {
+      "label": "Coherent Q3 FY2026 Press Release (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000820318/000119312526208972/d57080dex991.htm",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Coherent Q4 FY2025 Highlights (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000820318/000119312525179833/d22249dex991.htm",
+      "as_of": "2025-08"
+    },
+    {
+      "label": "Coherent Q3 FY2025 OFC Highlights (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000820318/000119312525114882/d930395dex991.htm",
+      "as_of": "2025-04"
+    },
+    {
+      "label": "Coherent 10-Q Nine Months FY2025 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000820318/000082031825000009/iivi-20250331.htm",
+      "as_of": "2025-05"
+    },
+    {
+      "label": "Nvidia-Coherent Strategic Partnership (StockTitan / SEC 8-K)",
+      "url": "https://www.stocktitan.net/sec-filings/COHR/8-k-coherent-corp-reports-material-event-23a13ea303e7.html",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "Coherent Q3 FY2026 Analysis — Futurum Group",
+      "url": "https://futurumgroup.com/insights/coherent-q3-fy-2026-ai-data-center-demand-accelerates-optical-growth/",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "S&P Global Market Intelligence — Coherent 2025 Growth Outlook",
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/coherent-poised-for-robust-2025-growth-on-high-demand-in-ai-data",
+      "as_of": "2025-07"
+    }
+  ],
+  "bottlenecks": [
+    "optical-transceivers"
+  ]
+}

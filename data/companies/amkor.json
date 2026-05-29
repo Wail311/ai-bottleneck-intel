@@ -1,0 +1,53 @@
+{
+  "slug": "amkor",
+  "name": "Amkor",
+  "ticker": "AMKR",
+  "type": "public",
+  "exposure_summary": "As the only U.S.-based OSAT of scale building a domestic CoWoS-capable campus next door to TSMC's Arizona fabs, Amkor is the linchpin of any credible end-to-end AI chip supply chain on American soil.",
+  "profile": "Amkor Technology (Nasdaq: AMKR) is the world's largest U.S.-headquartered outsourced semiconductor assembly and test (OSAT) provider. Founded in 1968 and based in Tempe, Arizona, the company packages and tests integrated circuits for the world's leading chip designers, foundries, and electronics OEMs across communications, computing, automotive, and consumer end markets.\n\nFor the AI supply chain, Amkor's importance centers on advanced packaging — the step that bonds compute dies, high-bandwidth memory, and other components into the multi-chip modules that power data-center AI accelerators. That process has become one of the tightest bottlenecks in the AI buildout, and virtually all of it currently happens in Asia. Amkor is the principal private-sector vehicle through which the United States is trying to change that.\n\nIn October 2025, Amkor broke ground on a new advanced packaging and test campus in Peoria, Arizona, adjacent to TSMC's expanding Phoenix-area fab complex. The site is planned at up to 750,000 square feet of cleanroom space and is scheduled to begin production in early 2028 following completion of the first factory in mid-2027. The initial investment phase stands at $2 billion, with Arizona officials projecting the campus could ultimately scale to $7 billion and roughly 3,000 jobs. The U.S. Commerce Department awarded Amkor up to $400 million in CHIPS Act funding and described the project as the largest outsourced advanced packaging facility in America.\n\nThe facility's technology scope is directly tied to the CoWoS chokepoint. Amkor's plant will support TSMC's CoWoS and InFO platforms — the packaging architectures behind Nvidia's data-center GPUs and Apple silicon — and will specifically handle the substrate portion of Nvidia's CoWoS flow, as well as FCBGA packaging for Apple's M-series processors. Apple and Nvidia are already secured as lead customers. TSMC signed an MOU to contract turnkey packaging and test services from the Peoria site to support chips fabricated at its nearby Phoenix fabs, cutting the weeks-long loop that currently routes U.S.-made wafers back to Taiwan for final packaging.\n\nFinancially, Amkor posted full-year 2025 net sales of $6.71 billion, up 6% year-on-year, with record advanced packaging and computing revenue. Momentum accelerated into 2026: Q1 2026 net sales of $1.68 billion were up 27% year-on-year, also a first-quarter record. At year-end 2025, the company held $1.99 billion in cash and short-term investments against $1.45 billion in total debt.",
+  "sources": [
+    {
+      "label": "Amkor Q4 & Full Year 2025 Earnings (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001047127/000104712726000007/amkr123125erex-991.htm",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Amkor Q1 2026 Earnings (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001047127/000104712726000017/amkr3312026erex-991.htm",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "Amkor Arizona Groundbreaking & $7B Expansion (Tom's Hardware)",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/amkor-breaks-ground-on-arizona-advanced-packaging-campus",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "Amkor Arizona Plant CoWoS/InFO Details (Tom's Hardware)",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/amkor-arizona-plant-plans-approved",
+      "as_of": "2025-09"
+    },
+    {
+      "label": "Amkor & TSMC Arizona MOU (Amkor IR)",
+      "url": "https://ir.amkor.com/news-releases/news-release-details/amkor-and-tsmc-expand-partnership-and-collaborate-advanced",
+      "as_of": "2024-10"
+    },
+    {
+      "label": "Amkor CHIPS Act Preliminary Memorandum (Amkor IR)",
+      "url": "https://ir.amkor.com/news-releases/news-release-details/amkor-signs-preliminary-memorandum-terms-us-department-commerce",
+      "as_of": "2024-07"
+    },
+    {
+      "label": "How Amkor Became Essential to Nvidia's U.S. Supply Chain (CommonWealth)",
+      "url": "https://english.cw.com.tw/article/article.action?id=4513",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Amkor Arizona $7B Campus (Manufacturing Dive)",
+      "url": "https://www.manufacturingdive.com/news/amkor-arizona-7-billion-semiconductor-tsmc-apple-nvidia/802297/",
+      "as_of": "2025-10"
+    }
+  ],
+  "bottlenecks": [
+    "cowos-packaging"
+  ]
+}

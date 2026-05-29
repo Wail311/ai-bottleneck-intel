@@ -1,0 +1,58 @@
+{
+  "slug": "be-semiconductor",
+  "name": "BE Semiconductor",
+  "ticker": "BESI",
+  "type": "public",
+  "exposure_summary": "BESI is the market leader in hybrid bonding equipment, the precision bonding technology at the core of CoWoS-class advanced packaging for AI accelerators, making it a direct and high-exposure chokepoint in the AI hardware supply chain.",
+  "profile": "BE Semiconductor Industries (Besi) sits at one of the most consequential bottlenecks in the AI buildout: the tooling required to bond chiplets at sub-micron precision inside advanced packages like TSMC's CoWoS and SoIC. Without these machines, the stacked chip architectures inside every major AI accelerator cannot be assembled at volume.\n\nFounded in 1995 and headquartered in Duiven, the Netherlands, Besi designs and manufactures high-precision back-end semiconductor assembly equipment. Its product portfolio spans die-attach, flip-chip, and advanced packaging systems, with the company holding a roughly 42% share of the global die-attach equipment market. In hybrid bonding, the technology that enables direct copper-to-copper interconnects between chiplets at pitches below ten microns, Besi is recognized as the market leader.\n\nThe chokepoint exposure is structural. Hybrid bonding tools carry lead times of 12 to 18 months or more, and meaningful CoWoS and HBM packaging expansion requires 12 to 24 months even with aggressive investment. Because each new generation of AI accelerator demands more advanced packaging intensity, capacity additions do not automatically relieve the constraint. Besi's tools are a gating item.\n\nRecent financials show the AI-driven inflection in Besi's order book accelerating sharply. Q4 2025 orders reached €250.4 million, up 105.4% year-over-year, driven by AI-related 2.5D demand from Asian subcontractors. Full-year 2025 revenue came in at €591.3 million, with full-year orders of €685.0 million up 16.8% versus 2024. Into Q1 2026, revenue reached €184.9 million, up 28.3% sequentially. Q2 2025 orders included a 30% sequential increase in hybrid bonding systems. At its 2025 Investor Day, Besi raised long-term revenue targets to €1.5 to €1.9 billion.\n\nIn April 2025, Applied Materials purchased a 9% stake in Besi, cementing a collaboration that produced what the two companies describe as the first fully integrated, high-volume die-to-wafer hybrid bonding system. Besi is also scaling production capacity, expanding in Vietnam for standardized systems and in Malaysia for complex AI-focused solutions. For full-year 2026, Besi anticipates clear revenue and margin acceleration, with hybrid bonding playing a central role.",
+  "sources": [
+    {
+      "label": "Besi Q4-25 & Full Year 2025 Results (official)",
+      "url": "https://www.besi.com/investor-relations/press-releases/details/be-semiconductor-industries-nv-announces-q4-25-and-full-year-2025-results/",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "GlobeNewswire – Besi Q4-25 Results",
+      "url": "https://www.globenewswire.com/news-release/2026/02/19/3240803/0/en/BE-Semiconductor-Industries-N-V-Announces-Q4-25-and-Full-Year-2025-Results.html",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Applied Materials – Strategic Investment in Besi (official)",
+      "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-strategic-investment-be",
+      "as_of": "2025-04"
+    },
+    {
+      "label": "EE Times – Applied Materials / Besi Die-to-Wafer Hybrid Bonding",
+      "url": "https://www.eetimes.com/applied-materials-besi-push-die-to-wafer-hybrid-bonding-toward-high-volume-manufacturing/",
+      "as_of": "2025-11"
+    },
+    {
+      "label": "Techzine – Besi Q1 2026 Results & Outlook",
+      "url": "https://www.techzine.eu/news/infrastructure/140782/besi-capitalizes-on-the-ai-boom-with-hybrid-bonding/",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "TSPA Semiconductor – Hybrid Bonding at Scale: Besi's Vision",
+      "url": "https://tspasemiconductor.substack.com/p/hybrid-bonding-at-scale-besis-vision",
+      "as_of": "2025-07"
+    },
+    {
+      "label": "Nomad Semi – TSMC CoWoS Capacity & Besi Market Position",
+      "url": "https://www.nomadsemi.com/p/tsmcs-cowos-capacity",
+      "as_of": "2025-04"
+    },
+    {
+      "label": "Fusion Worldwide – Inside the AI Bottleneck: CoWoS Lead Times",
+      "url": "https://info.fusionww.com/blog/inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Besi Q2-25 Results (official)",
+      "url": "https://www.besi.com/investor-relations/press-releases/details/be-semiconductor-industries-nv-announces-q2-25-results/",
+      "as_of": "2025-07"
+    }
+  ],
+  "bottlenecks": [
+    "cowos-packaging"
+  ]
+}

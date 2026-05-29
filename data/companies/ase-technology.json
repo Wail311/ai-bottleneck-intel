@@ -1,0 +1,48 @@
+{
+  "slug": "ase-technology",
+  "name": "ASE Technology",
+  "ticker": "ASX",
+  "type": "public",
+  "exposure_summary": "As the world's largest OSAT provider and a key overflow partner in TSMC's CoWoS ecosystem, ASE Technology sits at the center of the advanced packaging bottleneck that constrains AI chip production at scale.",
+  "profile": "ASE Technology Holding (NYSE: ASX) is the world's largest outsourced semiconductor assembly and test (OSAT) provider, a Taiwan-headquartered company whose back-end services — packaging, testing, wafer probing, and heterogeneous integration — are indispensable to the production of AI accelerators. <br><br>Its relevance to the AI buildout turns on a structural problem: TSMC's own CoWoS capacity cannot keep pace with demand from hyperscalers and GPU vendors. There is a significant packaging bottleneck for AI chips, with Nvidia consuming most of TSMC's CoWoS-L capacity, while TSMC is outsourcing mid- to low-tier CoWoS-S packaging to partners like ASE and SPIL, with ASE potentially handling up to 50% of that overflow. This OSAT overflow role gives ASE direct exposure to the CoWoS chokepoint and positions it as a relief valve when TSMC's internal lines are saturated.<br><br>On SoIC, advanced 3D-IC packaging led by technologies such as CoWoS and SoIC has emerged as a critical engine of the AI revolution, determining which companies can build the massive multi-die packages required to power frontier AI models. ASE's LEAP (Leading-Edge Advanced Packaging) platform targets exactly this segment. LEAP revenue scaled from roughly $250 million in 2023 to over $600 million in 2024, and is on track to exceed $1.6 billion in 2025 — rising from approximately 6% of ATM revenue to 10% over that period.<br><br>Recent financial results confirm the momentum. For full-year 2025, ASE reported a profit of $1.31 billion on total revenue of $20.73 billion. The company announced its advanced packaging business is on track to double to $3.2 billion by 2026, a forecast accompanied by fourth-quarter 2025 net income that jumped 58% to $474.1 million. Advanced packaging technologies — including bump, flip-chip, wafer-level packaging, and system-in-package — now account for 48% of total packaging and testing revenue.<br><br>Management said 2025 consolidated revenue grew 12% at the core level, with the ATM segment up 23%, and cited capital spending of TWD 3.4 billion for machinery and TWD 2.1 billion for building facilities, driven mainly by LEAP services and testing investment. In 2025, the company also tripled the size of its Penang, Malaysia plant to 3.4 million square feet, broadening geographic exposure outside Taiwan. The persistent CoWoS shortage of 2024 and 2025 has created durable openings for OSAT providers like ASE, and the company's scale — commanding 28-30% global OSAT market share — means it captures a disproportionate share of any incremental capacity demand.",
+  "sources": [
+    {
+      "label": "TrendForce – ASE CapEx & Q3 2025 Results",
+      "url": "https://www.trendforce.com/news/2025/10/31/news-chip-packaging-giant-ase-reportedly-to-boost-2025-capex-by-us1b-amid-strong-ai-and-hpc-demand/",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "BigGo Finance – ASE Q4 2025 Earnings & 2026 Advanced Packaging Forecast",
+      "url": "https://finance.biggo.com/news/FfPoLJwBQSGUzTlwy1Sj",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Yahoo Finance Q4 2025 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/news/ase-technology-q4-earnings-call-090644900.html",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "BeyondSPX – ASE LEAP Revenue Scaling Analysis",
+      "url": "https://www.beyondspx.com/quote/ASX/ase-technology-ai-supercycle-meets-margin-inflection-at-taiwan-s-osat-leader-nyse-asx",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Seeking Alpha – CoWoS Outsourcing to ASE",
+      "url": "https://seekingalpha.com/article/4793228-ase-technology-powering-future-of-semiconductors-with-innovation-global-scale",
+      "as_of": "2025-06"
+    },
+    {
+      "label": "Financial Content / TokenRing – CoWoS and SoIC Packaging Analysis",
+      "url": "https://markets.financialcontent.com/wral/article/tokenring-2025-12-18-beyond-the-transistor-how-advanced-3d-ic-packaging-became-the-new-frontier-of-ai-dominance",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Ainvest – ASE Penang Expansion & AI Partnerships",
+      "url": "https://www.ainvest.com/news/ase-technology-semiconductor-sector-powerhouse-poised-win-ai-driven-advanced-packaging-arms-race-2508/",
+      "as_of": "2025-08"
+    }
+  ],
+  "bottlenecks": [
+    "cowos-packaging"
+  ]
+}

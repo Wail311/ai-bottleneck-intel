@@ -1,0 +1,53 @@
+{
+  "slug": "applied-optoelectronics",
+  "name": "Applied Optoelectronics",
+  "ticker": "AAOI",
+  "type": "public",
+  "exposure_summary": "AOI manufactures optical transceivers and the laser chips inside them, making it a direct participant in one of the hardest-to-scale links in the AI data center buildout: photonic interconnect capacity.",
+  "profile": "Applied Optoelectronics (AOI), headquartered in Sugar Land, Texas, designs and manufactures fiber-optic transceivers and the laser subassemblies that power them. Its customers span hyperscale data center operators, cable broadband providers, and telecom carriers. The data center segment is now the company's fastest-growing business, with AI infrastructure demand driving the bulk of its recent expansion.\n\nAOI's relevance to the AI supply chain stems from a specific structural advantage: vertical integration. Unlike most transceiver vendors that source laser chips externally, AOI fabricates its own lasers and light engines in-house. That model reduces exposure to upstream laser supply crunches, which have historically been a chokepoint across the optical module industry. The company operates manufacturing facilities in Sugar Land, Taiwan, and Ningbo, China, with a new Texas facility under construction aimed at expanding domestic production.\n\nThe company's financial trajectory reflects its positioning. Full-year 2025 revenue reached $455.7 million, up from $249.4 million in 2024, with a GAAP gross margin of approximately 30%. Q4 2025 revenue was $134.3 million, a 34% year-over-year gain, with data center revenue up 69% over the same period.\n\nOn the capacity side, AOI closed 2025 targeting roughly 100,000 units of 800G transceivers per month, with about 35% of that production in the United States. The company has since set a goal of reaching a combined monthly output of over 500,000 units of 800G and 1.6T transceivers by end of 2026, a roughly fivefold increase from its prior baseline.\n\nOrder activity in early 2026 has been substantial. In March 2026, AOI received a volume order exceeding $200 million for its 1.6T transceivers from a long-term hyperscale customer, with shipments expected to run from early Q3 through Q4 2026. This was followed by a $53 million 800G order and a subsequent $71 million 800G order, bringing total 800G commitments from that same customer to $124 million within roughly three weeks. AOI also began volume shipments of its 1.6T Linear Pluggable Optics (LPO) transceivers in March 2026, a format that removes the DSP stage to reduce power consumption and latency.\n\nManagement has acknowledged that demand for 800G and 1.6T products is expected to exceed expanded production capacity through mid-2027, framing execution on the capacity ramp as the central operational variable. AOI's chokepoint exposure sits squarely in this gap between contracted demand and available throughput.",
+  "sources": [
+    {
+      "label": "AOI Q4 & Full Year 2025 Results (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/news/applied-optoelectronics-inc-aaoi-posts-081324909.html",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "AOI Q1 2025 Earnings Release (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001158114/000168316825003290/appliedopto_ex9901.htm",
+      "as_of": "2025-05"
+    },
+    {
+      "label": "AOI Q3 2025 Earnings Release (Investor Relations)",
+      "url": "https://investors.ao-inc.com/news-releases/news-release-details/applied-optoelectronics-reports-third-quarter-2025-results",
+      "as_of": "2025-11"
+    },
+    {
+      "label": "AOI First Volume 800G Order Announcement (Investor Relations)",
+      "url": "https://investors.ao-inc.com/news-releases/news-release-details/aoi-receives-first-volume-order-800g-data-center-transceivers",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "AOI 1.6T Order Announcement (StockTitan / Globe Newswire)",
+      "url": "https://www.stocktitan.net/news/AAOI/aoi-receives-first-volume-order-of-1-6t-data-center-transceivers-ygsaveoo58dj.html",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "AOI Q1 2026 Results (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001158114/000168316826003562/aaoi_ex9901.htm",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "AOI 2025 Annual Report (SEC ARS)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001158114/000110465926048577/tm264816d2_ars.pdf",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "AOI $53M 800G Order Coverage (FinancialContent)",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-3-30-applied-optoelectronics-secures-53-million-800g-order-as-ai-networking-demand-surges",
+      "as_of": "2026-03"
+    }
+  ],
+  "bottlenecks": [
+    "optical-transceivers"
+  ]
+}

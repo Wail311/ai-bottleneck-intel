@@ -1,0 +1,53 @@
+{
+  "slug": "asm-international",
+  "name": "ASM International",
+  "ticker": "AMS ASM",
+  "type": "public",
+  "exposure_summary": "ASM International is the dominant pure-play in atomic layer deposition equipment, the deposition technology without which advanced AI chips at gate-all-around nodes cannot be manufactured, making it a structural chokepoint in the wafer-fab-equipment layer of the AI supply chain.",
+  "profile": "Every AI accelerator built on a leading-edge logic node passes through a process that ASM International's tools enable. The Netherlands-based company, founded in 1964, designs and manufactures semiconductor wafer processing equipment with a concentrated focus on atomic layer deposition and silicon epitaxy. ALD is the method by which chipmakers coat transistor structures one atomic layer at a time, achieving the conformality and precision that three-dimensional gate-all-around architectures demand. As fabs migrate from FinFET to GAA nanosheet transistors used in 2 nm and sub-2 nm AI chip production, the number of ALD steps per wafer rises sharply, directly expanding ASM's served market.\n\nASM holds a leading position in single-wafer ALD with market share above 55% in the segments where it competes. ALD represented more than half of the company's equipment revenue as of 2025. The single-wafer ALD market, roughly $3.0 billion in 2024, is projected to reach $5.1 to $6.1 billion by 2030, a 9 to 13 percent compound annual growth rate that outpaces the broader wafer-fab-equipment market. ASM's top five customers accounted for 51% of FY2024 revenue, and its top ten for 70%, reflecting deep entrenchment at TSMC, Samsung, Intel, and their peers.\n\nFinancially, ASM posted full-year 2025 revenue of approximately €3.2 billion, up 12% at constant currency, with a gross margin of 51.8% and an adjusted operating margin of 30.2%. Q1 2026 revenue reached €863 million, at the high end of guidance, with 16% year-on-year growth at constant currency, a record operating margin of 33.1%, and equipment sales led by ALD up 14% year-on-year at constant currency. The company has guided for Q2 2026 revenue of approximately €980 million at constant currency, with full-year 2026 growth expected to outpace the WFE market.\n\nLonger term, ASM has set a 2030 revenue target of more than €5.7 billion, implying at least a 12% compound annual growth rate. To support that trajectory, the company signed a Head of Terms with the Municipality of Almere to invest several hundred million euros in a new global headquarters and R&D center, and is scaling manufacturing capability in Arizona, expected to be operational in the second half of 2026. Export controls on China, which had been running at the high end of the low-to-high-20s percentage of revenue in 2025, represent the principal near-term regulatory overhang on supply continuity.",
+  "sources": [
+    {
+      "label": "ASM Q3 2025 Results Press Release",
+      "url": "https://www.asm.com/media/3ukhabzj/20251028-asm-reports-q3-2025-results.pdf",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "ASM Investor Relations Page (Full-Year 2025 Highlights)",
+      "url": "https://www.asm.com/investors",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "Quartr ASM International Q1 2026 Earnings Summary",
+      "url": "https://quartr.com/companies/asm-international-nv_11356",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "StockTitan ASMIY News (Full-Year 2025 Results & HQ Announcement)",
+      "url": "https://www.stocktitan.net/news/ASMIY/",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "BALD Engineering: ASM Q1 2025 ALD Leadership Analysis",
+      "url": "https://www.blog.baldengineering.com/2025/05/asm-international-strengthens-ald.html",
+      "as_of": "2025-05"
+    },
+    {
+      "label": "BALD Engineering: ASM 2030 Investor Day ALD/Epi Market Sizing",
+      "url": "https://www.blog.baldengineering.com/search/label/ASMI",
+      "as_of": "2025-09"
+    },
+    {
+      "label": "Yahoo Finance: ASM Q1 2025 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/news/asm-international-nv-asmiy-q1-071117203.html",
+      "as_of": "2025-05"
+    },
+    {
+      "label": "Bits&Chips: ASM Projects Doubling Revenues by 2030",
+      "url": "https://bits-chips.com/article/asm-projects-doubling-revenues-by-2030/",
+      "as_of": "2025-09"
+    }
+  ],
+  "bottlenecks": [
+    "wafer-fab-equipment"
+  ]
+}

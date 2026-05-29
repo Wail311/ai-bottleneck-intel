@@ -1,0 +1,47 @@
+{
+  "slug": "caterpillar",
+  "name": "Caterpillar",
+  "ticker": "CAT",
+  "exposure_summary": "Caterpillar is one of the world's leading suppliers of diesel and gas generator sets used for backup and prime power at data centers, placing it directly inside the generation chokepoint of the AI infrastructure buildout.",
+  "profile": "Caterpillar matters to the AI buildout because no hyperscale campus can operate without reliable backup power, and Caterpillar is among the most entrenched global suppliers of the generator sets that provide it.\n\nFounded in 1925 and headquartered in Irving, Texas, Caterpillar is a diversified industrial manufacturer whose three primary segments are Construction Industries, Power & Energy (formerly Energy & Transportation), and Financial Products. The company sells through a global dealer network spanning 190 countries.\n\nFor the AI supply chain, the relevant unit is Cat Electric Power, which produces reciprocating engine generator sets and combined heat and power (CHP) systems for data centers. These gensets — diesel and natural-gas-fueled — serve as both standby and prime-power sources for hyperscale and high-performance compute facilities. Caterpillar's exposure to the genset chokepoint is rated Moderate: the company is a significant supplier, but it competes with peers such as Cummins and Kohler, and its data center work is one piece of a much larger industrial portfolio.\n\nThe financial picture through 2025 shows that data center demand has become a meaningful growth engine. In each quarter of 2025 — Q1, Q2, and Q3 — Caterpillar's own SEC filings cited the same driver for power generation sales growth: large reciprocating engines, primarily data center applications. Full-year 2025 revenues reached $67.6 billion, and the order backlog surged to $51.2 billion at December 31, 2025, up from $30.0 billion a year earlier, with the largest segment increase in Power & Energy. In 2024, the Energy & Transportation segment first surpassed Construction as Caterpillar's largest revenue segment, generating $28.9 billion against $25.5 billion for construction, driven substantially by power generation demand.\n\nThe most visible recent deal is a 2025 agreement with Joule Capital Partners and dealer Wheeler Machinery to supply power for a planned high-performance compute campus in central Utah. Caterpillar committed to delivering four gigawatts of total energy using its G3520K generator sets alongside 1.1 gigawatt-hours of grid-forming battery storage and CHP systems — a contract that demonstrates both the scale of orders now entering the market and Caterpillar's ability to bundle generation with cooling and storage.\n\nTariffs remain a headwind: unfavorable manufacturing costs weighed on segment margins throughout 2025. Caterpillar has outlined capacity expansion plans targeting 5–7 percent annual revenue growth through 2026 to address surging demand.",
+  "sources": [
+    {
+      "label": "Caterpillar 10-K FY2025 (Annual Report)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000018230/000130817926000360/cat015318-ars.pdf",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Caterpillar Q3 2025 Earnings Release (8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000018230/000001823025000043/ex991toformcat3q2025earnin.htm",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "Caterpillar Q1 2025 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000018230/000001823025000016/cat-20250331.htm",
+      "as_of": "2025-05"
+    },
+    {
+      "label": "Caterpillar Q2 2025 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000018230/000001823025000040/cat-20250630.htm",
+      "as_of": "2025-08"
+    },
+    {
+      "label": "Joule/CAT/Wheeler Utah Data Center Announcement (PR Newswire)",
+      "url": "https://www.prnewswire.com/news-releases/joule-caterpillar-and-wheeler-announce-an-agreement-to-power-americas-growing-data-center-energy-needs-302524328.html",
+      "as_of": "2025-08"
+    },
+    {
+      "label": "Microgrid Knowledge – CAT 4 GW CHP Utah",
+      "url": "https://www.microgridknowledge.com/data-center-microgrids/news/55308489/cat-commits-to-providing-4-gw-of-chp-power-for-utah-ai-data-center",
+      "as_of": "2025-08"
+    },
+    {
+      "label": "Fortune – Caterpillar centennial/data center growth",
+      "url": "https://fortune.com/2025/07/11/centennial-anniversary-caterpillar-growth-powering-data-centers/",
+      "as_of": "2025-07"
+    }
+  ],
+  "bottlenecks": [
+    "gas-turbines"
+  ]
+}

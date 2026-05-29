@@ -1,0 +1,48 @@
+{
+  "slug": "at-s",
+  "name": "AT&S",
+  "ticker": "VIE ATS",
+  "type": "public",
+  "exposure_summary": "AT&S is the only European-headquartered producer of high-end ABF-based IC substrates at scale, making it a rare Western node in a supply chain otherwise dominated by Asian manufacturers and a critical enabler of AI processor packaging.",
+  "profile": "AT&S (Austria Technologie & Systemtechnik) is headquartered in Leoben, Austria, and is a leading global manufacturer of high-end IC substrates and printed circuit boards. Founded in 1987, the company employs roughly 13,000 people across production sites in Austria, China, Malaysia, and India. Its core relevance to the AI buildout lies in IC substrates: the layers of fine copper circuitry that sit directly beneath advanced processors, routing power and signals between chip dies and the wider system. Without qualified, high-layer-count substrates, GPUs and AI accelerators cannot be packaged and shipped.\n\nIn the ABF substrate market, AT&S sits inside a highly concentrated supplier group. Unimicron, Ibiden, AT&S, Nan Ya PCB, and Shinko Electric Industries collectively hold roughly 74% of global market share, and AT&S is the sole European member of that cohort. That geographic distinction matters: geopolitical pressure to diversify AI supply chains away from Asia has elevated AT&S's strategic standing with both customers and policymakers.\n\nRecent momentum has been strong. In the third quarter of fiscal year 2025, revenue rose 18% quarter-over-quarter to €468 million, driven by favorable product mix and AI substrate demand. The company is targeting full-year 2025/2026 revenue of €1.7 billion, with guidance of €2.1 to €2.4 billion for 2026/2027. A new substrate facility in Leoben-Hinterberg, Austria, opened in June 2025 following an investment of more than €500 million. High-volume manufacturing at the company's Kulim, Malaysia plant began in early 2025, with AMD confirmed as a key substrate customer there.\n\nIn May 2026, AT&S announced a further expansion of AI substrate capacity at its Chongqing, China site, citing growing demand for high-end IC substrates as AI applications require increasing computing power. The company expects a high double-digit million euro EBIT benefit from that expansion in fiscal year 2026/2027.\n\nAT&S is also advancing glass core substrates, a next-generation technology that offers superior dimensional stability and signal quality for larger AI chip packages, positioning the company for the architectural transitions expected to follow current ABF designs.",
+  "sources": [
+    {
+      "label": "Investing.com: AT&S Q3 FY2025 Earnings Call Transcript",
+      "url": "https://in.investing.com/news/transcripts/earnings-call-transcript-ats-sees-revenue-surge-in-q3-2025-amid-ai-focus-93CH-5219340",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "AT&S Official Site: AT&S Worldwide",
+      "url": "https://ats.net/en/company/ats-worldwide/",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "AT&S Press Release: Glass Core Substrates for AI",
+      "url": "https://ats.net/en/press/ats-advances-glass-core-substrates-for-ai-high-performance-computing-and-photonics/",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "Evertiq: AT&S Expands AI Substrate Capacity in Chongqing",
+      "url": "https://evertiq.com/news/2026-05-26-ats-expands-ai-substrate-capacity-in-chongqing",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Alpha Spread: AT&S Q1 FY2026 Earnings Call",
+      "url": "https://www.alphaspread.com/security/vse/ats/investor-relations/earnings-call/q1-2026",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Intel Market Research: ABF Substrate Market Outlook 2026-2032",
+      "url": "https://www.intelmarketresearch.com/abf-substrate-market-21855",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "Digitimes: AT&S Malaysia Plant Delivers AMD AI Chip Substrates",
+      "url": "https://www.digitimes.com/news/a20250507VL211/plant-austria-manufacturing-amd-substrate.html",
+      "as_of": "2025-05"
+    }
+  ],
+  "bottlenecks": [
+    "abf-substrates"
+  ]
+}

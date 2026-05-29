@@ -1,0 +1,58 @@
+{
+  "slug": "alchip",
+  "name": "Alchip",
+  "ticker": "TPE 3661",
+  "type": "public",
+  "exposure_summary": "Alchip is a pure-play turnkey ASIC design and back-end house operating exclusively at leading-edge process nodes, making it a direct and concentrated proxy for the hyperscaler shift from merchant GPUs to custom silicon for AI infrastructure.",
+  "profile": "Alchip Technologies (TWSE: 3661) sits at the precise intersection of two forces reshaping the AI buildout: hyperscalers pulling away from general-purpose GPUs and the relentless migration to ever-smaller semiconductor nodes. Founded in 2003 and headquartered in Taipei, the company provides full-turnkey ASIC design, chiplet integration, advanced 2.5D and 3D CoWoS packaging, and manufacturing management for system companies building complex, high-volume chips. That end-to-end scope is the core of its value proposition: customers hand off a specification and receive a production-ready device, with Alchip managing the TSMC relationship, packaging supply chain, and yield.\n\nAlchip's exposure to the custom-silicon chokepoint is unambiguous. In 2024, AI and high-performance computing applications accounted for 93% of revenue, with 96% of revenue derived from process nodes of 7nm or below. That concentration means that disruption anywhere along the custom-ASIC chain, whether in advanced node wafer allocation, CoWoS packaging availability, or customer tape-out schedules, flows directly to Alchip's top line.\n\nThat vulnerability materialized in 2025. Full-year revenue fell to approximately $992 million from $1.6 billion in 2024, a decline the company attributed to missing one product generation from its largest North American customer and an unanticipated slowdown in a separate 5nm program. Net income for the year was $179.5 million. Despite the revenue decline, gross margin improved to 26% from 20% in 2024, as high-NRE-mix quarters carried better unit economics.\n\nThe 2026 setup is built around a 3nm production ramp. Alchip reported that its 2nm test chip achieved first-pass silicon success, validating its methodology and IP stack against TSMC's N2 node and supporting future A16 readiness. The company joined the Arm Total Design ecosystem in October 2025 and announced a strategic partnership with Astera Labs to deliver validated connectivity solutions for next-generation AI rack-scale infrastructure. New design centers opened in Vietnam and Japan in mid-2025 to expand back-end engineering capacity.\n\nManagement has guided that 80% of 2026 revenue is expected in the second half, tied to the 3nm production ramp, and that full-year 2026 revenue should surpass the 2024 peak. Alchip's position as a concentrated, advanced-node ASIC house makes it one of the clearest indicators of throughput health in the custom-silicon segment of the AI supply chain.",
+  "sources": [
+    {
+      "label": "Alchip 2024 Full-Year Financial Records (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2025/03/28/3051439/0/en/Alchip-Technologies-Sets-2024-Financial-Records.html",
+      "as_of": "2025-03"
+    },
+    {
+      "label": "Alchip Q4 and FY 2025 Financial Results (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/03/18/3258197/0/en/Alchip-Technologies-Reports-Q4-and-2025-FY-Financial-Results.html",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "Alchip Q1 2025 Financial Results (Alchip.com)",
+      "url": "https://www.alchip.com/en/Newsroom/Alchip_2025_Q1_financial_result",
+      "as_of": "2025-05"
+    },
+    {
+      "label": "Alchip Q2 2025 Financial Results (Alchip.com)",
+      "url": "https://www.alchip.com/en/Newsroom/Alchip_2025_Q2_financial_results",
+      "as_of": "2025-08"
+    },
+    {
+      "label": "Alchip 2nm Design Platform Launch (Semiwiki)",
+      "url": "https://semiwiki.com/semiconductor-services/alchip/358440-alchip-launches-2nm-design-platform-for-hpc-and-ai-asics-eyes-tsmc-n2-and-a16-roadmap/",
+      "as_of": "2025-07"
+    },
+    {
+      "label": "Alchip Joins Arm Total Design Ecosystem (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2025/10/14/3166540/0/en/Alchip-Joins-Arm-Total-Design-Ecosystem.html",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "Alchip Global Design Capabilities Expansion (Alchip.com)",
+      "url": "https://www.alchip.com/public/index.php/en/Newsroom/Alchip_Broadens_Global_Design_Capabilities",
+      "as_of": "2025-06"
+    },
+    {
+      "label": "Custom AI Chips Outpace Nvidia GPU Growth 2026 (TechTimes)",
+      "url": "https://www.techtimes.com/articles/317225/20260526/custom-ai-chips-outpace-nvidia-gpu-growth-2026-asic-shipments-set-triple-gpu-rate.htm",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "AI Elevates Production Management in ASIC Value Chain (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/02/10/3235410/0/en/AI-Elevates-Production-Management-s-Importance-in-the-ASIC-Value-Chain.html",
+      "as_of": "2026-02"
+    }
+  ],
+  "bottlenecks": [
+    "custom-silicon"
+  ]
+}
