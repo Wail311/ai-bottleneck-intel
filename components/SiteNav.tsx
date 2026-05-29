@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 interface SiteNavProps {
   back?: { href: string; label: string };
@@ -21,8 +22,15 @@ export default function SiteNav({ back }: SiteNavProps) {
       <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
         <Link
           href="/"
-          style={{ textDecoration: "none", display: "flex", flexDirection: "column", gap: 4 }}
+          style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: 10 }}
         >
+          <Image
+            src="/copper-road-mark.png"
+            alt="Copper Road mark"
+            height={32}
+            width={32}
+            style={{ height: 32, width: "auto" }}
+          />
           <span
             style={{
               fontFamily: "var(--font-serif)",
@@ -34,14 +42,6 @@ export default function SiteNav({ back }: SiteNavProps) {
           >
             Copper Road
           </span>
-          <span
-            style={{
-              display: "block",
-              height: 2,
-              background: "#B87333",
-              borderRadius: 1,
-            }}
-          />
         </Link>
         {back && (
           <>

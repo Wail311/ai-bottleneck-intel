@@ -26,13 +26,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Copper Road",
-  description: "Track the supply-chain chokepoints behind the AI buildout.",
+  description:
+    "Copper Road tracks the supply-chain chokepoints behind the AI buildout and scores how tight each one is. Independent research, every number sourced.",
   icons: {
-    icon: [
-      { url: "/copper-road-favicon-48.png", sizes: "48x48", type: "image/png" },
-      { url: "/copper-road-favicon-256.png", sizes: "256x256", type: "image/png" },
-    ],
-    apple: { url: "/copper-road-icon-512.png", sizes: "512x512", type: "image/png" },
+    icon: { url: "/copper-road-favicon-256.png", type: "image/png" },
   },
 };
 
