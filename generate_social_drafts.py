@@ -178,6 +178,7 @@ def main():
     ap.add_argument("--days", type=int, default=DAYS_BACK)
     ap.add_argument("--limit", type=int, default=0, help="max candidates to evaluate")
     ap.add_argument("--threshold", type=int, default=THRESHOLD)
+    ap.add_argument("--max-queued", type=int, default=5, help="stop after this many drafts clear the bar")
     ap.add_argument("--dry-run", action="store_true", help="print, don't write to Notion")
     args = ap.parse_args()
 
@@ -225,6 +226,9 @@ def main():
 
         print(f"   [{rel}] {d.get('bottleneck')}: {d.get('headline','')[:60]}")
         drafted.append((art, d))
+        if args.max_queued and len(drafted) >= args.max_queued:
+            print(f"   reached --max-queued {args.max_queued}, stopping early.")
+            break
         time.sleep(SLEEP)
 
     # deduplicate: keep only the highest-relevance draft per story cluster

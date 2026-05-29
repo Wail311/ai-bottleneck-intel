@@ -19,4 +19,4 @@ jobs:
           EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-        run: python generate_social_drafts.py --days 1
+        run: python generate_social_drafts.py --days 1 --threshold 75 --max-queued 5
