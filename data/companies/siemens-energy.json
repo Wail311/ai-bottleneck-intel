@@ -1,0 +1,64 @@
+{
+  "slug": "siemens-energy",
+  "name": "Siemens Energy",
+  "ticker": "ENR",
+  "type": "public",
+  "exposure_summary": "Siemens Energy sits at two of the hardest chokepoints in the AI power buildout simultaneously: it is one of only three global makers of large gas turbines, and it is a leading supplier of the grid transformers and HVDC systems that connect generation to data centers.",
+  "profile": "Siemens Energy is a Munich-listed energy technology company whose portfolio spans gas and steam turbines, power generators, grid transformers, high-voltage direct current systems, switchgear, and a range of transmission infrastructure. The company holds a position that no amount of software can substitute: it makes the physical hardware that converts fuel into electrons and moves those electrons to where AI compute clusters actually run.\n\nIn the gas-turbine market, Siemens Energy competes alongside GE Vernova and Mitsubishi Heavy Industries in what analysts describe as an effective oligopoly of three relevant manufacturers capable of producing large-scale units. Delivery slots are booked out years in advance, with some turbine frames reportedly sold out to 2030 and beyond. In fiscal year 2025, the company sold 194 gas turbines, nearly double the 100 units it sold in fiscal year 2024, and its Gas Services division recorded orders of €23 billion for the year. Data center operators in the United States accounted for roughly 60 percent of gas-turbine orders totaling 14 GW through the third quarter of fiscal 2025.\n\nIn grid infrastructure, Siemens Energy's Grid Technologies division covers power transformers and HVDC systems. The division posted revenue of more than €11 billion in fiscal year 2025, growing 25.4 percent on a comparable basis, and the company expects data-center-related orders within that division to quadruple by fiscal year 2028 relative to fiscal year 2025 levels. To address acute transformer shortages, Siemens Energy has committed $1 billion in U.S. manufacturing expansion, including a new facility in Mississippi that will be its largest grid-equipment factory worldwide, slated for completion in 2028. A separate €220 million investment was announced for its Nuremberg transformer factory.\n\nGroup-wide, fiscal year 2025 revenue reached €39.1 billion, up 15.2 percent on a comparable basis. The order backlog closed the year at a record €138 billion and has since grown further to approximately €146 billion, with a book-to-bill ratio of 1.51 for the full year. The group also announced manufacturing capacity expansion targeting a roughly 20 percent increase in global turbine output. In June 2025, Siemens Energy partnered with Eaton to deliver modular on-site power generation systems designed specifically for data center timelines, and in early 2026 it was selected as the steam turbine supplier for a dedicated 1 GW power plant serving Applied Digital's AI infrastructure.",
+  "sources": [
+    {
+      "label": "Siemens Energy FY2025 Full-Year Results Press Release",
+      "url": "https://www.siemens-energy.com/global/en/home/press-releases/siemens-energy-fulfills-all-commitments---and-increases-mid-term.html",
+      "as_of": "2025-11"
+    },
+    {
+      "label": "Siemens Energy Q4 FY2025 Earnings Release",
+      "url": "https://www.siemens-energy.com/global/en/home/press-releases/earnings-release-q4-fy-2025.html",
+      "as_of": "2025-11"
+    },
+    {
+      "label": "Yahoo Finance: SMEGF Q4 2025 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/news/siemens-energy-ag-smegf-q4-170107583.html",
+      "as_of": "2025-11"
+    },
+    {
+      "label": "Energy Connects: Gas Turbine Boom and Record Backlog",
+      "url": "https://www.energyconnects.com/news/oil/2025/august/siemens-energy-s-gas-turbine-boom-brives-highest-ever-order-backlog-of-136bn/",
+      "as_of": "2025-08"
+    },
+    {
+      "label": "Primary VC: The Gas Turbine Bottleneck",
+      "url": "https://www.primary.vc/articles/the-gas-turbine-bottleneck-reshaping-energy-infrastructure-ex8qe",
+      "as_of": "2026-04"
+    },
+    {
+      "label": "HDIN Research: AI-Driven Energy Supercycle — Siemens Energy vs GE Vernova",
+      "url": "https://www.hdinresearch.com/news/804",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Enverus: AI Needs Power — Siemens $1B Grid Buildout",
+      "url": "https://www.enverus.com/blog/ai-needs-power-siemens-delivers-1-billion-grid-buildout/",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Siemens Energy: Powering AI Data Centers",
+      "url": "https://www.siemens-energy.com/us/en/home/stories/powering-ai-data-centers.html",
+      "as_of": "2026-05"
+    },
+    {
+      "label": "Enki AI: Manufacturing Supercycle — AI Power Demand 2026",
+      "url": "https://enkiai.com/data-center/manufacturing-supercycle-ai-power-demand-explodes-in-2026",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Ad Hoc News: Siemens Energy Turnaround and AI Demand",
+      "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/siemens-energy-s-turnaround-takes-shape-as-wind-unit-narrows-loss-and-ai/69261125",
+      "as_of": "2026-04"
+    }
+  ],
+  "bottlenecks": [
+    "gas-turbines",
+    "transformers"
+  ]
+}

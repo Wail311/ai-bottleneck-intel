@@ -106,7 +106,12 @@ def gen_one(client, c):
                 messages=[{"role": "user", "content": prompt}],
             )
             text = "".join(b.text for b in resp.content if b.type == "text")
-            return extract_json(text)
+            data = extract_json(text)
+            # strip <cite> wrappers that the web search tool injects
+            if "profile" in data:
+                data["profile"] = re.sub(r'</?cite[^>]*>', '', data["profile"])
+                data["profile"] = re.sub(r'\s+([.,;])', r'\1', data["profile"])  # tidy spaces before punctuation
+            return data
         except Exception as e:
             print(f"   attempt {attempt} failed: {e}")
             time.sleep(3 * attempt)

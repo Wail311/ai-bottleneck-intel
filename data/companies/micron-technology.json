@@ -1,0 +1,54 @@
+{
+  "slug": "micron-technology",
+  "name": "Micron Technology",
+  "ticker": "MU",
+  "type": "public",
+  "exposure_summary": "As the only U.S.-based manufacturer of DRAM and HBM, Micron is a structurally irreplaceable node in the AI memory supply chain, with its entire 2026 HBM output already committed and its consumer business shuttered to free capacity for AI customers.",
+  "profile": "Micron Technology matters to the AI buildout for a simple reason: there are only three companies on earth that make High Bandwidth Memory, and Micron is the only one headquartered in the United States. Founded in 1978 and based in Boise, Idaho, the company designs and manufactures DRAM, NAND flash, and NOR memory sold under its Micron and, until recently, Crucial brands.\n\nIn the HBM chokepoint, Micron holds approximately 21% market share as of Q2 2025, behind SK hynix at 62% and ahead of Samsung at 17%. That three-supplier structure constitutes what analysts describe as an effective oligopoly over global HBM supply. Micron is shipping HBM3E in both 8-high and 12-high configurations, with its 12-high product designed into NVIDIA's HGX B200 and GB200 NVL72 platforms. HBM4 sampling began in 2025 for 2026 platforms. Critically, Micron has stated that its HBM3E supply is sold out through most of 2026, with pricing agreements already in place for a substantial portion of that allocation.\n\nOn the DRAM side, Micron made a decisive strategic move in late 2025: it announced the shutdown of its Crucial consumer memory and storage brand, ceasing shipments through channel partners at the end of February 2026. The company explicitly cited surging AI data center demand as the reason, reallocating all production capacity toward enterprise and AI customers.\n\nThe financial trajectory reflects that pivot. HBM revenue crossed $1 billion in fiscal Q2 2025, then reached nearly $2 billion in fiscal Q4 2025, implying an annualized run rate of close to $8 billion. Full fiscal year 2025 revenue was $37.38 billion, up roughly 49% year over year. In fiscal Q1 2026 (ended November 2025), revenue hit $13.64 billion, up 57% year over year. Data center revenue, which includes HBM and enterprise DRAM, grew more than 150% year over year in fiscal Q2 2026.\n\nFor supply-chain trackers, the headline risk is straightforward: with only three suppliers, any production disruption at Micron tightens an already constrained global HBM pool. Its exit from consumer DRAM also removes a buffer that historically absorbed wafer capacity during AI demand surges, making the enterprise and HBM segments the sole outlet for Micron output going forward.",
+  "sources": [
+    {
+      "label": "Micron FQ4 2025 Earnings Release (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000723125/000072312525000024/a2025q4ex991-pressrelease.htm",
+      "as_of": "2025-09"
+    },
+    {
+      "label": "Micron FQ2 2025 Earnings Release (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000723125/000072312525000006/a2025q2ex991-pressrelease.htm",
+      "as_of": "2025-03"
+    },
+    {
+      "label": "Micron FQ1 2026 Earnings – CNBC",
+      "url": "https://www.cnbc.com/2025/12/17/micron-q1-earnings-forecast-memory-demand-ai.html",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "HBM Technology Landscape 2026 – PatSnap",
+      "url": "https://www.patsnap.com/resources/blog/articles/hbm-technology-landscape-2026-market-and-ai-demand/",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "Micron Exits Crucial Consumer Business – Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/micron-to-exit-the-consumer-memory-and-storage-market-in-favor-of-ai-data-center-customers/",
+      "as_of": "2025-12"
+    },
+    {
+      "label": "Micron HBM Sold Out Through 2026 – TradingKey",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261930650-micron-mu-hbm-ai-datacenter-sold-out-margin-expansion-fibonacci-breakout-memory-scarcity-guidance-raise-tradingkey",
+      "as_of": "2026-03"
+    },
+    {
+      "label": "Micron FQ4 2025 Prepared Remarks – Investor Relations",
+      "url": "https://investors.micron.com/static-files/5ea95475-639b-4cfc-91fd-b9b4a2bb5e63",
+      "as_of": "2025-09"
+    },
+    {
+      "label": "Micron Exits Crucial – Network World",
+      "url": "https://www.networkworld.com/article/4102592/short-memory-supply-forces-micron-to-abandon-consumer-market-prioritize-enterprise.html",
+      "as_of": "2025-12"
+    }
+  ],
+  "bottlenecks": [
+    "dram-supply",
+    "hbm-memory"
+  ]
+}

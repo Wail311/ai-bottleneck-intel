@@ -1,0 +1,44 @@
+{
+  "slug": "quanta-services",
+  "name": "Quanta Services",
+  "ticker": "PWR",
+  "type": "public",
+  "exposure_summary": "As the dominant U.S. contractor for electric grid construction and high-voltage infrastructure, Quanta Services sits at the physical chokepoint where AI-driven power demand must be translated into new transmission lines, substations, and transformer installations.",
+  "profile": "Quanta Services (NYSE: PWR) is the largest specialty contractor in North America focused on electric power infrastructure. Its Electric segment designs, builds, and maintains transmission lines, substations, and large load center connections that utilities rely on to serve surging electricity demand. That demand is now being driven, in substantial part, by AI data centers.\n\nThe construction of new power generation often requires parallel development of high-voltage electric transmission and substation infrastructure, and investment by technology customers in AI training and inference data centers directly increases demand for Quanta's solutions. The company describes itself as well positioned to provide turnkey infrastructure solutions spanning high-voltage substation, transformer, and transmission interconnection infrastructure to connect data center facilities to the grid.\n\nOn the grid and transformer chokepoints specifically, Quanta's exposure is moderate but growing. The company does not manufacture transformers; it installs and integrates them into broader transmission and substation projects. Its value lies in the engineering, procurement, and construction work that surrounds those critical components. A recent illustration of this role is Quanta's involvement in the Grain Belt Express, America's largest electric power transmission line spanning 800 miles across four states, for which Quanta and Kiewit Energy Group were awarded a combined $1.7 billion.\n\nIn October 2025, NiSource engaged Quanta for the design, procurement, and construction execution of generation and infrastructure resources capable of producing approximately 3 gigawatts of power for a large load customer. The scope of that project includes power generation, battery energy storage, transmission, substation, and underground infrastructure.\n\nFinancially, Quanta's scale reflects the accelerating cycle. The Electric segment grew more than 20% compared to 2024, and the company closed 2025 with a record consolidated backlog of $44.0 billion and a record twelve-month backlog of $25.9 billion. Third-quarter 2025 revenues reached $7.63 billion, up from $6.49 billion in the same period a year earlier. Full-year Electric segment revenues reached $23.0 billion, with organic revenue growth of approximately 16.5% in the fourth quarter compared to the same period of 2024.\n\nFor AI supply-chain watchers, the key constraint Quanta faces is the same one affecting the broader grid buildout: regulatory permitting timelines and workforce availability can compress project schedules regardless of backlog size. The company's ability to self-perform complex, multi-discipline projects gives it some insulation from subcontractor bottlenecks, but execution risk on large integrated jobs remains a factor worth tracking.",
+  "sources": [
+    {
+      "label": "Quanta Q3 2025 Earnings Release (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001050915/000119312525257378/d851878dex991.htm",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "Quanta FY2025 Annual Report (SEC ARS)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526150305/d878482dars.pdf",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Quanta FY2025 10-K (SEC Filing)",
+      "url": "https://investors.quantaservices.com/sec-filings/all-sec-filings/content/0001050915-26-000006/pwr-20251231.htm",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Quanta Q4 & FY2025 Operational Summary",
+      "url": "https://investors.quantaservices.com/_assets/_c33e63906c5e56bc75e345eb419a7a70/quantaservices/db/917/10418/operational_and_financial_commentary/PWR+-+12.31.2025+ER+Operational+and+Financial+Summary.pdf",
+      "as_of": "2026-02"
+    },
+    {
+      "label": "Quanta NiSource Large Load Announcement (PR Newswire)",
+      "url": "https://investors.quantaservices.com/news-events/press-releases/detail/386/building-upon-decades-of-power-generation-experience-quanta-expands-its-total-solutions-platform-and-announces-its-selection-by-nisource-to-provide-power-generation-and-grid-infrastructure-solutions-for-a-large-load-customer",
+      "as_of": "2025-10"
+    },
+    {
+      "label": "Quanta Services: Backbone of AI Data Center Push (Investing.com)",
+      "url": "https://www.investing.com/analysis/quanta-services-the-backbone-of-the-ai-data-center-push-200668991",
+      "as_of": "2025-10"
+    }
+  ],
+  "bottlenecks": [
+    "grid-power",
+    "transformers"
+  ]
+}
