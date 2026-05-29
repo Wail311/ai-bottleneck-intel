@@ -10,6 +10,7 @@ import LinkedBottlenecks from "./LinkedBottlenecks";
 import SectionHeader from "./SectionHeader";
 import SiteNav from "./SiteNav";
 import SiteFooter from "./SiteFooter";
+import NewsletterCTA from "./NewsletterCTA";
 
 interface BottleneckPageProps {
   bottleneck: Bottleneck;
@@ -184,6 +185,11 @@ export default function BottleneckPage({ bottleneck: b }: BottleneckPageProps) {
             <LinkedBottlenecks slugs={b.linked} />
           </section>
         )}
+
+        {/* ── Newsletter ─────────────────────────────────────────────────── */}
+        <section style={{ marginTop: "2.5rem" }}>
+          <NewsletterCTA />
+        </section>
       </div>
       <SiteFooter />
     </div>

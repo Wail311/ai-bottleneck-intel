@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NewsletterCTA from "./NewsletterCTA";
 
 export default function SiteFooter() {
   return (
@@ -15,9 +16,10 @@ export default function SiteFooter() {
           margin: "0 auto",
           display: "flex",
           flexDirection: "column",
-          gap: 8,
+          gap: 24,
         }}
       >
+        <NewsletterCTA />
         <div style={{ display: "flex", alignItems: "center", gap: 16, flexWrap: "wrap" }}>
           <span
             style={{

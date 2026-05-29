@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import SiteNav from "@/components/SiteNav";
 import SiteFooter from "@/components/SiteFooter";
+import NewsletterCTA from "@/components/NewsletterCTA";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -165,6 +166,11 @@ export default async function CompanyPage({ params }: Props) {
             </div>
           </div>
         )}
+
+        {/* ── Newsletter ── */}
+        <div style={{ marginTop: "2.5rem" }}>
+          <NewsletterCTA />
+        </div>
 
         {/* ── Sources ── */}
         {c.sources.length > 0 && (
