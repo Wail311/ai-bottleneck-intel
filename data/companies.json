@@ -1,0 +1,714 @@
+{
+  "_note": "Reference list derived from 14 local seeds; the generator script re-derives from your full /data/bottlenecks dir (incl. CoWoS).",
+  "count": 49,
+  "companies": [
+    {
+      "name": "Samsung Electronics",
+      "ticker": "KRX 005930",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "dram-supply",
+          "role": "DRAM/HBM; reallocating to server memory",
+          "exposure": "Direct"
+        },
+        {
+          "bottleneck": "euv-lithography",
+          "role": "Logic + memory EUV customer",
+          "exposure": "High"
+        },
+        {
+          "bottleneck": "hbm-memory",
+          "role": "First to ship HBM4; entering Nvidia supply",
+          "exposure": "High"
+        },
+        {
+          "bottleneck": "leading-edge-foundry",
+          "role": "Distant #2 at the leading edge",
+          "exposure": "Watch"
+        },
+        {
+          "bottleneck": "silicon-interposers",
+          "role": "Developing glass-interposer packaging",
+          "exposure": "Watch"
+        }
+      ]
+    },
+    {
+      "name": "TSMC",
+      "ticker": "TSM",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "custom-silicon",
+          "role": "Fabricates every hyperscaler ASIC — shared chokepoint",
+          "exposure": "High"
+        },
+        {
+          "bottleneck": "euv-lithography",
+          "role": "Largest EUV customer (leading-edge logic)",
+          "exposure": "High"
+        },
+        {
+          "bottleneck": "hbm-memory",
+          "role": "HBM4 base-die (logic) partner to SK Hynix",
+          "exposure": "Moderate"
+        },
+        {
+          "bottleneck": "leading-edge-foundry",
+          "role": "Sole leading-edge (2nm) foundry",
+          "exposure": "Direct"
+        },
+        {
+          "bottleneck": "silicon-interposers",
+          "role": "Fabricates the interposer within CoWoS; sole volume source",
+          "exposure": "Direct"
+        }
+      ]
+    },
+    {
+      "name": "ASML",
+      "ticker": "ASML",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "euv-lithography",
+          "role": "Sole EUV scanner maker",
+          "exposure": "Direct"
+        },
+        {
+          "bottleneck": "leading-edge-foundry",
+          "role": "EUV lithography monopoly",
+          "exposure": "High"
+        },
+        {
+          "bottleneck": "wafer-fab-equipment",
+          "role": "Lithography monopoly (see EUV)",
+          "exposure": "Direct"
+        }
+      ]
+    },
+    {
+      "name": "GE Vernova",
+      "ticker": "GEV",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "gas-turbines",
+          "role": "Largest gas-turbine backlog (~100 GW)",
+          "exposure": "Direct"
+        },
+        {
+          "bottleneck": "grid-power",
+          "role": "Gas turbines + grid/transformer equipment",
+          "exposure": "Direct"
+        },
+        {
+          "bottleneck": "transformers",
+          "role": "Grid transformers (incl. Prolec GE)",
+          "exposure": "Direct"
+        }
+      ]
+    },
+    {
+      "name": "Lam Research",
+      "ticker": "LRCX",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "hbm-memory",
+          "role": "TSV / stacking etch & deposition tools",
+          "exposure": "Moderate"
+        },
+        {
+          "bottleneck": "leading-edge-foundry",
+          "role": "Etch / GAA process tools",
+          "exposure": "Moderate"
+        },
+        {
+          "bottleneck": "wafer-fab-equipment",
+          "role": "Etch/deposition leader; memory-heavy exposure",
+          "exposure": "Direct"
+        }
+      ]
+    },
+    {
+      "name": "SK Hynix",
+      "ticker": "KRX 000660",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "dram-supply",
+          "role": "HBM + DRAM leader; sold out for 2026",
+          "exposure": "Direct"
+        },
+        {
+          "bottleneck": "euv-lithography",
+          "role": "Advanced-DRAM EUV demand now pulling tools",
+          "exposure": "High"
+        },
+        {
+          "bottleneck": "hbm-memory",
+          "role": "HBM leader (~62%); ~70% of Nvidia Rubin HBM4",
+          "exposure": "Direct"
+        }
+      ]
+    },
+    {
+      "name": "Applied Materials",
+      "ticker": "AMAT",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "leading-edge-foundry",
+          "role": "Deposition / process equipment",
+          "exposure": "Moderate"
+        },
+        {
+          "bottleneck": "wafer-fab-equipment",
+          "role": "Most diversified — deposition, etch, materials engineering",
+          "exposure": "Direct"
+        }
+      ]
+    },
+    {
+      "name": "Bloom Energy",
+      "ticker": "BE",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "gas-turbines",
+          "role": "Fuel-cell alternative to turbines",
+          "exposure": "Moderate"
+        },
+        {
+          "bottleneck": "grid-power",
+          "role": "On-site fuel cells that bypass the grid",
+          "exposure": "Moderate"
+        }
+      ]
+    },
+    {
+      "name": "Broadcom",
+      "ticker": "AVGO",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "custom-silicon",
+          "role": "~70%+ of custom-AI co-design; TPU/MTIA; six XPU customers",
+          "exposure": "Direct"
+        },
+        {
+          "bottleneck": "optical-transceivers",
+          "role": "Optical components + CPO",
+          "exposure": "Moderate"
+        }
+      ]
+    },
+    {
+      "name": "Eaton",
+      "ticker": "ETN",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "grid-power",
+          "role": "Switchgear, electrical distribution",
+          "exposure": "High"
+        },
+        {
+          "bottleneck": "transformers",
+          "role": "Distribution-class electrical equipment",
+          "exposure": "Moderate"
+        }
+      ]
+    },
+    {
+      "name": "Micron Technology",
+      "ticker": "MU",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "dram-supply",
+          "role": "Exited consumer memory to focus AI/enterprise",
+          "exposure": "Direct"
+        },
+        {
+          "bottleneck": "hbm-memory",
+          "role": "~21% share; 2026 sold out; HBM4 samples",
+          "exposure": "High"
+        }
+      ]
+    },
+    {
+      "name": "Quanta Services",
+      "ticker": "PWR",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "grid-power",
+          "role": "Grid / transmission construction",
+          "exposure": "Moderate"
+        },
+        {
+          "bottleneck": "transformers",
+          "role": "Grid installation & construction",
+          "exposure": "Moderate"
+        }
+      ]
+    },
+    {
+      "name": "Siemens Energy",
+      "ticker": "ENR",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "gas-turbines",
+          "role": "One of three large-turbine makers",
+          "exposure": "High"
+        },
+        {
+          "bottleneck": "transformers",
+          "role": "Grid transformers / HVDC",
+          "exposure": "High"
+        }
+      ]
+    },
+    {
+      "name": "Vertiv",
+      "ticker": "VRT",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "grid-power",
+          "role": "Power & thermal management for DCs",
+          "exposure": "High"
+        },
+        {
+          "bottleneck": "liquid-cooling",
+          "role": "Market leader, full thermal portfolio",
+          "exposure": "Direct"
+        }
+      ]
+    },
+    {
+      "name": "Absolics (SKC)",
+      "ticker": "",
+      "type": "private",
+      "roles": [
+        {
+          "bottleneck": "silicon-interposers",
+          "role": "Glass-substrate panel maker (US fab)",
+          "exposure": "Watch"
+        }
+      ]
+    },
+    {
+      "name": "Alchip",
+      "ticker": "TPE 3661",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "custom-silicon",
+          "role": "Tier-2 ASIC design/back-end house",
+          "exposure": "High"
+        }
+      ]
+    },
+    {
+      "name": "Applied Optoelectronics",
+      "ticker": "AAOI",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "optical-transceivers",
+          "role": "Laser / module capacity expansion",
+          "exposure": "Watch"
+        }
+      ]
+    },
+    {
+      "name": "ASM International",
+      "ticker": "AMS ASM",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "wafer-fab-equipment",
+          "role": "ALD deposition pure-play",
+          "exposure": "High"
+        }
+      ]
+    },
+    {
+      "name": "AT&S",
+      "ticker": "VIE ATS",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "abf-substrates",
+          "role": "European high-end substrate supplier",
+          "exposure": "High"
+        }
+      ]
+    },
+    {
+      "name": "Boyd",
+      "ticker": "",
+      "type": "private",
+      "roles": [
+        {
+          "bottleneck": "liquid-cooling",
+          "role": "Cold plates & liquid cooling components",
+          "exposure": "Moderate"
+        }
+      ]
+    },
+    {
+      "name": "Carl Zeiss SMT",
+      "ticker": "",
+      "type": "private",
+      "roles": [
+        {
+          "bottleneck": "euv-lithography",
+          "role": "Sole EUV optics supplier to ASML",
+          "exposure": "Direct"
+        }
+      ]
+    },
+    {
+      "name": "Caterpillar",
+      "ticker": "CAT",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "gas-turbines",
+          "role": "Gensets / backup generation",
+          "exposure": "Moderate"
+        }
+      ]
+    },
+    {
+      "name": "Coherent",
+      "ticker": "COHR",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "optical-transceivers",
+          "role": "EML lasers + modules; Nvidia-backed",
+          "exposure": "Direct"
+        }
+      ]
+    },
+    {
+      "name": "Constellation Energy",
+      "ticker": "CEG",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "grid-power",
+          "role": "Nuclear baseload PPAs for hyperscalers",
+          "exposure": "High"
+        }
+      ]
+    },
+    {
+      "name": "CoolIT Systems",
+      "ticker": "",
+      "type": "private",
+      "roles": [
+        {
+          "bottleneck": "liquid-cooling",
+          "role": "Direct-to-chip cold plates / CDUs",
+          "exposure": "High"
+        }
+      ]
+    },
+    {
+      "name": "Corning",
+      "ticker": "GLW",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "silicon-interposers",
+          "role": "Glass-substrate/interposer material supplier",
+          "exposure": "Moderate"
+        }
+      ]
+    },
+    {
+      "name": "Eoptolink",
+      "ticker": "SZ 300502",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "optical-transceivers",
+          "role": "High-volume module supplier",
+          "exposure": "High"
+        }
+      ]
+    },
+    {
+      "name": "GlobalWafers",
+      "ticker": "TPE 6488",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "silicon-wafers",
+          "role": "$7.5B Texas 300mm expansion",
+          "exposure": "High"
+        }
+      ]
+    },
+    {
+      "name": "Hitachi Energy",
+      "ticker": "Hitachi 6501",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "transformers",
+          "role": "Large power transformers / HVDC",
+          "exposure": "High"
+        }
+      ]
+    },
+    {
+      "name": "Ibiden",
+      "ticker": "TYO 4062",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "abf-substrates",
+          "role": "High-density substrates for AI/HPC",
+          "exposure": "Direct"
+        }
+      ]
+    },
+    {
+      "name": "InnoLight",
+      "ticker": "SHE 300308",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "optical-transceivers",
+          "role": "World #1 transceiver module maker",
+          "exposure": "High"
+        }
+      ]
+    },
+    {
+      "name": "Intel Foundry",
+      "ticker": "INTC",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "leading-edge-foundry",
+          "role": "18A challenger, behind on volume",
+          "exposure": "Watch"
+        }
+      ]
+    },
+    {
+      "name": "KLA",
+      "ticker": "KLAC",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "wafer-fab-equipment",
+          "role": "Process control / inspection near-monopoly",
+          "exposure": "High"
+        }
+      ]
+    },
+    {
+      "name": "LiquidStack",
+      "ticker": "",
+      "type": "private",
+      "roles": [
+        {
+          "bottleneck": "liquid-cooling",
+          "role": "Immersion & direct-to-chip",
+          "exposure": "Moderate"
+        }
+      ]
+    },
+    {
+      "name": "Lumentum",
+      "ticker": "LITE",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "optical-transceivers",
+          "role": "Only volume 200G/lane EML shipper",
+          "exposure": "Direct"
+        }
+      ]
+    },
+    {
+      "name": "Marvell",
+      "ticker": "MRVL",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "custom-silicon",
+          "role": "~20–25% share; Trainium, Maia; $75B design pipeline",
+          "exposure": "Direct"
+        }
+      ]
+    },
+    {
+      "name": "MediaTek",
+      "ticker": "TPE 2454",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "custom-silicon",
+          "role": "Entering custom AI; ~$2B Q4'26 program",
+          "exposure": "Watch"
+        }
+      ]
+    },
+    {
+      "name": "Mitsubishi Heavy",
+      "ticker": "TYO 7011",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "gas-turbines",
+          "role": "Doubling output; sold out into 2028",
+          "exposure": "High"
+        }
+      ]
+    },
+    {
+      "name": "Nan Ya PCB",
+      "ticker": "TPE 8046",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "abf-substrates",
+          "role": "Taiwanese ABF capacity expansion",
+          "exposure": "High"
+        }
+      ]
+    },
+    {
+      "name": "Nvidia",
+      "ticker": "NVDA",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "silicon-interposers",
+          "role": "Largest consumer; reportedly evaluating SiC interposer for Rubin",
+          "exposure": "High"
+        }
+      ]
+    },
+    {
+      "name": "Schneider Electric",
+      "ticker": "SU",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "liquid-cooling",
+          "role": "Cooling + power infrastructure",
+          "exposure": "High"
+        }
+      ]
+    },
+    {
+      "name": "Shin-Etsu Chemical",
+      "ticker": "TYO 4063",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "silicon-wafers",
+          "role": "#1 silicon-wafer maker",
+          "exposure": "Direct"
+        }
+      ]
+    },
+    {
+      "name": "Shinko Electric",
+      "ticker": "TYO 6967",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "abf-substrates",
+          "role": "Premium substrates (HPC/automotive)",
+          "exposure": "High"
+        }
+      ]
+    },
+    {
+      "name": "Siltronic",
+      "ticker": "ETR WAF",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "silicon-wafers",
+          "role": "European 300mm supplier",
+          "exposure": "Moderate"
+        }
+      ]
+    },
+    {
+      "name": "SK Siltron",
+      "ticker": "",
+      "type": "private",
+      "roles": [
+        {
+          "bottleneck": "silicon-wafers",
+          "role": "Korean wafer maker (SK group)",
+          "exposure": "Moderate"
+        }
+      ]
+    },
+    {
+      "name": "SUMCO",
+      "ticker": "TYO 3436",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "silicon-wafers",
+          "role": "#2; exiting 200mm to focus AI-grade 300mm",
+          "exposure": "Direct"
+        }
+      ]
+    },
+    {
+      "name": "Super Micro",
+      "ticker": "SMCI",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "liquid-cooling",
+          "role": "Liquid-cooled rack-scale systems",
+          "exposure": "Moderate"
+        }
+      ]
+    },
+    {
+      "name": "Tokyo Electron",
+      "ticker": "TYO 8035",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "wafer-fab-equipment",
+          "role": "Coat/develop, etch, deposition",
+          "exposure": "Direct"
+        }
+      ]
+    },
+    {
+      "name": "Unimicron",
+      "ticker": "TPE 3037",
+      "type": "public",
+      "roles": [
+        {
+          "bottleneck": "abf-substrates",
+          "role": "Largest ABF maker; CoWoS/EMIB substrates",
+          "exposure": "Direct"
+        }
+      ]
+    }
+  ]
+}
