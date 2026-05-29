@@ -1,0 +1,41 @@
+{
+  "slug": "leading-edge-foundry",
+  "name": "Leading-edge foundry (2nm / N2)",
+  "layer": "Compute & silicon",
+  "thesis": "The single source of the world's most advanced transistors. TSMC's N2 is sold out through 2026 with orders pushing into 2028 — and there is no real second supplier at the leading edge.",
+  "updated_at": "2026-05-28T06:00:00Z",
+  "gauge": {
+    "inputs": { "coverage": 85, "leadTime": 85, "concentration": 90, "momentum": 65 },
+    "score": 82,
+    "band": "critical",
+    "delta_90d": 3,
+    "rationale": "N2 fully booked through 2026 with 78–104 week lead times pushing new orders into 2028, even as TSMC ramps capacity hard."
+  },
+  "metrics": [
+    { "label": "N2 capacity 2026E", "metric": { "value": "~100k", "unit": "wafers/mo", "as_of": "2026-04-05", "source": "Tech Insider", "url": "https://tech-insider.org/tsmc-arizona-165-billion-expansion-gigafab-2026/" } },
+    { "label": "Lead time", "metric": { "value": "78–104 wk", "unit": "into 2028", "as_of": "2026-03-23", "source": "Paradox Intelligence", "url": "https://www.paradoxintelligence.com/news/tsmc-2nm-three-layer-constraint-2026" } },
+    { "label": "N2 wafer price", "metric": { "value": ">$30k", "unit": "~2x 4nm", "as_of": "2026-04-05", "source": "Tech Insider", "url": "https://tech-insider.org/tsmc-arizona-165-billion-expansion-gigafab-2026/" } },
+    { "label": "Lead customer", "metric": { "value": "~50%", "unit": "Apple of N2 allocation", "as_of": "2026-03-23", "source": "Paradox Intelligence / Wedbush", "url": "https://www.paradoxintelligence.com/news/tsmc-2nm-three-layer-constraint-2026" } }
+  ],
+  "why_it_gates": "Every advanced AI accelerator, CPU, and flagship SoC needs a leading-edge node, and at 2nm there is effectively one supplier. Apple takes roughly half of N2 capacity for consumer devices on a fixed schedule, leaving AI chip designers competing for the rest — so foundry allocation gates the entire frontier of compute, sitting alongside CoWoS and HBM in a triple constraint.",
+  "watchlist": [
+    { "name": "TSMC", "type": "public", "ticker": "TSM / TPE 2330", "role": "Sole leading-edge (2nm) foundry", "exposure": "Direct" },
+    { "name": "ASML", "type": "public", "ticker": "ASML", "role": "EUV lithography monopoly", "exposure": "High" },
+    { "name": "Applied Materials", "type": "public", "ticker": "AMAT", "role": "Deposition / process equipment", "exposure": "Moderate" },
+    { "name": "Lam Research", "type": "public", "ticker": "LRCX", "role": "Etch / GAA process tools", "exposure": "Moderate" },
+    { "name": "Samsung Foundry", "type": "public", "ticker": "KRX 005930", "role": "Distant #2 at the leading edge", "exposure": "Watch" },
+    { "name": "Intel Foundry", "type": "public", "ticker": "INTC", "role": "18A challenger, behind on volume", "exposure": "Watch" }
+  ],
+  "catalysts": [
+    { "timeframe": "H2 2026", "text": "A16 (1.6nm) high-volume manufacturing with Super PowerRail backside power" },
+    { "timeframe": "2027", "text": "N2 capacity scales toward ~200k wafers/mo" },
+    { "timeframe": "~2029", "text": "TSMC Arizona N2 pulled forward, adding US leading-edge capacity" }
+  ],
+  "what_loosens_it": "Samsung or Intel closing the leading-edge gap (unlikely near-term), the 200k wpm 2027 ramp, and Arizona capacity. But TSMC's effective monopoly on the frontier keeps N2 sold out into 2028.",
+  "developments": [
+    { "date": "2026-03-23", "text": "N2 fully booked with 78–104 week lead times pushing orders into 2028; 2nm + CoWoS + HBM form a triple constraint", "source": "Paradox Intelligence", "url": "https://www.paradoxintelligence.com/news/tsmc-2nm-three-layer-constraint-2026" },
+    { "date": "2026-01-07", "text": "TSMC enters N2 volume production; Taiwan gigafabs reach >50k wafers/mo", "source": "FinancialContent", "url": "https://markets.financialcontent.com/wral/article/tokenring-2026-1-7-tsmc-officially-enters-2nm-mass-production-apple-and-nvidia-lead-the-charge-into-the-gaa-era" },
+    { "date": "2025-08-30", "text": "N2 demand outruns the initial ~40k wpm ramp; expansion to ~100k (2026) and ~200k (2027) planned", "source": "Dr Robert Castellano", "url": "https://drrobertcastellano.substack.com/p/tsmcs-2-nm-era-technology-leadership" }
+  ],
+  "linked": ["cowos-packaging", "hbm-memory", "euv-lithography", "abf-substrates"]
+}

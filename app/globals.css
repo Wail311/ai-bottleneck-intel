@@ -1,26 +1,92 @@
 @import "tailwindcss";
 
+/* ─── Design-system tokens ──────────────────────────────────────────────── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg:            #FAFAF7;
+  --surface:       #FFFFFF;
+  --surface-muted: #F4F3EE;
+
+  --text:           #1A1A18;
+  --text-secondary: #5F5E58;
+  --text-tertiary:  #8C8B83;
+
+  --border:        rgba(20,20,18,0.12);
+  --border-strong: rgba(20,20,18,0.22);
+
+  --accent: #1A50C7;
+
+  --eased-bg:   #EAF3DE; --eased-text:  #27500A;
+  --tight-bg:   #FAEEDA; --tight-text:  #633806;
+  --crit-bg:    #FCEBEB; --crit-text:   #791F1F;
+  --neutral-bg: #F1EFE8; --neutral-text:#444441;
+
+  --arc-eased:    #3E9A38;
+  --arc-tight:    #C07800;
+  --arc-critical: #C23B3B;
+  --arc-track:    #E5E4DE;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+[data-theme="dark"] {
+  --bg:            #0E0F0E;
+  --surface:       #17181A;
+  --surface-muted: #1E1F22;
+  --text:          #F2F1EC;
+  --text-secondary:#A9A89F;
+  --text-tertiary: #6E6D66;
+  --border:        rgba(255,255,255,0.12);
+  --border-strong: rgba(255,255,255,0.22);
+  --accent:        #7FA8FF;
+
+  --eased-bg:   #162B10; --eased-text:  #7EC96E;
+  --tight-bg:   #2B1E08; --tight-text:  #E8A54B;
+  --crit-bg:    #2B0D0D; --crit-text:   #E57373;
+  --neutral-bg: #1E1F22; --neutral-text:#A9A89F;
+
+  --arc-track: #2A2B2E;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* ─── Base ──────────────────────────────────────────────────────────────── */
+* { box-sizing: border-box; }
+
+html { color-scheme: light; }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans, system-ui, sans-serif);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.hairline {
+  border: none;
+  height: 0.5px;
+  background: var(--border);
+}
+
+/* ─── Home page row hover ───────────────────────────────────────────────── */
+.entry-row {
+  transition: background 0.1s, padding 0.1s, margin 0.1s;
+}
+.entry-row:hover {
+  background: var(--surface-muted);
+  border-radius: 6px;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+/* ─── Linked pill hover ─────────────────────────────────────────────────── */
+.linked-pill {
+  transition: background 0.12s;
+}
+.linked-pill:hover {
+  background: var(--surface-muted);
+}
+
+/* ─── Nav link hover ────────────────────────────────────────────────────── */
+.nav-back:hover {
+  color: var(--text) !important;
 }

@@ -1,0 +1,40 @@
+{
+  "slug": "custom-silicon",
+  "name": "Custom silicon (hyperscaler ASICs)",
+  "layer": "Compute & silicon",
+  "thesis": "Hyperscalers are designing their way around Nvidia with bespoke accelerators \u2014 but only two firms can co-design them at scale, and they all funnel through the same TSMC nodes and CoWoS slots.",
+  "updated_at": "2026-05-29T06:00:00Z",
+  "gauge": {
+    "inputs": { "coverage": 70, "leadTime": 70, "concentration": 88, "momentum": 75 },
+    "score": 75,
+    "band": "critical",
+    "delta_90d": 4,
+    "rationale": "ASIC shipments now outgrowing merchant GPUs for the first time, with new programs (Apple, OpenAI, Anthropic) added \u2014 but the design duopoly and shared TSMC/CoWoS chokepoints keep it tight."
+  },
+  "metrics": [
+    { "label": "2026 ASIC shipment growth", "metric": { "value": "+44.6%", "unit": "YoY vs +16% for GPUs", "as_of": "2026-05-26", "source": "TrendForce via Tom's Hardware", "url": "https://www.tomshardware.com/tech-industry/semiconductors/custom-ai-asics-examined-from-broadcom-to-mtia" } },
+    { "label": "Co-design market share", "metric": { "value": "~95%", "unit": "Broadcom + Marvell", "as_of": "2026-05-26", "source": "TechTimes", "url": "https://www.techtimes.com/articles/317225/20260526/custom-ai-chips-outpace-nvidia-gpu-growth-2026-asic-shipments-set-triple-gpu-rate.htm" } },
+    { "label": "Broadcom AI backlog", "metric": { "value": "$73B", "unit": "\u2192 $100B target 2027", "as_of": "2026-05-19", "source": "Tom's Hardware", "url": "https://www.tomshardware.com/tech-industry/semiconductors/custom-ai-asics-examined-from-broadcom-to-mtia" } },
+    { "label": "ASIC share of AI servers", "metric": { "value": "~27.8%", "unit": "2026E, highest since 2023", "as_of": "2026-05-26", "source": "TrendForce via Tom's Hardware", "url": "https://www.tomshardware.com/tech-industry/semiconductors/custom-ai-asics-examined-from-broadcom-to-mtia" } }
+  ],
+  "why_it_gates": "Hyperscaler accelerators \u2014 Google TPU, Amazon Trainium, Meta MTIA, Microsoft Maia \u2014 are how the largest buyers cut their Nvidia dependence. But the hyperscalers don't build them alone: Broadcom and Marvell together do ~95% of the custom-ASIC co-design work, and every one of these chips is fabricated by TSMC on advanced nodes and assembled with CoWoS. So custom silicon doesn't escape the compute bottleneck \u2014 it inherits the same foundry and packaging chokepoints as merchant GPUs.",
+  "watchlist": [
+    { "name": "Broadcom", "type": "public", "ticker": "AVGO", "role": "~70%+ of custom-AI co-design; TPU/MTIA; six XPU customers", "exposure": "Direct" },
+    { "name": "Marvell", "type": "public", "ticker": "MRVL", "role": "~20\u201325% share; Trainium, Maia; $75B design pipeline", "exposure": "Direct" },
+    { "name": "Alchip", "type": "public", "ticker": "TPE 3661", "role": "Tier-2 ASIC design/back-end house", "exposure": "High" },
+    { "name": "MediaTek", "type": "public", "ticker": "TPE 2454", "role": "Entering custom AI; ~$2B Q4'26 program", "exposure": "Watch" },
+    { "name": "TSMC", "type": "public", "ticker": "TSM", "role": "Fabricates every hyperscaler ASIC \u2014 shared chokepoint", "exposure": "High" }
+  ],
+  "catalysts": [
+    { "timeframe": "Q4 2026", "text": "MediaTek's first hyperscaler ASIC ramps; ~$2B revenue, double prior guidance" },
+    { "timeframe": "2027", "text": "Broadcom targets $100B AI chip revenue (timing may slip to late 2027/2028 on TSMC capacity)" },
+    { "timeframe": "2026\u201327", "text": "OpenAI, Anthropic, Apple custom programs move toward volume" }
+  ],
+  "what_loosens_it": "A generational efficiency leap from Nvidia or AMD that undercuts the economics of building custom chips, or TSMC advanced-node and CoWoS capacity catching up. Neither looks likely to bite before mid-2027, which is when TSMC constraints are expected to ease.",
+  "developments": [
+    { "date": "2026-05-26", "text": "TrendForce: custom ASIC shipments to grow 44.6% in 2026 vs 16.1% for merchant GPUs", "source": "TechTimes", "url": "https://www.techtimes.com/articles/317225/20260526/custom-ai-chips-outpace-nvidia-gpu-growth-2026-asic-shipments-set-triple-gpu-rate.htm" },
+    { "date": "2026-03-12", "text": "Broadcom Q1 FY26 AI revenue $8.4B (+106% YoY); confirms six XPU customers including Apple, OpenAI, Anthropic", "source": "Hashrate Index", "url": "https://hashrateindex.com/blog/hyperscaler-ai-asic-market-report-part-1/" },
+    { "date": "2026-04-30", "text": "MediaTek doubles AI-ASIC guidance to ~$2B for Q4 2026; second program targeting 2027 mass production", "source": "TechTimes", "url": "https://www.techtimes.com/articles/317225/20260526/custom-ai-chips-outpace-nvidia-gpu-growth-2026-asic-shipments-set-triple-gpu-rate.htm" }
+  ],
+  "linked": ["leading-edge-foundry", "cowos-packaging", "hbm-memory", "silicon-interposers"]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "wafer-fab-equipment",
+  "name": "Wafer fab equipment",
+  "layer": "Compute & silicon",
+  "thesis": "Every new fab is built from tools made by a handful of segment monopolists, and the AI cycle (leading-edge logic + DRAM/HBM + advanced packaging) is driving a higher-intensity WFE wave with long lead times that gates how fast capacity can come online.",
+  "updated_at": "2026-05-29T06:00:00Z",
+  "gauge": {
+    "inputs": { "coverage": 65, "leadTime": 70, "concentration": 70, "momentum": 65 },
+    "score": 67,
+    "band": "tight",
+    "delta_90d": 4,
+    "rationale": "Record WFE spending (~$145B in 2026) and an intensity cycle expected to persist through the back half of the decade, served by segment oligopolies (litho, deposition/etch, metrology, test) with extended lead times \u2014 tight but with multiple vendors per category, so not as acute as the EUV monopoly."
+  },
+  "metrics": [
+    { "label": "2026 global WFE spending", "metric": { "value": "~145", "unit": "$B (record, revised up)", "as_of": "2026-01", "source": "FinancialContent", "url": "https://markets.financialcontent.com/wral/article/marketminute-2026-1-9-the-ai-infrastructure-supercycle-lam-research-leads-a-historic-surge-in-semiconductor-equipment" } },
+    { "label": "Advanced-packaging capacity growth, 2026", "metric": { "value": "~80", "unit": "% YoY (analyst est.)", "as_of": "2026-04", "source": "Benzinga", "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/04/51798066/ai-arms-race-triggers-143-billion-explosion-in-chip-gear-spending" } },
+    { "label": "WFE 5-year growth (AI-driven)", "metric": { "value": "~8", "unit": "% annualized; +~25% TAM from packaging", "as_of": "2025-10", "source": "Morningstar", "url": "https://www.morningstar.com/business/insights/blog/markets/wafer-fabrication-equipment-market" } },
+    { "label": "High-NA EUV system price", "metric": { "value": ">380", "unit": "$M per system", "as_of": "2026-01", "source": "FinancialContent", "url": "https://markets.financialcontent.com/wral/article/marketminute-2026-1-9-the-ai-infrastructure-supercycle-lam-research-leads-a-historic-surge-in-semiconductor-equipment" } },
+    { "label": "Segment structure", "metric": { "value": "oligopoly", "unit": "1\u20132 leaders per segment (litho/etch/depo/metrology/test)", "as_of": "2026", "source": "Morningstar", "url": "https://www.morningstar.com/business/insights/blog/markets/wafer-fabrication-equipment-market" } }
+  ],
+  "why_it_gates": "WFE is the machinery that builds every chip fab \u2014 deposition, etch, lithography, metrology and test. A higher 'WFE intensity' cycle means each incremental wafer of leading-edge, memory or advanced-packaging capacity needs more (and more expensive) tools, and each tool category is dominated by one or two suppliers with long delivery times. That makes equipment availability, not just fab construction, a real pacing item for capacity additions.",
+  "watchlist": [
+    { "name": "ASML", "type": "public", "ticker": "ASML", "role": "Lithography monopoly (see EUV)", "exposure": "Direct" },
+    { "name": "Applied Materials", "type": "public", "ticker": "AMAT", "role": "Most diversified \u2014 deposition, etch, materials engineering", "exposure": "Direct" },
+    { "name": "Lam Research", "type": "public", "ticker": "LRCX", "role": "Etch/deposition leader; memory-heavy exposure", "exposure": "Direct" },
+    { "name": "Tokyo Electron", "type": "public", "ticker": "TYO 8035", "role": "Coat/develop, etch, deposition", "exposure": "Direct" },
+    { "name": "KLA", "type": "public", "ticker": "KLAC", "role": "Process control / inspection near-monopoly", "exposure": "High" },
+    { "name": "ASM International", "type": "public", "ticker": "AMS ASM", "role": "ALD deposition pure-play", "exposure": "High" }
+  ],
+  "catalysts": [
+    { "timeframe": "Near (quarterly)", "text": "Big-5 WFE bookings and guidance signal the intensity-cycle trajectory." },
+    { "timeframe": "2026\u20132027", "text": "HBM4 and gate-all-around (GAA) transitions lift WFE intensity; advanced-packaging capacity ~+80% YoY." },
+    { "timeframe": "Watch", "text": "China WFE spending direction and any foundry/memory capex revisions." }
+  ],
+  "what_loosens_it": "Capacity digestion after the current build-out, a pullback in China equipment buying, or slower-than-planned foundry and memory capex.",
+  "developments": [
+    { "date": "2026-01-09", "text": "2026 global WFE spending revised up to a record ~$145B; Lam, Applied Materials and ASML named primary winners of the AI infrastructure supercycle.", "source": "FinancialContent", "url": "https://markets.financialcontent.com/wral/article/marketminute-2026-1-9-the-ai-infrastructure-supercycle-lam-research-leads-a-historic-surge-in-semiconductor-equipment" },
+    { "date": "2026-04-14", "text": "Analysts: advanced-packaging capacity could expand ~80% YoY in 2026; higher WFE-intensity cycle expected to persist through the second half of the decade.", "source": "Benzinga", "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/04/51798066/ai-arms-race-triggers-143-billion-explosion-in-chip-gear-spending" }
+  ],
+  "linked": ["leading-edge-foundry", "euv-lithography", "cowos-packaging"]
+}

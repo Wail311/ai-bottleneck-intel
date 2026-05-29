@@ -1,0 +1,40 @@
+{
+  "slug": "hbm-memory",
+  "name": "HBM (high-bandwidth memory)",
+  "layer": "Memory",
+  "thesis": "The memory that makes an accelerator usable — stacked DRAM bonded beside the GPU. Bandwidth, not compute, is the binding constraint, and supply is sold out across all three makers through 2026.",
+  "updated_at": "2026-05-28T06:00:00Z",
+  "gauge": {
+    "inputs": { "coverage": 80, "leadTime": 85, "concentration": 65, "momentum": 60 },
+    "score": 74,
+    "band": "critical",
+    "delta_90d": -3,
+    "rationale": "Eased slightly as Samsung qualifies HBM4 into Nvidia and all three suppliers ramp — but 2026 supply is sold out across the board and orders are booked into 2028."
+  },
+  "metrics": [
+    { "label": "Market leader share", "metric": { "value": "~62%", "unit": "SK Hynix, Q2'25", "as_of": "2025-09-26", "source": "Chosun Biz via Astute Group", "url": "https://www.astutegroup.com/news/general/sk-hynix-holds-62-of-hbm-micron-overtakes-samsung-2026-battle-pivots-to-hbm4/" } },
+    { "label": "2026 supply", "metric": { "value": "Sold out", "unit": "all 3 makers", "as_of": "2026-01-03", "source": "Introl", "url": "https://introl.com/blog/ai-memory-supercycle-hbm-2026" } },
+    { "label": "Server DRAM price move", "metric": { "value": "+60–70%", "unit": "recent", "as_of": "2026-01-07", "source": "Introl", "url": "https://introl.com/blog/south-korea-hbm4-stargate-memory-supercycle-2026" } },
+    { "label": "HBM TAM 2028E", "metric": { "value": "~$100B", "unit": "from ~$35B in 2025", "as_of": "2026-01-03", "source": "Introl", "url": "https://introl.com/blog/ai-memory-supercycle-hbm-2026" } }
+  ],
+  "why_it_gates": "HBM is the stacked DRAM bonded next to the GPU die — bandwidth, not raw compute, is what limits large-model training and inference. Every accelerator needs multiple stacks, and supply is set by just three manufacturers, two of which control ~90% of output. So memory allocation gates how many usable AI chips actually exist, in lockstep with CoWoS packaging downstream.",
+  "watchlist": [
+    { "name": "SK Hynix", "type": "public", "ticker": "KRX 000660", "role": "HBM leader (~62%); ~70% of Nvidia Rubin HBM4", "exposure": "Direct" },
+    { "name": "Samsung Electronics", "type": "public", "ticker": "KRX 005930", "role": "First to ship HBM4; entering Nvidia supply", "exposure": "High" },
+    { "name": "Micron", "type": "public", "ticker": "MU", "role": "~21% share; 2026 sold out; HBM4 samples", "exposure": "High" },
+    { "name": "TSMC", "type": "public", "ticker": "TSM", "role": "HBM4 base-die (logic) partner to SK Hynix", "exposure": "Moderate" },
+    { "name": "Lam Research", "type": "public", "ticker": "LRCX", "role": "TSV / stacking etch & deposition tools", "exposure": "Moderate" }
+  ],
+  "catalysts": [
+    { "timeframe": "Q1 2026", "text": "Samsung begins HBM4 mass production; first shipments after Lunar New Year" },
+    { "timeframe": "H2 2026", "text": "Nvidia Vera Rubin ramps on HBM4; 16-Hi stacks target Q4 2026" },
+    { "timeframe": "~2028", "text": "Shortage expected to ease as new fabs (e.g. SK Hynix M15X) land capacity" }
+  ],
+  "what_loosens_it": "Unlike CoWoS's single source, three suppliers are all ramping hard — Samsung and Micron qualifying HBM4 into Nvidia broadens supply, and TrendForce flags a possible 2026 demand correction from AI-chip delays and inventory. Structurally, though, memory stays sold out through 2026 and most expect real relief only around 2028.",
+  "developments": [
+    { "date": "2026-02-09", "text": "Nvidia HBM4 allocation splits ~SK Hynix mid-50%, Samsung mid-20%, Micron ~20%", "source": "TrendForce", "url": "https://www.trendforce.com/news/2026/02/09/news-samsung-hbm4-reportedly-to-ship-first-after-lunar-new-year-initial-share-projected-at-mid-20/" },
+    { "date": "2026-02-04", "text": "TrendForce flags converging supply-demand and a 2026 correction phase as HBM4 ramps", "source": "TrendForce", "url": "https://www.trendforce.com/research/download/RP260204DA3" },
+    { "date": "2026-01-03", "text": "All three suppliers sold out through 2026; HBM TAM seen reaching ~$100B by 2028", "source": "Introl", "url": "https://introl.com/blog/ai-memory-supercycle-hbm-2026" }
+  ],
+  "linked": ["cowos-packaging", "leading-edge-foundry", "dram-supply", "power-grid"]
+}

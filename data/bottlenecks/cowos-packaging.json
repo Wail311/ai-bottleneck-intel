@@ -1,0 +1,41 @@
+{
+  "slug": "cowos-packaging",
+  "name": "CoWoS advanced packaging",
+  "layer": "Silicon & packaging",
+  "thesis": "The gate on every advanced AI accelerator shipped — if a chip needs HBM, it needs CoWoS, and capacity is effectively sold out.",
+  "updated_at": "2026-05-28T06:00:00Z",
+  "gauge": {
+    "inputs": { "coverage": 80, "leadTime": 80, "concentration": 85, "momentum": 70 },
+    "score": 79,
+    "band": "critical",
+    "delta_90d": 7,
+    "rationale": "Tightness rose as CoWoS-L demand outran 2026 capacity adds; gap not expected to close until 2027."
+  },
+  "metrics": [
+    { "label": "Capacity (end 2026E)", "metric": { "value": "~125k", "unit": "wafers/mo", "as_of": "2026-01-05", "source": "Bernstein via TheStreet", "url": "https://www.thestreet.com/investing/stocks/goldman-sachs-stuns-with-taiwan-semiconductor-stock-price-target" } },
+    { "label": "Global demand 2026", "metric": { "value": "~1M", "unit": "wafers/yr", "as_of": "2025-08-04", "source": "Morgan Stanley", "url": "https://www.astutegroup.com/news/industrial/advanced-packaging-demand-soars-nvidia-secures-60-of-cowos-capacity/" } },
+    { "label": "Downstream lead time", "metric": { "value": "36–52", "unit": "weeks", "as_of": "2026-04-06", "source": "Spheron", "url": "https://www.spheron.network/blog/gpu-shortage-2026/" } },
+    { "label": "Top-supplier share", "metric": { "value": "~87%", "unit": "of Nvidia sourcing", "as_of": "2025-08-04", "source": "Astute Group", "url": "https://www.astutegroup.com/news/industrial/advanced-packaging-demand-soars-nvidia-secures-60-of-cowos-capacity/" } }
+  ],
+  "why_it_gates": "CoWoS bonds the GPU die to its HBM stacks on a silicon interposer. No interposer, no high-bandwidth memory, no usable accelerator. Because nearly all leading-edge capacity sits with one supplier, each hyperscaler's GPU allocation is rationed by how many packaging slots it can secure — making this the true rate-limiter on AI compute, upstream of the chips themselves.",
+  "watchlist": [
+    { "name": "TSMC", "type": "public", "ticker": "TSM / TPE 2330", "role": "Owns the bulk of CoWoS capacity", "exposure": "Direct" },
+    { "name": "ASE Technology", "type": "public", "ticker": "ASX", "role": "OSAT overflow, SoIC ramp", "exposure": "High" },
+    { "name": "Amkor", "type": "public", "ticker": "AMKR", "role": "US packaging, Arizona build", "exposure": "High" },
+    { "name": "BE Semiconductor", "type": "public", "ticker": "BESI", "role": "Hybrid-bonding tools (>12–18mo lead time)", "exposure": "High" },
+    { "name": "Applied Materials", "type": "public", "ticker": "AMAT", "role": "Packaging deposition / etch", "exposure": "Moderate" },
+    { "name": "Panel-level packaging entrants", "type": "private", "role": "Glass-substrate alternative to silicon interposer", "exposure": "Watch" }
+  ],
+  "catalysts": [
+    { "timeframe": "H2 2026", "text": "New TSMC packaging fabs (Chiayi AP7, Tainan AP8) reach volume output" },
+    { "timeframe": "2026–27", "text": "SoIC + CoWoS hybrid lines scale for next-gen accelerators" },
+    { "timeframe": "End 2027", "text": "Capacity targeted to ~170k wafers/mo; glass-substrate pilots could relieve interposer scarcity" }
+  ],
+  "what_loosens_it": "Faster-than-guided capacity from ASE and Amkor, a demand air-pocket if GPU orders soften, or a shift to panel-level / glass substrates that sidesteps silicon-interposer scarcity. None look likely to bite before late 2026.",
+  "developments": [
+    { "date": "2026-01-05", "text": "Institutional investors revise TSMC's end-2026 CoWoS capacity forecast up 14% to ~125k wpm", "source": "36Kr", "url": "https://eu.36kr.com/en/p/3627284731446275" },
+    { "date": "2025-08-04", "text": "Nvidia secures ~60% of 2026 CoWoS capacity (~595k wafers)", "source": "Astute Group", "url": "https://www.astutegroup.com/news/industrial/advanced-packaging-demand-soars-nvidia-secures-60-of-cowos-capacity/" },
+    { "date": "2026-01-28", "text": "Analysis: even with $56B 2026 capex, supply-demand gap won't fully close until 2027", "source": "FinancialContent", "url": "https://markets.financialcontent.com/stocks/article/tokenring-2026-1-28-the-cowos-conundrum-why-advanced-packaging-is-the-sovereign-utility-of-the-2026-ai-economy" }
+  ],
+  "linked": ["hbm-memory", "leading-edge-foundry", "abf-substrates", "silicon-interposer"]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "dram-supply",
+  "name": "Server DRAM supply",
+  "layer": "Memory",
+  "thesis": "HBM is cannibalizing the DRAM wafer pool: makers are pouring capacity into high-margin AI memory, dragging conventional server DRAM into a sold-out supercycle with the steepest price increases in over a decade.",
+  "updated_at": "2026-05-29T06:00:00Z",
+  "gauge": {
+    "inputs": { "coverage": 80, "leadTime": 80, "concentration": 80, "momentum": 80 },
+    "score": 80,
+    "band": "critical",
+    "delta_90d": 8,
+    "rationale": "A three-firm market that is essentially sold out for 2026, with contract prices up triple-digits, ~70% of production allocated to AI data centers, and Goldman flagging the worst undersupply in 15+ years. New fabs won't add meaningful bits until late 2027/2028, so every lever points critical with fast-rising momentum."
+  },
+  "metrics": [
+    { "label": "SK Hynix 2026 capacity status", "metric": { "value": "essentially sold out", "unit": "HBM, DRAM and NAND", "as_of": "2025-10", "source": "Network World", "url": "https://www.networkworld.com/article/4113772/samsung-warns-of-memory-shortages-driving-industry-wide-price-surge-in-2026.html" } },
+    { "label": "Server DRAM contract price, Q1 2026", "metric": { "value": ">60", "unit": "% QoQ increase (TrendForce)", "as_of": "2026-Q1", "source": "eeNews Europe", "url": "https://www.eenewseurope.com/en/memory-price-surge-samsung-sk-hynix-micron/" } },
+    { "label": "Conventional DRAM contract price moves", "metric": { "value": "+90\u201395% Q1, +58\u201363% Q2", "unit": "QoQ, 2026 (TrendForce)", "as_of": "2026-Q2", "source": "AInvest", "url": "https://www.ainvest.com/news/sk-hynix-micron-samsung-ramageddon-ai-starved-dram-supply-sparks-1-000-price-inflation-2026-shortage-crisis-2604/" } },
+    { "label": "2026 memory production allocated to AI data centers", "metric": { "value": "~70", "unit": "% (vs 30% all else)", "as_of": "2026-05", "source": "Serverspace", "url": "https://serverspace.us/about/blog/why-server-hardware-is-getting-more-expensive-in-2026-and-what-you-can-do-about-it/" } },
+    { "label": "2026 DRAM undersupply (Goldman Sachs)", "metric": { "value": "4.9", "unit": "% \u2014 worst in 15+ years", "as_of": "2026-04", "source": "AInvest", "url": "https://www.ainvest.com/news/sk-hynix-micron-samsung-ramageddon-ai-starved-dram-supply-sparks-1-000-price-inflation-2026-shortage-crisis-2604/" } },
+    { "label": "New-fab meaningful output", "metric": { "value": "late 2027\u20132028", "unit": "before relief arrives", "as_of": "2026-05", "source": "Serverspace", "url": "https://serverspace.us/about/blog/why-server-hardware-is-getting-more-expensive-in-2026-and-what-you-can-do-about-it/" } }
+  ],
+  "why_it_gates": "Every AI server needs conventional DRAM alongside its HBM \u2014 and the same three makers fabricate both. Because HBM and server DRAM command far higher margins (revenue per wafer estimated 3\u20135x conventional DDR5), Samsung, SK Hynix and Micron are reallocating wafers toward AI memory, starving the DDR5 that populates every server node. The squeeze that started in HBM now spans the whole DRAM stack, and added wafer capacity is years away.",
+  "watchlist": [
+    { "name": "SK Hynix", "type": "public", "ticker": "KRX 000660", "role": "HBM + DRAM leader; sold out for 2026", "exposure": "Direct" },
+    { "name": "Samsung Electronics", "type": "public", "ticker": "KRX 005930", "role": "DRAM/HBM; reallocating to server memory", "exposure": "Direct" },
+    { "name": "Micron Technology", "type": "public", "ticker": "MU", "role": "Exited consumer memory to focus AI/enterprise", "exposure": "Direct" }
+  ],
+  "catalysts": [
+    { "timeframe": "Near (quarterly)", "text": "TrendForce contract-price prints and supplier guidance confirm the supercycle's pace." },
+    { "timeframe": "Through 2027", "text": "SK Hynix expects the memory shortage to persist into late 2027; Goldman sees undersupply into 2027." },
+    { "timeframe": "Late 2027\u20132028", "text": "New greenfield DRAM fabs begin meaningful output \u2014 the first real supply relief." }
+  ],
+  "what_loosens_it": "New greenfield DRAM capacity (not meaningful before late 2027/2028), any moderation in HBM demand that frees wafer capacity, or memory-efficiency software (e.g., Google's TurboQuant compression) that lowers effective demand.",
+  "developments": [
+    { "date": "2026-01-14", "text": "Samsung warns of industry-wide memory shortage; 32GB DDR5 module price raised to $239 from $149 (+60%); SK Hynix says 2026 capacity is essentially sold out.", "source": "Network World", "url": "https://www.networkworld.com/article/4113772/samsung-warns-of-memory-shortages-driving-industry-wide-price-surge-in-2026.html" },
+    { "date": "2026-04-05", "text": "TrendForce: conventional DRAM contract prices +58\u201363% QoQ in Q2 2026 (after +90\u201395% in Q1); Goldman estimates 4.9% DRAM undersupply for 2026.", "source": "AInvest", "url": "https://www.ainvest.com/news/sk-hynix-micron-samsung-ramageddon-ai-starved-dram-supply-sparks-1-000-price-inflation-2026-shortage-crisis-2604/" },
+    { "date": "2026-03-24", "text": "Google unveils TurboQuant memory-compression (claimed ~6x lower memory use for LLMs); memory-supplier stocks dip on demand-relief speculation.", "source": "Wikipedia (2024\u20132026 memory shortage)", "url": "https://en.wikipedia.org/wiki/2024%E2%80%932026_global_memory_supply_shortage" }
+  ],
+  "linked": ["hbm-memory", "leading-edge-foundry", "euv-lithography"]
+}

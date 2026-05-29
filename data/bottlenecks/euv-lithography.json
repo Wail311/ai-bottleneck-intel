@@ -1,0 +1,41 @@
+{
+  "slug": "euv-lithography",
+  "name": "EUV lithography",
+  "layer": "Compute & silicon",
+  "thesis": "Every sub-7nm logic chip and advanced DRAM is patterned on an EUV scanner, and ASML is the only company on earth that builds them \u2014 a textbook monopoly whose finite output rate is the hard ceiling on leading-edge capacity worldwide.",
+  "updated_at": "2026-05-29T06:00:00Z",
+  "gauge": {
+    "inputs": { "coverage": 70, "leadTime": 75, "concentration": 98, "momentum": 70 },
+    "score": 77,
+    "band": "critical",
+    "delta_90d": 3,
+    "rationale": "Sole-supplier concentration (Canon and Nikon exited EUV), >12-month lead times, and a record backlog that exceeds a full year of sales. Orders are surging and memory demand has now reached the lithography layer; the only relief is ASML's own production ramp."
+  },
+  "metrics": [
+    { "label": "ASML EUV supplier position", "metric": { "value": "sole producer", "unit": "Canon + Nikon hold <6% of litho and no EUV", "as_of": "2026-01", "source": "AInvest", "url": "https://www.ainvest.com/news/asml-dominance-euv-lithography-role-sustaining-ai-chip-revolution-2601/" } },
+    { "label": "Year-end 2025 backlog", "metric": { "value": "38.8", "unit": "\u20acB (> full-year 2026 sales); EUV = 65%", "as_of": "2025-12-31", "source": "Mobile World Live", "url": "https://www.mobileworldlive.com/ai-cloud/feature-can-asml-catch-up-with-a-record-e39b-backlog/" } },
+    { "label": "EUV system lead time", "metric": { "value": ">12", "unit": "months (CEO Fouquet)", "as_of": "2026-02", "source": "Mobile World Live", "url": "https://www.mobileworldlive.com/ai-cloud/feature-can-asml-catch-up-with-a-record-e39b-backlog/" } },
+    { "label": "Q4 2025 net bookings", "metric": { "value": "13.2", "unit": "\u20acB (EUV \u20ac7.4B; ~250% order jump)", "as_of": "2025-Q4", "source": "Tom's Hardware", "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-projects-usd71-billion-in-revenue-by-2030-as-demand-for-euv-lithography-machines-intensifies-due-to-ai-boom-china-sales-lag-behind-while-company-cashes-in-on-high-end-twinscan-systems" } },
+    { "label": "High-NA EUV system price", "metric": { "value": ">380", "unit": "$M per system", "as_of": "2026-01", "source": "FinancialContent", "url": "https://markets.financialcontent.com/wral/article/marketminute-2026-1-9-the-ai-infrastructure-supercycle-lam-research-leads-a-historic-surge-in-semiconductor-equipment" } },
+    { "label": "2026 revenue guidance", "metric": { "value": "34\u201340", "unit": "\u20acB", "as_of": "2026", "source": "Tom's Hardware", "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-projects-usd71-billion-in-revenue-by-2030-as-demand-for-euv-lithography-machines-intensifies-due-to-ai-boom-china-sales-lag-behind-while-company-cashes-in-on-high-end-twinscan-systems" } }
+  ],
+  "why_it_gates": "No EUV, no leading-edge logic and no advanced DRAM \u2014 the technology is the only way to pattern the smallest features at volume. Because ASML is the single global source and each scanner takes over a year to deliver, ASML's annual build rate physically caps how fast any foundry or memory maker, anywhere, can add cutting-edge capacity. The choke now extends into memory as HBM/DRAM demand reaches the lithography layer.",
+  "watchlist": [
+    { "name": "ASML", "type": "public", "ticker": "ASML", "role": "Sole EUV scanner maker", "exposure": "Direct" },
+    { "name": "Carl Zeiss SMT", "type": "private", "role": "Sole EUV optics supplier to ASML", "exposure": "Direct" },
+    { "name": "TSMC", "type": "public", "ticker": "TSM", "role": "Largest EUV customer (leading-edge logic)", "exposure": "High" },
+    { "name": "Samsung Electronics", "type": "public", "ticker": "KRX 005930", "role": "Logic + memory EUV customer", "exposure": "High" },
+    { "name": "SK Hynix", "type": "public", "ticker": "KRX 000660", "role": "Advanced-DRAM EUV demand now pulling tools", "exposure": "High" }
+  ],
+  "catalysts": [
+    { "timeframe": "Near (quarterly)", "text": "ASML bookings and EUV mix signal how fast the order book is converting to revenue." },
+    { "timeframe": "2026\u20132027", "text": "High-NA EUV high-volume ramp at $380M+/tool for sub-2nm nodes." },
+    { "timeframe": "Watch", "text": "Export-control shifts on China continue to reshape ASML's demand mix." }
+  ],
+  "what_loosens_it": "ASML scaling its own output and High-NA productivity gains (fewer exposure passes per layer), or any moderation in AI capex that thins the order book.",
+  "developments": [
+    { "date": "2026-01-28", "text": "ASML reports record \u20ac38.8B year-end backlog (EUV 65%) and Q4 net bookings of \u20ac13.2B, including \u20ac7.4B of EUV \u2014 a ~250% order jump.", "source": "Tom's Hardware", "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-projects-usd71-billion-in-revenue-by-2030-as-demand-for-euv-lithography-machines-intensifies-due-to-ai-boom-china-sales-lag-behind-while-company-cashes-in-on-high-end-twinscan-systems" },
+    { "date": "2026-04-15", "text": "ASML raises 2026 outlook; analysts note customers are buying scarce 'machine time' and HBM/DRAM demand has reached the lithography layer.", "source": "Implicator.ai", "url": "https://www.implicator.ai/asml-didnt-raise-guidance-because-ai-is-booming-it-raised-it-because-machine-time-is-scarce/" }
+  ],
+  "linked": ["leading-edge-foundry", "wafer-fab-equipment", "dram-supply"]
+}

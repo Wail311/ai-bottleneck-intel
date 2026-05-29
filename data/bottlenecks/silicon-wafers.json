@@ -1,0 +1,40 @@
+{
+  "slug": "silicon-wafers",
+  "name": "Silicon wafers (300mm)",
+  "layer": "Compute & silicon",
+  "thesis": "A two-speed market: AI-grade ultra-flat 300mm for 2/3nm is tightening even as legacy 200mm softens \u2014 so headline 'wafer demand' masks a real squeeze on exactly the wafers AI needs, sitting on a five-firm oligopoly with multi-quarter qualification moats.",
+  "updated_at": "2026-05-29T06:00:00Z",
+  "gauge": {
+    "inputs": { "coverage": 55, "leadTime": 55, "concentration": 65, "momentum": 55 },
+    "score": 57,
+    "band": "tight",
+    "delta_90d": 3,
+    "rationale": "Aggregate wafer supply looks adequate \u2014 even soft at legacy diameters \u2014 but the AI-grade 300mm segment is tightening and concentrated (top-5 ~80%). High qualification barriers and capacity being repointed toward 2/3nm keep the relevant slice tight without being acutely sold out."
+  },
+  "metrics": [
+    { "label": "Shin-Etsu + SUMCO share of 300mm", "metric": { "value": ">50", "unit": "% of global 300mm capacity", "as_of": "2026-02", "source": "Future Market Insights", "url": "https://www.futuremarketinsights.com/reports/semiconductor-wafers-market" } },
+    { "label": "Top-5 concentration (300mm)", "metric": { "value": "~80", "unit": "% (Shin-Etsu, SUMCO, GlobalWafers, Siltronic, SK Siltron)", "as_of": "2026", "source": "Valuates", "url": "https://reports.valuates.com/market-reports/QYRE-Auto-29G2371/global-semiconductor-silicon-wafer" } },
+    { "label": "Shin-Etsu + SUMCO 2025 ultra-flat capacity add", "metric": { "value": "200,000", "unit": "wafers/month for 2/3nm (~$1B / \u00a5150B)", "as_of": "2025", "source": "Mordor Intelligence", "url": "https://www.mordorintelligence.com/industry-reports/semiconductor-silicon-wafer-market" } },
+    { "label": "GlobalWafers Texas expansion", "metric": { "value": "7.5", "unit": "$B fab", "as_of": "2026-02", "source": "Future Market Insights", "url": "https://www.futuremarketinsights.com/reports/semiconductor-wafers-market" } },
+    { "label": "SUMCO 200mm exit (Miyazaki)", "metric": { "value": "by end-2026", "unit": "shifting to AI-grade 300mm", "as_of": "2026-02", "source": "DIGITIMES", "url": "https://www.digitimes.com/news/a20250210PD236/sumco-silicon-wafer-production-plant-demand.html" } }
+  ],
+  "why_it_gates": "Wafers are the literal substrate of every chip. The constraint isn't total volume \u2014 it's the ultra-flat, defect-controlled AI-grade 300mm wafers that 2nm and 3nm logic and advanced memory require. That segment is tightening while legacy 200mm and smaller go soft, and qualifying a new wafer source at a leading fab takes multiple quarters, so supply can't pivot quickly to the wafers in demand.",
+  "watchlist": [
+    { "name": "Shin-Etsu Chemical", "type": "public", "ticker": "TYO 4063", "role": "#1 silicon-wafer maker", "exposure": "Direct" },
+    { "name": "SUMCO", "type": "public", "ticker": "TYO 3436", "role": "#2; exiting 200mm to focus AI-grade 300mm", "exposure": "Direct" },
+    { "name": "GlobalWafers", "type": "public", "ticker": "TPE 6488", "role": "$7.5B Texas 300mm expansion", "exposure": "High" },
+    { "name": "Siltronic", "type": "public", "ticker": "ETR WAF", "role": "European 300mm supplier", "exposure": "Moderate" },
+    { "name": "SK Siltron", "type": "private", "role": "Korean wafer maker (SK group)", "exposure": "Moderate" }
+  ],
+  "catalysts": [
+    { "timeframe": "Near", "text": "Widening AI-grade 300mm price premium vs soft legacy diameters." },
+    { "timeframe": "2026\u20132027", "text": "2nm/3nm ramp lifts ultra-flat 300mm demand; GlobalWafers Texas capacity comes online." },
+    { "timeframe": "Watch", "text": "SUMCO and peers retiring 200mm capacity to redeploy toward 300mm." }
+  ],
+  "what_loosens_it": "Legacy 300mm capacity being repurposed to AI-grade lines, new greenfield 300mm coming online (e.g., GlobalWafers Texas), or a slower foundry/memory ramp easing demand for ultra-flat wafers.",
+  "developments": [
+    { "date": "2026-02-12", "text": "Market shifting to a 300mm-dominated structure: Shin-Etsu + SUMCO hold >50% of 300mm; SUMCO exiting 200mm by end-2026; GlobalWafers building a $7.5B Texas fab.", "source": "Future Market Insights", "url": "https://www.futuremarketinsights.com/reports/semiconductor-wafers-market" },
+    { "date": "2026-03-09", "text": "Two-speed market confirmed \u2014 AI-driven 300mm shipments grow while legacy 200mm-and-below stays weak; top-5 hold ~80% of 300mm.", "source": "Mordor Intelligence", "url": "https://www.mordorintelligence.com/industry-reports/semiconductor-silicon-wafer-market" }
+  ],
+  "linked": ["leading-edge-foundry", "wafer-fab-equipment"]
+}

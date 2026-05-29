@@ -1,0 +1,39 @@
+{
+  "slug": "transformers",
+  "name": "Large power transformers",
+  "layer": "Power",
+  "thesis": "The heavy iron that steps power up and down for the grid. Lead times have blown out to ~5 years — under 10% of data-center cost, but effectively 100% of the bottleneck.",
+  "updated_at": "2026-05-28T06:00:00Z",
+  "gauge": {
+    "inputs": { "coverage": 80, "leadTime": 95, "concentration": 70, "momentum": 85 },
+    "score": 83,
+    "band": "critical",
+    "delta_90d": 6,
+    "rationale": "High-voltage transformer lead times stretched to ~5 years as grid step-up demand ran far ahead of a thin global supplier base."
+  },
+  "metrics": [
+    { "label": "Lead time", "metric": { "value": "4–5 yrs", "unit": "high-voltage", "as_of": "2026-05-11", "source": "PwC via pv magazine", "url": "https://pv-magazine-usa.com/2026/05/11/u-s-transformer-market-faces-severe-supply-constraints-as-lead-times-extend-to-four-years/" } },
+    { "label": "Demand growth", "metric": { "value": "+274%", "unit": "GSU units, '19–'25", "as_of": "2026-05-11", "source": "Wood Mackenzie", "url": "https://pv-magazine-usa.com/2026/05/11/u-s-transformer-market-faces-severe-supply-constraints-as-lead-times-extend-to-four-years/" } },
+    { "label": "Lead time shift", "metric": { "value": "24mo→5yr", "unit": "pre-2020 to now", "as_of": "2026-05-08", "source": "Tech Fund", "url": "https://www.techinvestments.io/p/power-bottlenecks-and-the-ai-data" } },
+    { "label": "GE Vernova electrification backlog", "metric": { "value": "~$42B", "unit": "Q1 2026", "as_of": "2026-04-23", "source": "Utility Dive", "url": "https://www.utilitydive.com/news/ge-vernova-gas-turbine-backlog-hits-100-gw-as-prices-rise/818332/" } }
+  ],
+  "why_it_gates": "No transformer, no interconnect, no power delivered — even with turbines and accelerators ready to go. Large units are made by only a few global firms, the US imports most of its high-voltage transformers, and grain-oriented electrical steel plus skilled labor cap how fast supply can scale. The cheapest line item on the bill of materials has become the schedule-defining one.",
+  "watchlist": [
+    { "name": "GE Vernova", "type": "public", "ticker": "GEV", "role": "Grid transformers (incl. Prolec GE)", "exposure": "Direct" },
+    { "name": "Hitachi Energy", "type": "public", "ticker": "Hitachi 6501", "role": "Large power transformers / HVDC", "exposure": "High" },
+    { "name": "Siemens Energy", "type": "public", "ticker": "ENR", "role": "Grid transformers / HVDC", "exposure": "High" },
+    { "name": "Eaton", "type": "public", "ticker": "ETN", "role": "Distribution-class electrical equipment", "exposure": "Moderate" },
+    { "name": "Quanta Services", "type": "public", "ticker": "PWR", "role": "Grid installation & construction", "exposure": "Moderate" }
+  ],
+  "catalysts": [
+    { "timeframe": "2026–27", "text": "Capacity expansions (GE Vernova/Prolec, Hitachi Energy, Siemens Energy)" },
+    { "timeframe": "2026–28", "text": "On-site generation partly bypasses the grid-tie / transformer queue" },
+    { "timeframe": "Multi-year", "text": "Grain-oriented electrical steel + labor constraints keep lead times long" }
+  ],
+  "what_loosens_it": "New transformer plants, added electrical-steel capacity, and on-site generation that reduces grid-tie needs. But PwC expects the supply-demand imbalance to persist for years.",
+  "developments": [
+    { "date": "2026-05-11", "text": "High-voltage transformer lead times extend to ~5 years; step-up transformer demand up 274% since 2019", "source": "pv magazine / PwC / Wood Mackenzie", "url": "https://pv-magazine-usa.com/2026/05/11/u-s-transformer-market-faces-severe-supply-constraints-as-lead-times-extend-to-four-years/" },
+    { "date": "2026-04-23", "text": "GE Vernova electrification orders roughly doubled YoY; data-center orders hit $2.4B in Q1 alone", "source": "Utility Dive", "url": "https://www.utilitydive.com/news/ge-vernova-gas-turbine-backlog-hits-100-gw-as-prices-rise/818332/" }
+  ],
+  "linked": ["grid-power", "gas-turbines", "switchgear", "nuclear-smr"]
+}

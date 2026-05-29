@@ -1,0 +1,40 @@
+{
+  "slug": "abf-substrates",
+  "name": "ABF substrates",
+  "layer": "Compute & silicon",
+  "thesis": "AI accelerators need far larger, higher-layer-count substrates than any prior chip, and a five-firm oligopoly is heading back into shortage on what suppliers call a three-year super-cycle.",
+  "updated_at": "2026-05-29T06:00:00Z",
+  "gauge": {
+    "inputs": { "coverage": 65, "leadTime": 65, "concentration": 70, "momentum": 70 },
+    "score": 67,
+    "band": "tight",
+    "delta_90d": 5,
+    "rationale": "Supply-demand is tipping back into imbalance in H1 2026 and widening through 2028. Substrate area per chip is exploding (Rubin +75% over Blackwell), the top five hold ~74%, and upstream glass-fiber/copper-foil constraints are extending lead times \u2014 but it is re-tightening rather than acutely sold out today."
+  },
+  "metrics": [
+    { "label": "Top-5 market concentration (Unimicron, Ibiden, AT&S, Nan Ya, Shinko)", "metric": { "value": "~74", "unit": "% of global ABF", "as_of": "2026", "source": "Intel Market Research", "url": "https://www.intelmarketresearch.com/abf-substrate-market-21855" } },
+    { "label": "Rubin GPU substrate area vs Blackwell", "metric": { "value": "+75", "unit": "% (Blackwell itself >2x Hopper)", "as_of": "2026-04", "source": "DIGITIMES / Jukan", "url": "https://www.digitimes.com/news/a20260408PD220/demand-substrate-capacity-2026-ic-substrate.html" } },
+    { "label": "AI-server PCB/substrate volume vs traditional server", "metric": { "value": "50\u201360", "unit": "x (Unimicron chairman)", "as_of": "2025-12", "source": "TVBS", "url": "https://news.tvbs.com.tw/english/3135117" } },
+    { "label": "Unimicron 2026 capex", "metric": { "value": "~790", "unit": "$M (NT$25B+, +20% YoY)", "as_of": "2026", "source": "TVBS", "url": "https://news.tvbs.com.tw/english/3135117" } },
+    { "label": "Supply-demand imbalance returns", "metric": { "value": "H1 2026", "unit": "widening through 2027\u20132028", "as_of": "2026-04", "source": "DIGITIMES", "url": "https://www.digitimes.com/news/a20260408PD220/demand-substrate-capacity-2026-ic-substrate.html" } }
+  ],
+  "why_it_gates": "The ABF substrate is the rigid board the packaged die sits on; without enough high-layer-count substrate \u2014 and the glass-fiber cloth, copper foil and copper-clad laminate feeding it \u2014 a finished accelerator cannot be assembled even when wafers, HBM and packaging exist. Qualifying a new substrate supplier takes years, so capacity cannot flex quickly to meet AI demand.",
+  "watchlist": [
+    { "name": "Unimicron", "type": "public", "ticker": "TPE 3037", "role": "Largest ABF maker; CoWoS/EMIB substrates", "exposure": "Direct" },
+    { "name": "Ibiden", "type": "public", "ticker": "TYO 4062", "role": "High-density substrates for AI/HPC", "exposure": "Direct" },
+    { "name": "AT&S", "type": "public", "ticker": "VIE ATS", "role": "European high-end substrate supplier", "exposure": "High" },
+    { "name": "Nan Ya PCB", "type": "public", "ticker": "TPE 8046", "role": "Taiwanese ABF capacity expansion", "exposure": "High" },
+    { "name": "Shinko Electric", "type": "public", "ticker": "TYO 6967", "role": "Premium substrates (HPC/automotive)", "exposure": "High" }
+  ],
+  "catalysts": [
+    { "timeframe": "Near (quarterly)", "text": "Substrate price increases and lead-time extensions confirm the imbalance returning in H1 2026." },
+    { "timeframe": "2026\u20132028", "text": "Three-year ABF super-cycle as AI GPU, CPU and ASIC substrate area keeps scaling." },
+    { "timeframe": "Watch", "text": "Upstream T-Glass / copper-foil / CCL relief (or further tightening) sets the pace of substrate output." }
+  ],
+  "what_loosens_it": "Aggressive Taiwanese capacity expansions coming online, resolution of the glass-fiber (T-Glass) and copper-foil upstream constraints, or any slowdown in AI-server build rates.",
+  "developments": [
+    { "date": "2026-04-08", "text": "AI chip demand tightening ABF supply; suppliers see a three-year upcycle starting H1 2026 and widening into 2027\u20132028.", "source": "DIGITIMES", "url": "https://www.digitimes.com/news/a20260408PD220/demand-substrate-capacity-2026-ic-substrate.html" },
+    { "date": "2026-02-26", "text": "Unimicron reports Jan 2026 revenue NT$10.2B (+34.5% YoY); maintains record 2026 capex of NT$25B+ for high-end ABF.", "source": "TVBS", "url": "https://news.tvbs.com.tw/english/3135117" }
+  ],
+  "linked": ["cowos-packaging", "silicon-interposers", "leading-edge-foundry"]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "grid-power",
+  "name": "Grid power & interconnection",
+  "layer": "Power",
+  "thesis": "Power is now the binding constraint on the AI buildout — ahead of chips. The bottleneck has migrated from the server rack to the substation, with interconnection queues and heavy electrical gear taking years.",
+  "updated_at": "2026-05-28T06:00:00Z",
+  "gauge": {
+    "inputs": { "coverage": 85, "leadTime": 90, "concentration": 48, "momentum": 80 },
+    "score": 78,
+    "band": "critical",
+    "delta_90d": 4,
+    "rationale": "Tightened as high-voltage transformer lead times stretched to ~5 years and gigawatts of announced 2026 capacity stalled on power — even with GPUs in hand."
+  },
+  "metrics": [
+    { "label": "Interconnection wait", "metric": { "value": "~53 mo", "unit": "national avg", "as_of": "2026-01-29", "source": "Morgan Lewis", "url": "https://www.morganlewis.com/blogs/datacenterbytes/2026/01/2026-us-data-centers-and-energy-key-trends-shaping-power-demand" } },
+    { "label": "Transformer lead time", "metric": { "value": "4–5 yrs", "unit": "high-voltage", "as_of": "2026-05-11", "source": "PwC via pv magazine", "url": "https://pv-magazine-usa.com/2026/05/11/u-s-transformer-market-faces-severe-supply-constraints-as-lead-times-extend-to-four-years/" } },
+    { "label": "2026 capacity stuck", "metric": { "value": "~11 GW", "unit": "announced, not built", "as_of": "2026-04-08", "source": "Sightline Climate via Tech Insider", "url": "https://tech-insider.org/ai-data-center-power-crisis-2026/" } },
+    { "label": "2026 US DC investment", "metric": { "value": "~$700B", "unit": "top 5 consumers", "as_of": "2026-04-01", "source": "Data Center Knowledge", "url": "https://www.datacenterknowledge.com/energy-power-supply/gridlocked-how-power-constraints-are-shaping-the-future-of-data-centers" } }
+  ],
+  "why_it_gates": "A data center can't run without a grid interconnect and the heavy electrical gear to deliver power — and both take years. Land without power is worthless to a hyperscaler, so power has become the first input in site selection, not the last. Even with accelerators in hand, projects stall waiting on transformers, switchgear, and interconnection — electrical equipment is under 10% of project cost but effectively 100% of the bottleneck.",
+  "watchlist": [
+    { "name": "GE Vernova", "type": "public", "ticker": "GEV", "role": "Gas turbines + grid/transformer equipment", "exposure": "Direct" },
+    { "name": "Eaton", "type": "public", "ticker": "ETN", "role": "Switchgear, electrical distribution", "exposure": "High" },
+    { "name": "Vertiv", "type": "public", "ticker": "VRT", "role": "Power & thermal management for DCs", "exposure": "High" },
+    { "name": "Constellation Energy", "type": "public", "ticker": "CEG", "role": "Nuclear baseload PPAs for hyperscalers", "exposure": "High" },
+    { "name": "Quanta Services", "type": "public", "ticker": "PWR", "role": "Grid / transmission construction", "exposure": "Moderate" },
+    { "name": "Bloom Energy", "type": "public", "ticker": "BE", "role": "On-site fuel cells that bypass the grid", "exposure": "Moderate" }
+  ],
+  "catalysts": [
+    { "timeframe": "By Apr 2026", "text": "DOE-directed FERC framework to expedite large-load interconnection" },
+    { "timeframe": "2026–27", "text": "On-site generation (gas, fuel cells, SMR pilots) scales to bypass queues" },
+    { "timeframe": "2027+", "text": "New transformer & turbine capacity lands, but lead times keep supply tight for years" }
+  ],
+  "what_loosens_it": "FERC interconnection reform, a wave of on-site generation (Bloom fuel cells, gas, nuclear PPAs) that sidesteps the grid entirely, and new electrical-equipment capacity. But transformer and turbine lead times stretch years, so most expect power to remain the gating constraint well beyond 2026.",
+  "developments": [
+    { "date": "2026-05-11", "text": "High-voltage transformer lead times extend to ~4–5 years; called the main bottleneck for grid modernization", "source": "pv magazine / PwC", "url": "https://pv-magazine-usa.com/2026/05/11/u-s-transformer-market-faces-severe-supply-constraints-as-lead-times-extend-to-four-years/" },
+    { "date": "2026-04-08", "text": "~11 GW of announced 2026 US capacity stuck without construction; ~50% of global projects delayed on power", "source": "Tech Insider / Sightline Climate", "url": "https://tech-insider.org/ai-data-center-power-crisis-2026/" },
+    { "date": "2026-01-29", "text": "National interconnection processing ~53 months; DOE pushes FERC to expedite large loads", "source": "Morgan Lewis", "url": "https://www.morganlewis.com/blogs/datacenterbytes/2026/01/2026-us-data-centers-and-energy-key-trends-shaping-power-demand" }
+  ],
+  "linked": ["transformers", "gas-turbines", "cooling-thermal", "nuclear-smr"]
+}

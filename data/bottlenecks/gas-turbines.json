@@ -1,0 +1,40 @@
+{
+  "slug": "gas-turbines",
+  "name": "Gas turbines",
+  "layer": "Power",
+  "thesis": "The fastest dispatchable power for AI data centers — and only three makers globally. Backlogs stretch ~5 years, with delivery slots already selling into 2030.",
+  "updated_at": "2026-05-28T06:00:00Z",
+  "gauge": {
+    "inputs": { "coverage": 85, "leadTime": 90, "concentration": 75, "momentum": 80 },
+    "score": 83,
+    "band": "critical",
+    "delta_90d": 5,
+    "rationale": "GE Vernova's backlog jumped to 100 GW and customers pulled slots into 2030; the big three are effectively sold out for years."
+  },
+  "metrics": [
+    { "label": "GE Vernova backlog", "metric": { "value": "~100 GW", "unit": "→110 by YE'26", "as_of": "2026-04-23", "source": "GE Vernova Q1'26", "url": "https://www.industrialinfo.com/news/article/ge-vernovas-global-natural-gas-turbine-reservations-and-order-backlog-grows-to-100-gw--356705" } },
+    { "label": "Order book", "metric": { "value": "→2030", "unit": "slots selling out", "as_of": "2025-12-11", "source": "Utility Dive", "url": "https://www.utilitydive.com/news/ge-vernova-gas-turbine-investor/807662/" } },
+    { "label": "Large-turbine makers", "metric": { "value": "3", "unit": "globally", "as_of": "2026-04-01", "source": "Primary VC", "url": "https://www.primary.vc/articles/the-gas-turbine-bottleneck-reshaping-energy-infrastructure-ex8qe" } },
+    { "label": "Price", "metric": { "value": "~$600/kW", "unit": "by end '27, ~3x '19", "as_of": "2026-04-23", "source": "Wood Mackenzie via Power-Eng", "url": "https://www.power-eng.com/gas/turbines/data-centers-drive-record-surge-in-ge-vernova-power-equipment-orders-as-turbine-slots-tighten-through-2030/" } }
+  ],
+  "why_it_gates": "With grid interconnection taking years, on-site gas generation is the go-to for getting AI data centers powered fast — but turbine slots are now the gate, sold years out. Only three firms can build large-scale machines, so the queue for them effectively sets the timeline for a huge share of new self-supplied capacity.",
+  "watchlist": [
+    { "name": "GE Vernova", "type": "public", "ticker": "GEV", "role": "Largest gas-turbine backlog (~100 GW)", "exposure": "Direct" },
+    { "name": "Siemens Energy", "type": "public", "ticker": "ENR", "role": "One of three large-turbine makers", "exposure": "High" },
+    { "name": "Mitsubishi Heavy", "type": "public", "ticker": "TYO 7011", "role": "Doubling output; sold out into 2028", "exposure": "High" },
+    { "name": "Bloom Energy", "type": "public", "ticker": "BE", "role": "Fuel-cell alternative to turbines", "exposure": "Moderate" },
+    { "name": "Caterpillar", "type": "public", "ticker": "CAT", "role": "Gensets / backup generation", "exposure": "Moderate" }
+  ],
+  "catalysts": [
+    { "timeframe": "Mid-2026", "text": "GE Vernova targets ~20 GW/yr turbine production capacity" },
+    { "timeframe": "2026–28", "text": "Mitsubishi doubling output; all three still sold out years ahead" },
+    { "timeframe": "2027+", "text": "Fuel cells (Bloom) and SMRs scale as alternatives to scarce turbines" }
+  ],
+  "what_loosens_it": "Capacity expansions by the big three, plus fuel-cell and SMR substitution. But GE Vernova's CEO expects turbine reservations to be sold out through 2030 by the end of 2026.",
+  "developments": [
+    { "date": "2026-04-23", "text": "GE Vernova gas backlog grew 83→100 GW in Q1; new-order pricing up 10–20%; ~10 GW capacity left across 2029–30", "source": "Power-Eng / Utility Dive", "url": "https://www.power-eng.com/gas/turbines/data-centers-drive-record-surge-in-ge-vernova-power-equipment-orders-as-turbine-slots-tighten-through-2030/" },
+    { "date": "2026-04-01", "text": "All three large-turbine makers report ~5-year backlogs; Mitsubishi sold out into 2028", "source": "Primary VC", "url": "https://www.primary.vc/articles/the-gas-turbine-bottleneck-reshaping-energy-infrastructure-ex8qe" },
+    { "date": "2025-12-11", "text": "GE Vernova expects turbine reservations sold out through 2030 by end of 2026", "source": "Utility Dive", "url": "https://www.utilitydive.com/news/ge-vernova-gas-turbine-investor/807662/" }
+  ],
+  "linked": ["grid-power", "transformers", "nuclear-smr", "on-site-power"]
+}

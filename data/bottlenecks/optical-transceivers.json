@@ -1,0 +1,41 @@
+{
+  "slug": "optical-transceivers",
+  "name": "Optical transceivers (800G / 1.6T)",
+  "layer": "Optical & interconnect",
+  "thesis": "The interconnect that wires GPU clusters together — roughly six per GPU. 800G is running well below demand, and Nvidia spent $4B locking up the laser supply.",
+  "updated_at": "2026-05-28T06:00:00Z",
+  "gauge": {
+    "inputs": { "coverage": 75, "leadTime": 75, "concentration": 70, "momentum": 75 },
+    "score": 74,
+    "band": "critical",
+    "delta_90d": 5,
+    "rationale": "Nvidia's $4B EML laser lock-up pushed rivals' supply past 2027 as 800G demand ran 40–60% ahead of capacity."
+  },
+  "metrics": [
+    { "label": "AI transceiver market 2026", "metric": { "value": "~$26B", "unit": "TAM", "as_of": "2026-04-20", "source": "TrendForce", "url": "https://www.trendforce.com/presscenter/news/20260420-13017.html" } },
+    { "label": "800G demand", "metric": { "value": "24M→63M", "unit": "units, '25→'26", "as_of": "2026-05-27", "source": "McKinsey via TechTimes", "url": "https://www.techtimes.com/articles/317281/20260527/ai-data-center-optical-component-shortage-nvidias-4b-laser-lockup-pushes-rivals-past-2027.htm" } },
+    { "label": "800G shortfall", "metric": { "value": "40–60%", "unit": "below demand, thru '27", "as_of": "2026-05-27", "source": "McKinsey", "url": "https://www.techtimes.com/articles/317281/20260527/ai-data-center-optical-component-shortage-nvidias-4b-laser-lockup-pushes-rivals-past-2027.htm" } },
+    { "label": "Nvidia laser lock-up", "metric": { "value": "$4B", "unit": "Coherent + Lumentum", "as_of": "2026-03-02", "source": "GenAITech", "url": "https://www.genaitech.net/p/nvidias-4b-cpo-bet-scaleout-first" } }
+  ],
+  "why_it_gates": "AI training clusters need roughly six high-speed transceivers per GPU to sustain bandwidth across the fabric — far more than conventional servers. The binding chokepoint is the 200G-per-lane EML laser chip, made by only a handful of firms, so optics quietly gate how large a usable GPU cluster can actually be wired together.",
+  "watchlist": [
+    { "name": "Coherent", "type": "public", "ticker": "COHR", "role": "EML lasers + modules; Nvidia-backed", "exposure": "Direct" },
+    { "name": "Lumentum", "type": "public", "ticker": "LITE", "role": "Only volume 200G/lane EML shipper", "exposure": "Direct" },
+    { "name": "InnoLight", "type": "public", "ticker": "SHE 300308", "role": "World #1 transceiver module maker", "exposure": "High" },
+    { "name": "Eoptolink", "type": "public", "ticker": "SZ 300502", "role": "High-volume module supplier", "exposure": "High" },
+    { "name": "Broadcom", "type": "public", "ticker": "AVGO", "role": "Optical components + CPO", "exposure": "Moderate" },
+    { "name": "Applied Optoelectronics", "type": "public", "ticker": "AAOI", "role": "Laser / module capacity expansion", "exposure": "Watch" }
+  ],
+  "catalysts": [
+    { "timeframe": "2026", "text": "1.6T modules ramp past ~5M units; 800G coherent becomes the AI-network standard" },
+    { "timeframe": "2026–27", "text": "Nvidia CPO (Quantum-X / Spectrum-X Photonics) begins displacing pluggables at scale-out" },
+    { "timeframe": "Through 2029", "text": "1.6T supply seen 30–40% short of demand" }
+  ],
+  "what_loosens_it": "EML capacity expansions (Coherent, Lumentum, ELASER), silicon-photonics substitution, and the shift to co-packaged optics. But McKinsey sees 800G short through 2027 and 1.6T through 2029.",
+  "developments": [
+    { "date": "2026-05-27", "text": "McKinsey: 800G production 40–60% below demand through 2027; 1.6T shortfall 30–40% through 2029", "source": "TechTimes", "url": "https://www.techtimes.com/articles/317281/20260527/ai-data-center-optical-component-shortage-nvidias-4b-laser-lockup-pushes-rivals-past-2027.htm" },
+    { "date": "2026-04-20", "text": "AI optical transceiver market seen ~$26B in 2026; component shortages flagged as the key capacity bottleneck", "source": "TrendForce", "url": "https://www.trendforce.com/presscenter/news/20260420-13017.html" },
+    { "date": "2026-03-02", "text": "Nvidia invests $4B across Coherent and Lumentum to secure EML / CPO capacity", "source": "GenAITech", "url": "https://www.genaitech.net/p/nvidias-4b-cpo-bet-scaleout-first" }
+  ],
+  "linked": ["co-packaged-optics", "indium-phosphide", "leading-edge-foundry", "gallium-germanium"]
+}

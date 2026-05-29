@@ -1,0 +1,40 @@
+{
+  "slug": "liquid-cooling",
+  "name": "Liquid cooling (direct-to-chip)",
+  "layer": "Cooling & thermal",
+  "thesis": "Above ~30–50 kW per rack, air cooling fails — so next-gen GPUs make liquid cooling mandatory, not optional. This is a fast transition more than a hard shortage.",
+  "updated_at": "2026-05-28T06:00:00Z",
+  "gauge": {
+    "inputs": { "coverage": 60, "leadTime": 55, "concentration": 50, "momentum": 65 },
+    "score": 58,
+    "band": "tight",
+    "delta_90d": 6,
+    "rationale": "Demand is surging as Blackwell-class racks force liquid cooling, but a broad supplier base keeps this a scaling transition rather than a sold-out chokepoint."
+  },
+  "metrics": [
+    { "label": "Market 2026", "metric": { "value": "~$6.6B", "unit": "→$38B by 2033", "as_of": "2026-02-17", "source": "MarketMinds via GlobeNewswire", "url": "https://finance.yahoo.com/news/data-center-liquid-cooling-market-113000659.html" } },
+    { "label": "CAGR", "metric": { "value": "~28.7%", "unit": "2026–2033", "as_of": "2026-02-17", "source": "MarketMinds", "url": "https://finance.yahoo.com/news/data-center-liquid-cooling-market-113000659.html" } },
+    { "label": "Rack density driver", "metric": { "value": "30–50+ kW", "unit": "per rack", "as_of": "2026-01-08", "source": "Mordor Intelligence", "url": "https://www.mordorintelligence.com/industry-reports/data-center-liquid-cooling-market" } },
+    { "label": "Efficiency gain", "metric": { "value": "−30%+", "unit": "cooling energy", "as_of": "2026-04-10", "source": "Technavio", "url": "https://www.technavio.com/report/liquid-cooling-for-ai-data-centers-market-industry-analysis" } }
+  ],
+  "why_it_gates": "Next-gen accelerators run too hot for air — an H200 dissipates ~700W, and Blackwell-class racks push past what air can economically remove. Without liquid cooling, operators simply can't run high-density racks, so it caps how much compute fits per site. Unlike the silicon and power chokepoints, the constraint here is integration and skilled deployment, not a single-supplier monopoly.",
+  "watchlist": [
+    { "name": "Vertiv", "type": "public", "ticker": "VRT", "role": "Market leader, full thermal portfolio", "exposure": "Direct" },
+    { "name": "Schneider Electric", "type": "public", "ticker": "SU", "role": "Cooling + power infrastructure", "exposure": "High" },
+    { "name": "CoolIT Systems", "type": "private", "role": "Direct-to-chip cold plates / CDUs", "exposure": "High" },
+    { "name": "Boyd", "type": "private", "role": "Cold plates & liquid cooling components", "exposure": "Moderate" },
+    { "name": "LiquidStack", "type": "private", "role": "Immersion & direct-to-chip", "exposure": "Moderate" },
+    { "name": "Super Micro", "type": "public", "ticker": "SMCI", "role": "Liquid-cooled rack-scale systems", "exposure": "Moderate" }
+  ],
+  "catalysts": [
+    { "timeframe": "2026–30", "text": "Blackwell / Rubin-class rollouts make liquid cooling the default, not the exception" },
+    { "timeframe": "2026–27", "text": "Two-phase immersion scales as operators chase higher thermal efficiency" },
+    { "timeframe": "Ongoing", "text": "Retrofit of brownfield air-cooled facilities to direct-to-chip" }
+  ],
+  "what_loosens_it": "Many credible suppliers and fast capacity additions mean supply largely keeps pace with demand; the real constraint is integration and skilled labor rather than a monopoly — which is why this reads tight rather than critical.",
+  "developments": [
+    { "date": "2026-02-17", "text": "Data-center liquid cooling market seen ~$6.6B in 2026, scaling to ~$38B by 2033 (28.7% CAGR)", "source": "MarketMinds via GlobeNewswire", "url": "https://finance.yahoo.com/news/data-center-liquid-cooling-market-113000659.html" },
+    { "date": "2026-01-08", "text": "H200's ~700W loads make air cooling uneconomic; direct-to-chip becomes a core architectural requirement", "source": "Mordor Intelligence", "url": "https://www.mordorintelligence.com/industry-reports/data-center-liquid-cooling-market" }
+  ],
+  "linked": ["grid-power", "cowos-packaging", "data-center-construction", "immersion-cooling"]
+}

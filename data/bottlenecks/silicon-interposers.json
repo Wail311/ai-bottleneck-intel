@@ -1,0 +1,40 @@
+{
+  "slug": "silicon-interposers",
+  "name": "Silicon interposers",
+  "layer": "Compute & silicon",
+  "thesis": "The passive silicon slab that wires HBM to logic inside CoWoS is reticle-limited and eats TSMC wafer capacity \u2014 so as AI packages balloon past reticle size, usable interposers per wafer collapse and packaging can't scale faster.",
+  "updated_at": "2026-05-29T06:00:00Z",
+  "gauge": {
+    "inputs": { "coverage": 70, "leadTime": 70, "concentration": 80, "momentum": 65 },
+    "score": 71,
+    "band": "critical",
+    "delta_90d": 4,
+    "rationale": "Interposers are made by TSMC inside CoWoS and are physically capped by the lithography reticle. As package sizes scale to 5.5x reticle and beyond, a 300mm wafer yields only a handful of large interposers, and panel/glass alternatives are years from volume \u2014 keeping this acutely tight."
+  },
+  "metrics": [
+    { "label": "CoWoS-S max interposer size", "metric": { "value": "3.3", "unit": "x reticle (~2,700 mm\u00b2); larger needs CoWoS-L/R", "as_of": "2026", "source": "TSMC 3DFabric", "url": "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm" } },
+    { "label": "TSMC reticle-scaling roadmap", "metric": { "value": "5.5x now \u2192 9.5x 2027 \u2192 14x 2028", "unit": "reticle multiples", "as_of": "2026-04", "source": "TrendForce", "url": "https://insights.trendforce.com/p/glass-substrate-development" } },
+    { "label": "Package size: Blackwell / Rubin / Rubin Ultra", "metric": { "value": "~3.3x / ~4x / ~9x", "unit": "reticle (2,739 / 3,320 / 7,470 mm\u00b2)", "as_of": "2026", "source": "TrendForce", "url": "https://insights.trendforce.com/p/glass-substrate-development" } },
+    { "label": "Large-die yield per 300mm wafer (5.5x reticle)", "metric": { "value": "4\u20137", "unit": "units per wafer", "as_of": "2026-04", "source": "TrendForce", "url": "https://www.trendforce.com/news/2026/04/13/news-tsmc-advances-panel-level-packaging-copos-pilot-line-reportedly-set-for-june-completion-2028-29-ramp-eyed/" } },
+    { "label": "Panel/glass (CoPoS) volume production", "metric": { "value": "2028\u20132029", "unit": "mass-production window", "as_of": "2026-04", "source": "TrendForce", "url": "https://www.trendforce.com/news/2026/04/13/news-tsmc-advances-panel-level-packaging-copos-pilot-line-reportedly-set-for-june-completion-2028-29-ramp-eyed/" } }
+  ],
+  "why_it_gates": "In CoWoS-S, the silicon interposer is the wafer-level layer that carries the dense interconnect between logic chiplets and the HBM stacked beside them. Because it is patterned by lithography it cannot exceed the reticle limit without stitching, and producing it consumes TSMC foundry capacity. As designs push past 3.3x reticle, only a few good interposers come off each round wafer \u2014 a hard cap on how many top-end accelerators can be packaged.",
+  "watchlist": [
+    { "name": "TSMC", "type": "public", "ticker": "TSM", "role": "Fabricates the interposer within CoWoS; sole volume source", "exposure": "Direct" },
+    { "name": "Nvidia", "type": "public", "ticker": "NVDA", "role": "Largest consumer; reportedly evaluating SiC interposer for Rubin", "exposure": "High" },
+    { "name": "Corning", "type": "public", "ticker": "GLW", "role": "Glass-substrate/interposer material supplier", "exposure": "Moderate" },
+    { "name": "Samsung Electronics", "type": "public", "ticker": "KRX 005930", "role": "Developing glass-interposer packaging", "exposure": "Watch" },
+    { "name": "Absolics (SKC)", "type": "private", "role": "Glass-substrate panel maker (US fab)", "exposure": "Watch" }
+  ],
+  "catalysts": [
+    { "timeframe": "Near", "text": "Migration to CoWoS-L (LSI bridge) and CoWoS-R (organic RDL) eases the reticle ceiling for the largest packages." },
+    { "timeframe": "2026", "text": "TSMC CoPoS panel pilot line completes (~June 2026); early glass-interposer qualification." },
+    { "timeframe": "2027\u20132029", "text": "CoPoS/glass mass production and possible SiC-interposer adoption on Rubin-class parts break the round-wafer area limit." }
+  ],
+  "what_loosens_it": "Shift to LSI-bridge (CoWoS-L), organic RDL (CoWoS-R) and panel/glass (CoPoS) packaging that escapes the circular-wafer area limit \u2014 but meaningful volume relief is a 2028+ event.",
+  "developments": [
+    { "date": "2026-04-13", "text": "TSMC CoPoS panel-level pilot line tooling underway (completion ~June); mass production eyed 2028\u20132029 as Rubin's 5.5x reticle yields as few as 4 units per wafer.", "source": "TrendForce", "url": "https://www.trendforce.com/news/2026/04/13/news-tsmc-advances-panel-level-packaging-copos-pilot-line-reportedly-set-for-june-completion-2028-29-ramp-eyed/" },
+    { "date": "2026-01-01", "text": "TSMC pivots from monolithic CoWoS-S interposers toward CoWoS-L (LSI bridge) to exceed the reticle limit while doubling CoWoS capacity.", "source": "FinancialContent", "url": "https://markets.financialcontent.com/wral/article/tokenring-2026-1-1-the-great-packaging-pivot-how-tsmc-is-doubling-cowos-capacity-to-break-the-ai-supply-bottleneck-through-2026" }
+  ],
+  "linked": ["cowos-packaging", "hbm-memory", "leading-edge-foundry", "abf-substrates"]
+}
